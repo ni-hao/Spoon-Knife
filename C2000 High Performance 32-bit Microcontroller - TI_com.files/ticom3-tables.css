@@ -1,0 +1,195 @@
+TABLE.tblstandard {
+	BORDER-TOP: #6c6c6c 1px solid; BORDER-LEFT: #6c6c6c 1px solid; BORDER-COLLAPSE: collapse
+}
+.tblstandard TH {
+	BORDER-RIGHT: #6c6c6c 1px solid; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #6c6c6c 1px solid
+}
+.tblstandard TD {
+	BORDER-RIGHT: #6c6c6c 1px solid; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #6c6c6c 1px solid
+}
+.tblstandard CAPTION {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 1.4em; BACKGROUND: #fff; PADDING-BOTTOM: 5px; COLOR: #525252; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: left; max-width: 500px
+}
+.tblstandard CAPTION A:link {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+.tblstandard CAPTION A:visited {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+.tblstandard CAPTION A {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+.tblstandard CAPTION A {
+	COLOR: #525252; TEXT-DECORATION: none
+}
+.tblstandard TH {
+	BACKGROUND: #ef1c24; VERTICAL-ALIGN: bottom; COLOR: #fff; TEXT-ALIGN: left
+}
+.row1 {
+	VERTICAL-ALIGN: top
+}
+.row2 {
+	VERTICAL-ALIGN: top
+}
+.row2 {
+	BACKGROUND: #f5f5f5
+}
+.sort {
+	BACKGROUND: #c6deef; TEXT-ALIGN: center
+}
+TD.center {
+	TEXT-ALIGN: center
+}
+.tblstandard TFOOT TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #ddd; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 8px
+}
+.tbltopcap {
+	MARGIN: 0px 0px 2px
+}
+.tbltopcap P {
+	MARGIN: 0px 0px 2px
+}
+.tblbotcap {
+	MARGIN: 2px 0px 0px
+}
+.tblbotcap P {
+	MARGIN: 2px 0px 0px
+}
+.tbl1 {
+	FONT-WEIGHT: bold; BACKGROUND: #ef1c24; MARGIN: 5px; VERTICAL-ALIGN: bottom; COLOR: #fff
+}
+.tbl1 A:link {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.tbl2 A:link {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.tbl2alt A:link {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.tbl1 A:visited {
+	COLOR: #fff
+}
+.tbl2 A:visited {
+	COLOR: #fff
+}
+.tbl2alt A:visited {
+	COLOR: #fff
+}
+.tbl1 A:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.tbl2 A:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.tbl2alt A:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.tbl2alt {
+	FONT-WEIGHT: bold; BACKGROUND: #7e8082; COLOR: #fff
+}
+.tbl2 {
+	FONT-WEIGHT: bold; BACKGROUND: #929497; MARGIN: 5px; VERTICAL-ALIGN: bottom; COLOR: #fff
+}
+.tbl2center {
+	FONT-WEIGHT: bold; BACKGROUND: #929497; MARGIN: 5px; VERTICAL-ALIGN: bottom; COLOR: #fff
+}
+.tbl2offshade {
+	FONT-WEIGHT: bold; BACKGROUND: #a7a9ac; COLOR: #fff
+}
+.tbl2center {
+	TEXT-ALIGN: center
+}
+.tbl3 {
+	FONT-WEIGHT: bold; BACKGROUND: #a7a9ac; MARGIN: 5px; VERTICAL-ALIGN: bottom; COLOR: #fff
+}
+.tbl3hilight {
+	FONT-WEIGHT: bold; BACKGROUND: #a7a9ac; MARGIN: 5px; VERTICAL-ALIGN: bottom; COLOR: #fff
+}
+.tbl3hilight {
+	BACKGROUND: #dddbdd; COLOR: #666
+}
+.tbl3 A:link {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.tbl3 A:visited {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.tbl3 A:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.tbl2 A:hover {
+	
+}
+.tbl4 {
+	FONT-WEIGHT: bold; BACKGROUND: #dcdcde; MARGIN: 5px; VERTICAL-ALIGN: bottom
+}
+.tbl4alt {
+	FONT-WEIGHT: bold; BACKGROUND: #c9cacc; MARGIN: 5px; VERTICAL-ALIGN: bottom
+}
+.tbl4 A:link {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+.tbl4 A:visited {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+.tbl4 A:hover {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+.tbl5 {
+	BACKGROUND: #fff; MARGIN: 5px; VERTICAL-ALIGN: top
+}
+.tbl6 {
+	BACKGROUND: #ebebeb; MARGIN: 5px; VERTICAL-ALIGN: top
+}
+.tblbottom TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; HEIGHT: 0px
+}
+.tblbottom {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; HEIGHT: 0px
+}
+.tblrange {
+	BACKGROUND: #d6d7e7; HEIGHT: 7px
+}
+.tblLegend {
+	VERTICAL-ALIGN: top; COLOR: #666; BACKGROUND-COLOR: #eee
+}
+.tbllegend {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; BORDER-LEFT: #999999 1px solid; COLOR: #666; BORDER-BOTTOM: #999999 1px solid; BORDER-COLLAPSE: collapse; BACKGROUND-COLOR: #fff
+}
+.tbllegend TD {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.tbllegendbot {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; HEIGHT: 3px
+}
+.tbl5hilight {
+	BACKGROUND: #fcfeda; VERTICAL-ALIGN: top; COLOR: #666; HEIGHT: 7px
+}
+.tbl6hilight {
+	BACKGROUND: #fcfeda; VERTICAL-ALIGN: top; COLOR: #666; HEIGHT: 7px
+}
+.tbl6hilight {
+	BACKGROUND: #fbfec5
+}
+.tbln {
+	BACKGROUND: #fff
+}
+#cmpntdsnsuprt SPAN.tbln {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#cmpntgetsrt SPAN.tbln {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.tbln TD {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px
+}
+.tblborder {
+	BACKGROUND: #6c6c6c
+}
+TABLE.tblstandard TD.tblindent1 {
+	PADDING-LEFT: 1.2em
+}
+TABLE.tblstandard TD.tblindent2 {
+	PADDING-LEFT: 2em
+}

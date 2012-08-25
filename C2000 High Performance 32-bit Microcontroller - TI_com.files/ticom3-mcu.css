@@ -1,0 +1,175 @@
+@import url( /css/shared/ticom3-legacy.css );
+@import url( /css/shared/ticom3-common.css );
+@import url( /css/shared/ticom3-layout.css );
+@import url( /css/shared/ticom3-cntbox.css );
+@import url( /css/shared/ticom3-tables.css );
+@import url( /css/shared/ticom3-tabs.css );
+@import url( /css/shared/ticom3-techdocs.css );
+#brandcol {
+	MARGIN-LEFT: 10px; WIDTH: 250px
+}
+#cmpntprodtree H1 {
+	FONT-SIZE: 1em; MARGIN: 1em 0px 0.2em; BORDER-BOTTOM-STYLE: none
+}
+#cmpntdsnsuprt H1 {
+	FONT-SIZE: 1em; MARGIN: 1em 0px 0.2em; BORDER-BOTTOM-STYLE: none
+}
+#cmpntgetsrt H1 {
+	FONT-SIZE: 1em; MARGIN: 1em 0px 0.2em; BORDER-BOTTOM-STYLE: none
+}
+#cmpnttrn H1 {
+	FONT-SIZE: 1em; MARGIN: 1em 0px 0.2em; BORDER-BOTTOM-STYLE: none
+}
+#cmpntheadline H1 {
+	FONT-SIZE: 1em; MARGIN: 1em 0px 0.2em; BORDER-BOTTOM-STYLE: none
+}
+#cmpnttrnportal H1 {
+	FONT-SIZE: 1em; MARGIN: 1em 0px 0.2em; BORDER-BOTTOM-STYLE: none
+}
+#cmpntavailnow H1 {
+	FONT-SIZE: 1em; MARGIN: 0px 0px 0.7em; BORDER-BOTTOM-STYLE: none
+}
+#cmpntavailnow H1.imgalt {
+	FONT-SIZE: 1em; MARGIN: 0.5em 0px 0.2em
+}
+#cmpntavailnow UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 1.1em; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#cmpntdsnsuprt UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 1.1em; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#cmpntgetsrt UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 1.1em; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#cmpntseealso UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 1.1em; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#cmpnttrnportal UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 1.1em; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#cmpnttrn UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 1.1em; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#cmpntavailnow LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 1em; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/ul-arrow2.gif) no-repeat 0.2em 0.5em; PADDING-BOTTOM: 0.5em; PADDING-TOP: 0.3em
+}
+#cmpntdsnsuprt LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 1em; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/ul-arrow2.gif) no-repeat 0.2em 0.5em; PADDING-BOTTOM: 0.5em; PADDING-TOP: 0.3em
+}
+#cmpntgetsrt LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 1em; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/ul-arrow2.gif) no-repeat 0.2em 0.5em; PADDING-BOTTOM: 0.5em; PADDING-TOP: 0.3em
+}
+#cmpntseealso LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 1em; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/ul-arrow2.gif) no-repeat 0.2em 0.5em; PADDING-BOTTOM: 0.5em; PADDING-TOP: 0.3em
+}
+#cmpnttrnportal LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 1em; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/ul-arrow2.gif) no-repeat 0.2em 0.5em; PADDING-BOTTOM: 0.5em; PADDING-TOP: 0.3em
+}
+#cmpntgetsrt LI LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 1.5em; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/ul-dash.gif) no-repeat 0.8em 0.9em; PADDING-BOTTOM: 0.3em; LINE-HEIGHT: 0.8em; PADDING-TOP: 0.4em
+}
+#cmpntdsnsuprt LI {
+	PADDING-BOTTOM: 0.2em
+}
+#cmpntgetsrt LI {
+	PADDING-BOTTOM: 0.2em
+}
+#cmpntheadline LI {
+	PADDING-BOTTOM: 0.2em
+}
+#cmpntavailnow LI {
+	PADDING-BOTTOM: 0.2em
+}
+#cmpntseealso LI {
+	PADDING-BOTTOM: 0.2em
+}
+#cmpnttrnportal LI {
+	PADDING-BOTTOM: 0.2em
+}
+#cmpnttrn UL {
+	LIST-STYLE-TYPE: none
+}
+#cmpnttrn LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(none); PADDING-BOTTOM: 0.7em; PADDING-TOP: 0px
+}
+#cmpntavailnow .imgleft {
+	MARGIN: 0px 0.7em 0.3em 0px
+}
+#cmpntavailnow .imgright {
+	MARGIN: 0px 0px 0.3em 0.7em
+}
+#cmpntavailnow .cntboxbody {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 1em; MARGIN-BOTTOM: 1em; PADDING-BOTTOM: 1.3em; PADDING-TOP: 1em
+}
+#cmpntavailnow .cntboxbody2 {
+	PADDING-RIGHT: 1em; PADDING-LEFT: 1em
+}
+.cntboxline2 {
+	BACKGROUND-COLOR: #c9c9c9
+}
+.cntboxS4 .cntboxhead2 {
+	BORDER-TOP: #bababa 1px solid
+}
+.cntboxS4line {
+	BACKGROUND-COLOR: #c9c9c9
+}
+.c62-1 P {
+	
+}
+.c62-1 UL {
+	
+}
+.c62-1 H1 {
+	
+}
+.c62-1 H2 {
+	
+}
+.c62-1 H3 {
+	
+}
+.c62-1 DL {
+	
+}
+#cmpntprodtree LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(none); PADDING-BOTTOM: 7px; PADDING-TOP: 3px
+}
+#cmpntportal UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 1.1em; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#cmpntportal LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 1em; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/ul-arrow2.gif) no-repeat 0.2em 0.5em; PADDING-BOTTOM: 0.2em; PADDING-TOP: 0.3em
+}
+#cmpntportal H1 {
+	MARGIN: 0px 0px 0.4em
+}
+#cmpntportal H1 {
+	
+}
+#cmpntportal P {
+	
+}
+#cmpntportal UL {
+	
+}
+#cmpntportal TABLE UL {
+	
+}
+#cmpntportal IMG {
+	MARGIN: 0px 10px 7px 0px
+}
+#cmpntportal P {
+	MARGIN: 0px 10px 7px 0px
+}
+#content2 #cmpntfaq .cntboxbody {
+	WIDTH: 42em; MARGIN-RIGHT: 0.5em
+}
+#cmpntfaq TEXTAREA {
+	WIDTH: 30em
+}
+#techdocsUIvar5 .product {
+	WIDTH: 300px
+}
+#techdocsUIvar5 .doctype {
+	WIDTH: 190px
+}

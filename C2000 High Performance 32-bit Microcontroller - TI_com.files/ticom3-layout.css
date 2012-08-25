@@ -1,0 +1,384 @@
+#pgmargin {
+	MIN-HEIGHT: 300px; MARGIN: 0px 10px; HEIGHT: 300px
+}
+UNKNOWN {
+	HEIGHT: auto
+}
+.pageintro {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; PADDING-TOP: 15px
+}
+.pageintro2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; PADDING-TOP: 15px
+}
+.pageintro3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; PADDING-TOP: 0px
+}
+.pageintro3 SPAN {
+	PADDING-RIGHT: 11px; PADDING-LEFT: 2px; FONT-WEIGHT: normal; FONT-SIZE: 1em; FLOAT: right; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; TEXT-ALIGN: right
+}
+.pageintro P {
+	MARGIN: 0px; WIDTH: 700px
+}
+.pageintro H2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 1.8em; MARGIN: 0px; COLOR: #000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.pageintro2 H2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 1.8em; MARGIN: 0px; COLOR: #000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.pageintro3 H2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 1.8em; MARGIN: 0px; COLOR: #000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.pageintro H1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 1.8em; MARGIN: 0px; COLOR: #000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.pageintro2 H1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 1.8em; MARGIN: 0px; COLOR: #000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.pageintro3 H1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 1.8em; MARGIN: 0px; COLOR: #000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.pageintro3 H2 {
+	MARGIN: 0px
+}
+.pageintro3 H3 {
+	MARGIN-TOP: 0px; FONT-WEIGHT: bold; FONT-SIZE: 1.1em
+}
+.pageintro2 H3 {
+	MARGIN-TOP: 0px; FONT-WEIGHT: bold; FONT-SIZE: 1.1em
+}
+.pageintro H3 {
+	MARGIN-TOP: 0px; FONT-WEIGHT: bold; FONT-SIZE: 1.1em
+}
+.c332-1 {
+	MARGIN: 0px 10px 0px 0px
+}
+.c332-2 {
+	MARGIN: 0px 10px
+}
+.c332-3 {
+	MARGIN: 0px 0px 0px 10px; OVERFLOW: hidden; WIDTH: 251px
+}
+.c233-1 {
+	MARGIN: 0px 10px 0px 0px; OVERFLOW: hidden; WIDTH: 360px
+}
+.c233-2 {
+	MARGIN: 0px 10px; OVERFLOW: hidden; WIDTH: 250px
+}
+.c233-3 {
+	MARGIN: 0px 0px 0px 10px; OVERFLOW: hidden; WIDTH: 320px
+}
+.c35-1 {
+	MARGIN: 0px; OVERFLOW: hidden; WIDTH: 375px
+}
+.c35-2 {
+	MARGIN: 0px
+}
+.c62-1 {
+	MARGIN: 0px
+}
+.c62-1 P {
+	
+}
+.c62-1 H1 {
+	
+}
+.c62-1 H2 {
+	
+}
+.c62-1 H3 {
+	
+}
+.c62-1 UL {
+	
+}
+.c62-1 OL {
+	
+}
+.c62-1 UL UL {
+	
+}
+.c62-1 OL OL {
+	
+}
+.c62-1 DL DD {
+	
+}
+.c62-1 DL DT {
+	
+}
+.c62-1 DL P {
+	
+}
+.c62-1 DL DL DD {
+	
+}
+.c62-1 DL DL DT {
+	
+}
+.c62-1 TABLE TABLE P {
+	
+}
+.c62-1 P.backtotop {
+	
+}
+.c62-2 {
+	MARGIN: 0px 0px 0px 15px; OVERFLOW: hidden; WIDTH: 250px
+}
+.c44-1 {
+	MARGIN: 0px
+}
+.c44-2 {
+	MARGIN: 0px 0px 0px 10px
+}
+.c242-1 {
+	MARGIN: 0px 10px 0px 0px; WIDTH: 210px
+}
+.c242-2 {
+	MARGIN: 0px
+}
+.c242-3 {
+	MARGIN: 0px 0px 0px 10px; WIDTH: 200px
+}
+.c2222-1 {
+	MARGIN: 0px 10px 0px 0px
+}
+.c2222-2 {
+	MARGIN: 0px 10px
+}
+.c2222-3 {
+	MARGIN: 0px 10px
+}
+.c2222-4 {
+	MARGIN: 0px 0px 0px 10px; OVERFLOW: hidden; WIDTH: 251px
+}
+.colspace {
+	MARGIN: 10px
+}
+#content2 P {
+	
+}
+#content2 TABLE P {
+	
+}
+#content2 TABLE UL {
+	
+}
+#content2 TABLE OL {
+	
+}
+#content2 OL {
+	
+}
+#content2 H1 {
+	
+}
+#content2 H2 {
+	
+}
+#content2 H3 {
+	
+}
+#content2 UL {
+	
+}
+#content2 H4 {
+	
+}
+#content2 H5 {
+	
+}
+#content2 H6 {
+	
+}
+#content2 UL {
+	
+}
+#content2 OL {
+	
+}
+#content2 TABLE UL {
+	
+}
+#content2 TABLE OL {
+	
+}
+#content2 UL UL {
+	
+}
+#content2 OL OL {
+	
+}
+#content2 TABLE UL UL {
+	
+}
+#content2 TABLE OL OL {
+	
+}
+#content2 TABLE DL DD {
+	
+}
+#content2 TABLE DL DT {
+	
+}
+#content2 TABLE DL P {
+	
+}
+#content2 TABLE DL DL DD {
+	
+}
+#content2 TABLE DL DL DT {
+	
+}
+#content2 TABLE TABLE P {
+	
+}
+#content2 TABLE TABLE UL {
+	
+}
+#content2 TABLE TABLE H1 {
+	
+}
+#content2 TABLE #rightcol UL {
+	
+}
+#content2 TABLE #rightcol P {
+	
+}
+#content2 TABLE #rightcol H1 {
+	
+}
+#content2 TABLE #rightcol H2 {
+	
+}
+#content2 TABLE TABLE H6 {
+	
+}
+#content2 TABLE TABLE H2 {
+	
+}
+#content2 P.backtotop2 {
+	
+}
+.pageintro3 P {
+	WIDTH: 700px; max-width: 700px
+}
+.pageintro P {
+	WIDTH: 700px; max-width: 700px
+}
+#content2 DIV P {
+	
+}
+#content2 DIV H2 {
+	
+}
+#content2 TABLE DIV UL {
+	
+}
+#content2 TABLE DIV OL {
+	
+}
+#content2 TABLE DIV H1 {
+	
+}
+#content2 TABLE DIV H2 {
+	
+}
+#content2 TABLE DIV H3 {
+	
+}
+#content2 TABLE DIV P {
+	
+}
+#content2 TABLE DIV DL {
+	
+}
+#content2 DIV TABLE H3 {
+	
+}
+#content2 .disclaimanchor {
+	max-width: 6000px
+}
+P.silonavitem {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0.8em; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/ticom3-silonav-bullet.gif) no-repeat 0.1em 0.6em; PADDING-BOTTOM: 0px; MARGIN: 0px 0.8em 0px 0px; PADDING-TOP: 0px; WHITE-SPACE: nowrap
+}
+P.silonavitem A:link {
+	FONT: bold 1.4em Arial, Helvetica, sans-serif; COLOR: #ea272a; TEXT-DECORATION: none
+}
+P.silonavitem A:visited {
+	FONT: bold 1.4em Arial, Helvetica, sans-serif; COLOR: #ea272a; TEXT-DECORATION: none
+}
+P.silonavitem A:visited {
+	COLOR: #ea272a
+}
+P.silonavitem A:hover {
+	TEXT-DECORATION: underline
+}
+.silotitle {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; BACKGROUND: #fff; PADDING-BOTTOM: 3px; PADDING-TOP: 0px; HEIGHT: 25px
+}
+H1.silotitle {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 2em; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #ffffff 1px solid; FONT-FAMILY: "Arial", Helvetica, sans-serif; max-width: 10000px
+}
+H2.silotitle {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 2em; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #ffffff 1px solid; FONT-FAMILY: "Arial", Helvetica, sans-serif; max-width: 10000px
+}
+.silotitle A:link {
+	COLOR: #000; BORDER-BOTTOM: #ffffff 1px solid; HEIGHT: 1px; TEXT-DECORATION: none
+}
+.silotitle A:visited {
+	COLOR: #000; BORDER-BOTTOM: #ffffff 1px solid; HEIGHT: 1px; TEXT-DECORATION: none
+}
+.silotitle A:hover {
+	COLOR: #333; BORDER-BOTTOM: #333 1px solid; HEIGHT: 1px; TEXT-DECORATION: none
+}
+.silotitletx {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; BACKGROUND: #fff; PADDING-BOTTOM: 9px; FONT: 1.7em/0.9em Arial, Helvetica, sans-serif; PADDING-TOP: 0px
+}
+.siloln {
+	FONT-SIZE: 0.1em; BACKGROUND: #999; MARGIN: 12em 0px 0px; HEIGHT: 1px
+}
+.siloln2 {
+	MARGIN: 1.2em 0px 0px
+}
+UNKNOWN {
+	MARGIN: 1.3em 0px 0px
+}
+#leftcol {
+	OVERFLOW: hidden; WIDTH: 210px; MARGIN-RIGHT: 20px
+}
+#middle {
+	MARGIN-TOP: 25px
+}
+#content {
+	MARGIN-BOTTOM: 15px; WIDTH: 744px
+}
+#content2 {
+	MARGIN: 0px 0px 15px
+}
+#rightcol {
+	FLOAT: right; MARGIN-LEFT: 17px; WIDTH: 200px
+}
+#entryPage {
+	WIDTH: 975px
+}
+#entryPage H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; PADDING-TOP: 0px; BORDER-BOTTOM: #bababa 1px solid
+}
+#entryPage H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; BACKGROUND: url(http://focus.ti.com/graphics/shared/processors/bullet-redArrowCircle.gif) no-repeat 1px 2px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 4px; PADDING-TOP: 0px
+}
+#entryPage .column {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px 3px; WIDTH: 310px; PADDING-TOP: 0px
+}
+#entryPage .column DIV {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 6px; OVERFLOW: visible; PADDING-TOP: 6px; HEIGHT: 120px
+}
+#entryPage .column P {
+	MARGIN: 0px 0px 20px 15px; WIDTH: 190px
+}
+#entryPage .middle {
+	BORDER-RIGHT: #bababa 1px dotted; PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 0px; BORDER-LEFT: #bababa 1px dotted; PADDING-TOP: 0px
+}
+.SEOtext {
+	WIDTH: 550px
+}

@@ -1,0 +1,486 @@
+H6 {
+	PADDING-TOP: 2px
+}
+.column {
+	BORDER-RIGHT: #bed6e0 1px solid; BORDER-TOP: #bed6e0 1px solid; MARGIN-TOP: 10px; BORDER-LEFT: #bed6e0 1px solid; BORDER-BOTTOM: #bed6e0 1px solid
+}
+.title {
+	PADDING-RIGHT: 5px; BACKGROUND-POSITION: left center; PADDING-LEFT: 5px; BACKGROUND-IMAGE: url(/images/tb.gif); PADDING-TOP: 6px; BACKGROUND-REPEAT: repeat-x; HEIGHT: 22px
+}
+.width440 {
+	WIDTH: 440px
+}
+.width320 {
+	WIDTH: 320px
+}
+.tab {
+	BACKGROUND-POSITION: left center; BACKGROUND-IMAGE: url(/images/tb.gif); BACKGROUND-REPEAT: repeat-x; HEIGHT: 28px
+}
+.tab LI {
+	FLOAT: left
+}
+.tab LI.jd {
+	BACKGROUND-POSITION: 0px 0px; DISPLAY: block; FLOAT: left; BACKGROUND-IMAGE: url(/images/htab_bg2.gif); WIDTH: 93px; PADDING-TOP: 8px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 20px; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.tab LI {
+	BACKGROUND-POSITION: 0px 0px; DISPLAY: block; BACKGROUND-IMAGE: url(/images/htab_bg.gif); WIDTH: 93px; PADDING-TOP: 8px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 20px; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.tab LI.active {
+	BACKGROUND-POSITION: 0px -28px; BACKGROUND-IMAGE: url(/images/htab_bg.gif); BACKGROUND-REPEAT: no-repeat
+}
+.tab LI.active A {
+	COLOR: #cc6600
+}
+.tab LI.dsp {
+	BACKGROUND-POSITION: 0px 0px; DISPLAY: block; FLOAT: left; BACKGROUND-IMAGE: url(/images/htab_bg3.gif); WIDTH: 125px; PADDING-TOP: 8px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 20px; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.tab LI.dspactive {
+	BACKGROUND-POSITION: 0px -28px; BACKGROUND-IMAGE: url(/images/htab_bg3.gif); WIDTH: 125px; BACKGROUND-REPEAT: no-repeat
+}
+.tab LI.dspactive A {
+	COLOR: #cc6600
+}
+.maincontent .content {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.sidebar .content {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.maincontent .content H3 {
+	LINE-HEIGHT: 22px
+}
+.maincontent .content LI {
+	LINE-HEIGHT: 22px
+}
+.sidebar .content H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; PADDING-TOP: 6px
+}
+#action LI {
+	WIDTH: 146px
+}
+#sponsor_solve H3 {
+	WIDTH: 146px
+}
+#homepage_focus {
+	BACKGROUND-IMAGE: url(http://www.ednchina.com/images/alpha.gif); OVERFLOW: hidden; ZOOM: 1
+}
+#homepage_news {
+	BACKGROUND-IMAGE: url(http://www.ednchina.com/images/alpha.gif); OVERFLOW: hidden; ZOOM: 1
+}
+#homepage_action {
+	BACKGROUND-IMAGE: url(http://www.ednchina.com/images/alpha.gif); OVERFLOW: hidden; ZOOM: 1
+}
+#community {
+	BACKGROUND-IMAGE: url(http://www.ednchina.com/images/alpha.gif); OVERFLOW: hidden; ZOOM: 1
+}
+#focus_a2 H3 {
+	OVERFLOW: hidden; WIDTH: 250px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis
+}
+#focus_a1 {
+	WIDTH: 174px
+}
+#activity_a1 {
+	WIDTH: 174px
+}
+#focus_a2 {
+	WIDTH: 264px
+}
+#activity_a2 {
+	WIDTH: 264px
+}
+#foucs_b1 {
+	WIDTH: 220px
+}
+#foucs_b2 {
+	WIDTH: 220px
+}
+#news_a {
+	WIDTH: 220px
+}
+#news_b {
+	WIDTH: 220px
+}
+#homepage_design H3 {
+	OVERFLOW: hidden; WIDTH: 440px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis
+}
+#homepage_technical H3 {
+	OVERFLOW: hidden; WIDTH: 440px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis
+}
+#tech1layer H3 {
+	OVERFLOW: hidden; WIDTH: 440px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis
+}
+#tech2layer H3 {
+	OVERFLOW: hidden; WIDTH: 440px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis
+}
+#tech3layer H3 {
+	OVERFLOW: hidden; WIDTH: 440px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis
+}
+#tech4layer H3 {
+	OVERFLOW: hidden; WIDTH: 440px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis
+}
+#tech5layer H3 {
+	OVERFLOW: hidden; WIDTH: 440px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis
+}
+#homepage_login {
+	BACKGROUND-IMAGE: url(/images/member_bg.gif); BACKGROUND-REPEAT: repeat-x; HEIGHT: 148px; BACKGROUND-COLOR: #ecf3f6
+}
+#homepage_login .content {
+	MARGIN: 4px; BACKGROUND-COLOR: #fff
+}
+#homepage_login SPAN {
+	PADDING-LEFT: 6px
+}
+#homepage_login INPUT.text {
+	WIDTH: 150px; HEIGHT: 12px
+}
+#group_b1 {
+	WIDTH: 150px
+}
+#group_b2 {
+	WIDTH: 150px
+}
+#group_b1 H3 {
+	WIDTH: 150px
+}
+#gropu_b2 H3 {
+	WIDTH: 150px
+}
+#homepage_classroom {
+	BACKGROUND-IMAGE: url(http://www.ednchina.com/images/alpha.gif)
+}
+#homepage_group {
+	BACKGROUND-IMAGE: url(http://www.ednchina.com/images/alpha.gif)
+}
+#homepage_active {
+	BACKGROUND-IMAGE: url(http://www.ednchina.com/images/alpha.gif)
+}
+#homepage_classroom UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#homepage_classroom LI {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 330px; PADDING-TOP: 0px
+}
+#homepage_classroom LI H3 {
+	FLOAT: left; LINE-HEIGHT: 20px; HEIGHT: 20px
+}
+#homepage_classroom LI H6 {
+	FLOAT: left; LINE-HEIGHT: 20px; HEIGHT: 20px
+}
+#homepage_classroom LI H3 {
+	WIDTH: 270px
+}
+#homepage_classroom LI H6 {
+	MARGIN-LEFT: 10px; WIDTH: 38px
+}
+#homepage_active .acttitle {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 40px; BACKGROUND-IMAGE: url(http://www.ednchina.com/images/titlebg2.gif); COLOR: #216b8a; PADDING-TOP: 6px; HEIGHT: 23px
+}
+#homepage_active H3 {
+	MARGIN-TOP: 7px; MARGIN-BOTTOM: 7px
+}
+.active {
+	COLOR: #216b8a
+}
+.infor {
+	PADDING-RIGHT: 5px; BACKGROUND-POSITION: 50% bottom; PADDING-LEFT: 5px; BACKGROUND-IMAGE: url(http://www.ednchina.com/images/activebg.gif); PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BACKGROUND-REPEAT: repeat-x
+}
+.sponsor {
+	PADDING-LEFT: 8px; BACKGROUND-IMAGE: url(http://www.ednchina.com/images/sponsorbg.gif); PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+#homepage_space LI {
+	TEXT-INDENT: 28px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 22px
+}
+#homepage_space LI {
+	BACKGROUND-POSITION: 0px -22px; BACKGROUND-IMAGE: url(/images/icon_people.gif)
+}
+#homepage_space LI {
+	WIDTH: 320px
+}
+#homepage_bbs H3 {
+	WIDTH: 320px
+}
+.main_left H3 {
+	OVERFLOW: hidden; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis
+}
+.main_left LI {
+	OVERFLOW: hidden; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis
+}
+.main_right H3 {
+	OVERFLOW: hidden; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis
+}
+.main_right LI {
+	OVERFLOW: hidden; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis
+}
+.sidebar LI {
+	OVERFLOW: hidden; LINE-HEIGHT: 22px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis
+}
+#column_nav H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 7px; COLOR: #cc6600; PADDING-TOP: 7px
+}
+#statement H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 7px; COLOR: #cc6600; PADDING-TOP: 7px
+}
+#webcast2009 H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 7px; COLOR: #cc6600; PADDING-TOP: 7px
+}
+#webcast2009 P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; LINE-HEIGHT: 20px; PADDING-TOP: 0px
+}
+#webcast2009 .line P {
+	BORDER-BOTTOM: #cccccc 1px dotted
+}
+#action H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; COLOR: #cc6600; PADDING-TOP: 0px
+}
+#magazine .content {
+	CLEAR: both; TEXT-ALIGN: center
+}
+#column_nav .content {
+	BACKGROUND-POSITION: center bottom; BACKGROUND-IMAGE: url(/images/navleftbg.gif); BACKGROUND-REPEAT: no-repeat
+}
+#action .content {
+	BACKGROUND-COLOR: #f8fafc
+}
+#helpschool .content {
+	BACKGROUND-COLOR: #f8fafc
+}
+#cir_sponsor_solve .content {
+	BACKGROUND-COLOR: #f8fafc
+}
+#industry_event .content {
+	BACKGROUND-COLOR: #f8fafc
+}
+#magazine .content {
+	BACKGROUND-COLOR: #f8fafc
+}
+#homepage_thematic .content {
+	BACKGROUND-COLOR: #f8fafc
+}
+#statement .content {
+	BACKGROUND-COLOR: #f8fafc
+}
+.commonity {
+	MARGIN-BOTTOM: 0px; OVERFLOW: hidden; ZOOM: 1
+}
+.commonitybig {
+	FLOAT: left; WIDTH: 150px; TEXT-ALIGN: left
+}
+.commonityintro {
+	FLOAT: left; WIDTH: 295px
+}
+.commonityintro H3 {
+	FONT-WEIGHT: bold; OVERFLOW: hidden; WIDTH: 285px; LINE-HEIGHT: 16px; WHITE-SPACE: nowrap; HEIGHT: 22px; TEXT-OVERFLOW: ellipsis; TEXT-ALIGN: center
+}
+.commonityintro P {
+	LINE-HEIGHT: 20px; PADDING-TOP: 0px
+}
+.lh-price {
+	COLOR: #c00
+}
+.product {
+	OVERFLOW: hidden; ZOOM: 1
+}
+.product LI {
+	FLOAT: left; WIDTH: 110px; HEIGHT: 100px
+}
+.product-img {
+	DISPLAY: block; OVERFLOW: hidden; WIDTH: 110px; PADDING-TOP: 2px; TEXT-ALIGN: center
+}
+.product-hx {
+	PADDING-RIGHT: 5px; MARGIN-TOP: 3px; DISPLAY: block; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 90px; LINE-HEIGHT: 12px; PADDING-TOP: 0px; WHITE-SPACE: nowrap; HEIGHT: 12px; TEXT-OVERFLOW: ellipsis
+}
+.product-price {
+	PADDING-RIGHT: 5px; MARGIN-TOP: 3px; DISPLAY: block; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 90px; COLOR: #c00; LINE-HEIGHT: 15px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+.webinar {
+	MARGIN-BOTTOM: 0px; OVERFLOW: hidden; ZOOM: 1
+}
+.webinar_pic {
+	FLOAT: left; WIDTH: 150px; TEXT-ALIGN: left
+}
+.webinar_listl {
+	FLOAT: left; WIDTH: 70px; TEXT-ALIGN: left
+}
+.webinarintro {
+	FLOAT: right; WIDTH: 280px
+}
+.webinar_listr {
+	FLOAT: right; WIDTH: 360px
+}
+.webinarintro H3 {
+	FONT-WEIGHT: bold; OVERFLOW: hidden; WIDTH: 280px; LINE-HEIGHT: 16px; WHITE-SPACE: nowrap; HEIGHT: 22px; TEXT-OVERFLOW: ellipsis; TEXT-ALIGN: left
+}
+.webinar_listl H3 {
+	PADDING-LEFT: 10px; FONT-WEIGHT: bold; WIDTH: 70px; LINE-HEIGHT: 22px; HEIGHT: 22px; TEXT-ALIGN: left
+}
+.webinar_listr H3 {
+	OVERFLOW: hidden; WIDTH: 360px; LINE-HEIGHT: 22px; WHITE-SPACE: nowrap; HEIGHT: 22px; TEXT-OVERFLOW: ellipsis; TEXT-ALIGN: left
+}
+.innohome {
+	OVERFLOW: hidden; ZOOM: 1
+}
+.innohome_pic {
+	FLOAT: left; WIDTH: 150px; TEXT-ALIGN: left
+}
+.innohome_con {
+	FLOAT: right; WIDTH: 280px
+}
+.innohome_list P {
+	PADDING-BOTTOM: 1px; COLOR: #666666; LINE-HEIGHT: 22px
+}
+.innohome_list P SPAN.time {
+	FONT-WEIGHT: bold; FLOAT: left; WIDTH: 80px
+}
+.videostyle {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 3px; COLOR: white; LINE-HEIGHT: 18px; PADDING-TOP: 3px; BACKGROUND-COLOR: black
+}
+#homepage_focus .pic {
+	PADDING-RIGHT: 10px; FLOAT: left; PADDING-BOTTOM: 8px; MARGIN: 0px; WIDTH: 186px
+}
+#homepage_technical .pic {
+	PADDING-RIGHT: 10px; FLOAT: left; PADDING-BOTTOM: 8px; MARGIN: 0px; WIDTH: 186px
+}
+#homepage_focus .pic IMG {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 2px; MARGIN-BOTTOM: -4px; PADDING-BOTTOM: 2px; BORDER-LEFT: #ccc 1px solid; WIDTH: 180px; PADDING-TOP: 2px; BORDER-BOTTOM: #ccc 1px solid; HEIGHT: 120px
+}
+#homepage_technical .pic IMG {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 2px; MARGIN-BOTTOM: -4px; PADDING-BOTTOM: 2px; BORDER-LEFT: #ccc 1px solid; WIDTH: 180px; PADDING-TOP: 2px; BORDER-BOTTOM: #ccc 1px solid; HEIGHT: 120px
+}
+#homepage_focus .pic P {
+	PADDING-RIGHT: 5px; MARGIN-TOP: 0px; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; COLOR: white; PADDING-TOP: 5px; BACKGROUND-COLOR: #cf6501
+}
+#homepage_technical .pic P {
+	PADDING-RIGHT: 5px; MARGIN-TOP: 0px; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; COLOR: white; PADDING-TOP: 5px; BACKGROUND-COLOR: #cf6501
+}
+#homepage_focus .focustitle {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 14px; PADDING-BOTTOM: 2px; COLOR: black; LINE-HEIGHT: 40px; PADDING-TOP: 2px; HEIGHT: 40px
+}
+#homepage_technical .focustitle {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 14px; PADDING-BOTTOM: 2px; COLOR: black; LINE-HEIGHT: 40px; PADDING-TOP: 2px; HEIGHT: 40px
+}
+#homepage_focus H3 {
+	OVERFLOW: hidden; WIDTH: 215px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis
+}
+#community LI {
+	FLOAT: left; LINE-HEIGHT: 22px
+}
+.community_list H3 {
+	OVERFLOW: hidden; WIDTH: 285px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis
+}
+.community_img {
+	WIDTH: 155px
+}
+.community_list {
+	WIDTH: 290px
+}
+#bbsclassroom .bbspart H3 {
+	OVERFLOW: hidden; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis
+}
+#bbsclassroom .classroompart H3 {
+	OVERFLOW: hidden; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis
+}
+#bbsclassroom .bbspart H3 {
+	WIDTH: 320px
+}
+#bbsclassroom .classroompart LI {
+	WIDTH: 320px; LINE-HEIGHT: 22px; HEIGHT: 22px
+}
+#bbsclassroom .classroompart LI SPAN.problem {
+	WIDTH: 270px
+}
+#bbsclassroom .classroompart LI SPAN.number {
+	MARGIN-LEFT: 10px; WIDTH: 38px
+}
+.resourtab {
+	MARGIN-TOP: 1px; BACKGROUND-IMAGE: url(/images/resour_bg.gif); HEIGHT: 25px
+}
+.resourtab LI {
+	FLOAT: left
+}
+.resourtab LI {
+	BACKGROUND-POSITION: 0px 0px; DISPLAY: block; BACKGROUND-IMAGE: url(/images/restab_bg.gif); WIDTH: 77px; PADDING-TOP: 6px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 19px; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.resourtab LI.active {
+	BACKGROUND-POSITION: 0px -25px; BACKGROUND-IMAGE: url(/images/restab_bg.gif); BACKGROUND-REPEAT: no-repeat
+}
+.resourtab LI A:link {
+	COLOR: black
+}
+.resourtab LI A:visited {
+	COLOR: black
+}
+.resourtab LI A:hover {
+	COLOR: black
+}
+.resourtab LI.active A:link {
+	FONT-WEIGHT: bold; COLOR: #cc6600
+}
+.resourtab LI.active A:visited {
+	FONT-WEIGHT: bold; COLOR: #cc6600
+}
+.resourtab LI.active A:hover {
+	FONT-WEIGHT: bold; COLOR: #cc6600
+}
+#resour LI {
+	PADDING-BOTTOM: 2px; LINE-HEIGHT: 14px; PADDING-TOP: 3px; HEIGHT: 14px
+}
+#homepage_res .download LI SPAN {
+	PADDING-RIGHT: 5px; DISPLAY: block; FLOAT: left; WIDTH: 90px
+}
+#homepage_res .datasheet LI SPAN {
+	PADDING-RIGHT: 5px; DISPLAY: block; FLOAT: left; WIDTH: 90px
+}
+#homepage_res .download LI SPAN.first {
+	PADDING-RIGHT: 5px; DISPLAY: block; FLOAT: left; WIDTH: 140px
+}
+#homepage_res .datasheet LI SPAN.first {
+	PADDING-RIGHT: 5px; DISPLAY: block; FLOAT: left; WIDTH: 140px
+}
+#homepage_res .circuit LI SPAN {
+	PADDING-RIGHT: 5px; DISPLAY: block; FLOAT: left; WIDTH: 105px
+}
+#homepage_res .sponsors H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: 24px; PADDING-TOP: 3px; HEIGHT: 24px
+}
+#homepage_res .sponsors H3 SPAN.pic {
+	FLOAT: left; WIDTH: 100px
+}
+#homepage_res .sponsors H3 SPAN.txt {
+	FLOAT: left
+}
+.group {
+	OVERFLOW: hidden; ZOOM: 1
+}
+.topic {
+	OVERFLOW: hidden; ZOOM: 1
+}
+.group LI {
+	FLOAT: left; WIDTH: 100px; WHITE-SPACE: normal; HEIGHT: 95px
+}
+.group-img {
+	PADDING-RIGHT: 25px; DISPLAY: block; PADDING-LEFT: 25px; PADDING-BOTTOM: 0px; OVERFLOW: hidden; PADDING-TOP: 0px; HEIGHT: 60px
+}
+.group-img IMG {
+	BORDER-RIGHT: #e4e4e4 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #e4e4e4 1px solid; DISPLAY: block; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #e4e4e4 1px solid; WIDTH: 50px; PADDING-TOP: 3px; BORDER-BOTTOM: #e4e4e4 1px solid; HEIGHT: 50px
+}
+.group-name {
+	PADDING-RIGHT: 5px; MARGIN-TOP: 5px; DISPLAY: block; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 85px; LINE-HEIGHT: 15px; PADDING-TOP: 0px; HEIGHT: 30px; TEXT-ALIGN: center
+}
+.topic LI {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 120px; PADDING-TOP: 0px; WHITE-SPACE: normal; HEIGHT: 136px
+}
+.topic-img {
+	PADDING-RIGHT: 3px; DISPLAY: block; PADDING-LEFT: 3px; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 115px; PADDING-TOP: 10px; HEIGHT: 90px
+}
+.topic-img IMG {
+	BORDER-RIGHT: #e4e4e4 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #e4e4e4 1px solid; DISPLAY: block; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #e4e4e4 1px solid; WIDTH: 110px; PADDING-TOP: 2px; BORDER-BOTTOM: #e4e4e4 1px solid; HEIGHT: 78px
+}
+.topic-name {
+	PADDING-RIGHT: 5px; MARGIN-TOP: 5px; DISPLAY: block; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 121px; LINE-HEIGHT: 16px; PADDING-TOP: 0px; HEIGHT: 30px; TEXT-ALIGN: center
+}
+.topic-border {
+	FLOAT: left; PADDING-TOP: 55px
+}
+.webiner-border {
+	FLOAT: left; PADDING-TOP: 40px
+}

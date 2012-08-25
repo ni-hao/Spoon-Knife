@@ -1,0 +1,87 @@
+.ECStitle {
+	BACKGROUND: url(http://img.china.alibaba.com/images/cn/market/ecs/titleBg.gif) no-repeat
+}
+.ECStitle .ELeft {
+	COLOR: #1b5494
+}
+A.EToMin:link {
+	BACKGROUND: url(http://img.china.alibaba.com/images/cn/market/ecs/toMin.gif) no-repeat
+}
+A.EToMin:visited {
+	BACKGROUND: url(http://img.china.alibaba.com/images/cn/market/ecs/toMin.gif) no-repeat
+}
+A.EToMin:hover {
+	BACKGROUND: url(http://img.china.alibaba.com/images/cn/market/ecs/toMinHover.gif) no-repeat
+}
+A.EToMax:link {
+	BACKGROUND: url(http://img.china.alibaba.com/images/cn/market/ecs/toMax.gif) no-repeat
+}
+A.EToMax:visited {
+	BACKGROUND: url(http://img.china.alibaba.com/images/cn/market/ecs/toMax.gif) no-repeat
+}
+A.EToMax:hover {
+	BACKGROUND: url(http://img.china.alibaba.com/images/cn/market/ecs/toMaxHover.gif) no-repeat
+}
+.ECScontent {
+	BACKGROUND: #edf6ff
+}
+.ECScontent .ETop {
+	BORDER-RIGHT: #859dbc 1px solid; BORDER-LEFT: #859dbc 1px solid
+}
+.ECScontent .ETop .right {
+	COLOR: #1b5494
+}
+.ECScontent .EMiddle {
+	BORDER-RIGHT: #859dbc 1px solid; BORDER-LEFT: #859dbc 1px solid
+}
+.ECScontent .EList {
+	BORDER-RIGHT: #95bbe1 1px solid; BORDER-TOP: #95bbe1 1px solid; BORDER-LEFT: #95bbe1 1px solid; BORDER-BOTTOM: #95bbe1 1px solid
+}
+.ECScontent .EList A:link {
+	COLOR: #1b5494
+}
+.ECScontent .EList A:visited {
+	COLOR: #1b5494
+}
+.ECScontent .EList A:hover {
+	BORDER-RIGHT: #cce5fb 1px solid; BORDER-TOP: #cce5fb 1px solid; BACKGROUND: #edfbff; BORDER-LEFT: #cce5fb 1px solid; COLOR: #1b5494; BORDER-BOTTOM: #cce5fb 1px solid
+}
+.ECScontent .EList A.mainId:link {
+	COLOR: #ff7300
+}
+.ECScontent .EList A.mainId:visited {
+	COLOR: #ff7300
+}
+.ECScontent .EList A.mainId:hover {
+	COLOR: #ff7300
+}
+.ECScontent INPUT {
+	BORDER-RIGHT: #80afdd 1px solid; BORDER-TOP: #80afdd 1px solid; BORDER-LEFT: #80afdd 1px solid; BORDER-BOTTOM: #80afdd 1px solid
+}
+.ECScontent .EBottom {
+	BACKGROUND: url(http://img.china.alibaba.com/images/cn/market/ecs/bottom.gif) no-repeat
+}
+.ECScontent TEXTAREA {
+	BORDER-RIGHT: #80afdd 1px solid; BORDER-TOP: #80afdd 1px solid; BORDER-LEFT: #80afdd 1px solid; BORDER-BOTTOM: #80afdd 1px solid
+}
+.EBorder {
+	BORDER-RIGHT: #97bce1 1px solid; BORDER-TOP: #97bce1 1px solid; BORDER-LEFT: #97bce1 1px solid; BORDER-BOTTOM: #97bce1 1px solid
+}
+.ECScontent .dis {
+	COLOR: #a3adb6
+}
+#msgBtn {
+	BACKGROUND: url(http://img.china.alibaba.com/images/cn/market/ecs/080718/send0.jpg) no-repeat
+}
+A#msgBtn:link {
+	COLOR: #1b5494; TEXT-DECORATION: none
+}
+A#msgBtn:visited {
+	COLOR: #1b5494; TEXT-DECORATION: none
+}
+A#msgBtn:hover {
+	COLOR: #1b5494; TEXT-DECORATION: none
+}
+.ECScontent .name {
+	MARGIN-TOP: 7px; FONT-SIZE: 12px; MARGIN-LEFT: 10px; COLOR: #205394
+}

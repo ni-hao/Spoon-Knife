@@ -1,0 +1,207 @@
+BODY {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 140%; FONT-FAMILY: Arial, 宋体
+}
+TD {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 140%; FONT-FAMILY: Arial, 宋体
+}
+A {
+	COLOR: #000066; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #000066; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #000066; TEXT-DECORATION: none
+}
+INPUT {
+	FONT-SIZE: 12px; COLOR: #000000
+}
+SELECT {
+	FONT-SIZE: 12px; COLOR: #000000
+}
+.title {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ae001b
+}
+.L-item {
+	FONT-SIZE: 12px; COLOR: #ffffff
+}
+.M-item {
+	FONT-SIZE: 12px; COLOR: #b61316
+}
+.M1-item {
+	FONT-SIZE: 12px; COLOR: #ff6206
+}
+.newstitle {
+	FONT-SIZE: 16px; COLOR: #05006c
+}
+.sectitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 24px; COLOR: #ffffff; FONT-FAMILY: Arial, ??
+}
+.item {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #cb6736
+}
+.itemx {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px
+}
+.date {
+	FONT-SIZE: 12px; COLOR: #ffea00
+}
+.white {
+	COLOR: #ffffff; LINE-HEIGHT: 150%
+}
+.eng {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica
+}
+.Line15 {
+	LINE-HEIGHT: 150%
+}
+.large {
+	FONT-SIZE: 14px
+}
+.t1 {
+	FONT-SIZE: 14px; COLOR: #333333
+}
+.L14 {
+	FONT-SIZE: 14px; LINE-HEIGHT: 140%
+}
+.L14t {
+	FONT-SIZE: 20px; COLOR: #05006c; LINE-HEIGHT: 140%
+}
+.L15 {
+	FONT-SIZE: 14px; LINE-HEIGHT: 160%
+}
+.L16 {
+	FONT-SIZE: 16px; COLOR: #cc3300; LINE-HEIGHT: 140%
+}
+A.line:link {
+	COLOR: #000066; TEXT-DECORATION: underline
+}
+A.line:visited {
+	COLOR: #000066; TEXT-DECORATION: underline
+}
+A.line:hover {
+	COLOR: #000066; TEXT-DECORATION: none
+}
+A.line:active {
+	COLOR: #ce6432; TEXT-DECORATION: none
+}
+A.ban:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.ban:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.ban:active {
+	COLOR: #ce6432; TEXT-DECORATION: none
+}
+A.ban:hover {
+	COLOR: #ce6432; TEXT-DECORATION: none
+}
+A.channel:link {
+	FONT-WEIGHT: bold; COLOR: #1f3a89; TEXT-DECORATION: none
+}
+A.channel:visited {
+	FONT-WEIGHT: bold; COLOR: #1f3a89; TEXT-DECORATION: none
+}
+A.channel:active {
+	FONT-WEIGHT: bold; COLOR: #ce6432; TEXT-DECORATION: none
+}
+A.channel:hover {
+	FONT-WEIGHT: bold; COLOR: #ce6432; TEXT-DECORATION: none
+}
+A.item:link {
+	FONT-WEIGHT: bold; COLOR: #cb6736; TEXT-DECORATION: none
+}
+A.item:visited {
+	FONT-WEIGHT: bold; COLOR: #cb6736; TEXT-DECORATION: none
+}
+A.item:active {
+	FONT-WEIGHT: bold; COLOR: #1f3a89; TEXT-DECORATION: none
+}
+A.item:hover {
+	FONT-WEIGHT: bold; COLOR: #1f3a89; TEXT-DECORATION: none
+}
+A.sol:link {
+	COLOR: #000066; TEXT-DECORATION: underline
+}
+A.sol:visited {
+	COLOR: #000066; TEXT-DECORATION: underline
+}
+A.sol:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.sol:active {
+	COLOR: #000066; TEXT-DECORATION: underline
+}
+A.itemn:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #1f3a89; TEXT-DECORATION: none
+}
+A.itemn:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #1f3a89; TEXT-DECORATION: none
+}
+A.itemn:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #cb6736; TEXT-DECORATION: none
+}
+A.itemn:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #cb6736; TEXT-DECORATION: none
+}
+A.itemd:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #cb6736; TEXT-DECORATION: none
+}
+A.itemd:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #1f3a89; TEXT-DECORATION: none
+}
+A.itemd:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #cb6736; TEXT-DECORATION: none
+}
+A.itemd:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #cb6736; TEXT-DECORATION: none
+}
+A.red:link {
+	COLOR: #ae001b; TEXT-DECORATION: none
+}
+A.red:visited {
+	COLOR: #ae001b; TEXT-DECORATION: none
+}
+A.red:active {
+	COLOR: #1e3986; TEXT-DECORATION: none
+}
+A.red:hover {
+	COLOR: #1e3986; TEXT-DECORATION: none
+}
+A.event:link {
+	COLOR: #025d00; TEXT-DECORATION: none
+}
+A.event:visited {
+	COLOR: #025d00; TEXT-DECORATION: none
+}
+A.event:hover {
+	COLOR: #ed6a00; TEXT-DECORATION: underline
+}
+A.event:active {
+	COLOR: #ed6a00; TEXT-DECORATION: underline
+}
+A.white:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.white:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.white:active {
+	COLOR: #feba00; TEXT-DECORATION: none
+}
+A.white:hover {
+	COLOR: #feba00; TEXT-DECORATION: none
+}
+A.xptop:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #a9c2d6; TEXT-DECORATION: none
+}
+A.xptop:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #a9c2d6; TEXT-DECORATION: none
+}
+A.xptop:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #a9c2d6; TEXT-DECORATION: none
+}
+A.xptop:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #a9c2d6; TEXT-DECORATION: none
+}

@@ -1,0 +1,474 @@
+IMG {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+A {
+	COLOR: #ea272a; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #ea272a; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #996699
+}
+A:active {
+	COLOR: #ea272a
+}
+A:hover {
+	COLOR: #ea272a; TEXT-DECORATION: underline
+}
+A:link .link-white {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+A:visited .link-white {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+A:active .link-white {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+A:hover .link-white {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+#tblfolderanchor A:link {
+	COLOR: #ea272a
+}
+#tblfolderanchor A:visited {
+	COLOR: #ea272a
+}
+A.anchorlink:link {
+	COLOR: #ea272a
+}
+A.anchorlink:visited {
+	COLOR: #ea272a
+}
+.anchorlinkul A:link {
+	COLOR: #ea272a
+}
+.anchorlinkul A:visited {
+	COLOR: #ea272a
+}
+.anchorlink A:link {
+	COLOR: #ea272a
+}
+.anchorlink A:visited {
+	COLOR: #ea272a
+}
+P.anchorlink A:link {
+	COLOR: #ea272a
+}
+P.anchorlink A:visited {
+	COLOR: #ea272a
+}
+.backtotop A:link {
+	COLOR: #ea272a
+}
+.backtotop A:visited {
+	COLOR: #ea272a
+}
+.btn1 {
+	BORDER-RIGHT: 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 1em; PADDING-BOTTOM: 1px; OVERFLOW: visible; BORDER-LEFT: 1px solid; WIDTH: 30px; CURSOR: pointer; COLOR: #fff; PADDING-TOP: 1px; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.btn2 {
+	BORDER-RIGHT: 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 1em; PADDING-BOTTOM: 1px; OVERFLOW: visible; BORDER-LEFT: 1px solid; WIDTH: 30px; CURSOR: pointer; COLOR: #fff; PADDING-TOP: 1px; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.btn3 {
+	BORDER-RIGHT: 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 1em; PADDING-BOTTOM: 1px; OVERFLOW: visible; BORDER-LEFT: 1px solid; WIDTH: 30px; CURSOR: pointer; COLOR: #fff; PADDING-TOP: 1px; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.btndisabled {
+	BORDER-RIGHT: 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 1em; PADDING-BOTTOM: 1px; OVERFLOW: visible; BORDER-LEFT: 1px solid; WIDTH: 30px; CURSOR: pointer; COLOR: #fff; PADDING-TOP: 1px; BORDER-BOTTOM: 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.btn1 {
+	BORDER-LEFT-COLOR: #730000; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/btn-red-bg.gif) #d12424 left top; BORDER-BOTTOM-COLOR: #730000; BORDER-TOP-COLOR: #730000; BORDER-RIGHT-COLOR: #730000
+}
+.btn2 {
+	BORDER-LEFT-COLOR: #730000; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/btn-red-bg.gif) #d12424 left top; BORDER-BOTTOM-COLOR: #730000; BORDER-TOP-COLOR: #730000; BORDER-RIGHT-COLOR: #730000
+}
+.btn3 {
+	BORDER-LEFT-COLOR: #730000; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/btn-red-bg.gif) #d12424 left top; BORDER-BOTTOM-COLOR: #730000; BORDER-TOP-COLOR: #730000; BORDER-RIGHT-COLOR: #730000
+}
+.btndisabled {
+	BORDER-LEFT-COLOR: #c9c7ba; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/none.gif) #f0f0ed; BORDER-BOTTOM-COLOR: #c9c7ba; COLOR: #c9c8c6; BORDER-TOP-COLOR: #c9c7ba; BORDER-RIGHT-COLOR: #c9c7ba
+}
+A.btn1 {
+	COLOR: #fff; WHITE-SPACE: nowrap; TEXT-DECORATION: none
+}
+A.btn2 {
+	COLOR: #fff; WHITE-SPACE: nowrap; TEXT-DECORATION: none
+}
+A.btndisabled {
+	COLOR: #fff; WHITE-SPACE: nowrap; TEXT-DECORATION: none
+}
+A.btn1:visited {
+	COLOR: #fff
+}
+A.btn2:visited {
+	COLOR: #fff
+}
+A.btn1:active {
+	COLOR: #fff
+}
+A.btn2:active {
+	COLOR: #fff
+}
+A.btndisabled:active {
+	COLOR: #fff
+}
+A.btndisabled:active {
+	COLOR: #fff
+}
+A.btn1:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+A.btn2:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+A.btndisabled:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.breadcrumbs {
+	FONT-SIZE: 0.9em; MARGIN: 5px 10px 20px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.breadcrumbs A:link {
+	FONT-SIZE: 1em; COLOR: #9b9b9b; TEXT-DECORATION: underline
+}
+.breadcrumbs A:visited {
+	COLOR: #9b9b9b; TEXT-DECORATION: underline
+}
+.breadcrumbs A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+SPAN.breadcrumbs {
+	MARGIN: 0px
+}
+OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 2.6em; PADDING-BOTTOM: 0px; MARGIN: 1em 0px 1em 1.5em; LINE-HEIGHT: 1.4em; PADDING-TOP: 0px; max-width: 500px
+}
+OL OL {
+	MARGIN: 0px 0px 0px 0.5em
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 1em; PADDING-BOTTOM: 0px; MARGIN: 1em 0px 1em 0.5em; LINE-HEIGHT: 1.3em; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; max-width: 500px
+}
+UL UL {
+	MARGIN: 0px 0px 0px 0.5em
+}
+UL LI {
+	PADDING-LEFT: 0.8em; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/ul-sm-circle.gif) no-repeat 0px 0.5em
+}
+#pgmargin UL LI {
+	PADDING-BOTTOM: 0.3em
+}
+UL LI LI {
+	PADDING-LEFT: 0.8em; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/ul-dash.gif) no-repeat 0.2em 0.7em
+}
+UL LI LI {
+	MARGIN: 0px
+}
+OL LI LI {
+	MARGIN: 0px
+}
+H1 {
+	BORDER-RIGHT: #ccc 0px solid; BORDER-TOP: #ccc 0px solid; FONT-WEIGHT: normal; FONT-SIZE: 1.6em; MARGIN: 0.5em 0px; BORDER-LEFT: #ccc 0px solid; COLOR: #000; BORDER-BOTTOM: #ccc 0px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; max-width: 500px
+}
+.ticom3 H2 {
+	BORDER-RIGHT: #ccc 0px solid; BORDER-TOP: #ccc 0px solid; FONT-WEIGHT: normal; FONT-SIZE: 1.6em; MARGIN: 0.5em 0px; BORDER-LEFT: #ccc 0px solid; COLOR: #000; BORDER-BOTTOM: #ccc 0px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; max-width: 500px
+}
+.ticom3 H1 {
+	BORDER-RIGHT: #ccc 0px solid; BORDER-TOP: #ccc 0px solid; FONT-WEIGHT: normal; FONT-SIZE: 1.6em; MARGIN: 0.5em 0px; BORDER-LEFT: #ccc 0px solid; COLOR: #000; BORDER-BOTTOM: #ccc 0px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; max-width: 500px
+}
+H2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 1.4em; MARGIN: 1.4em 0px 0.5em; COLOR: #000; FONT-FAMILY: Arial, Helvetica, sans-serif; max-width: 500px
+}
+.ticom3 H3 {
+	FONT-WEIGHT: normal; FONT-SIZE: 1.4em; MARGIN: 1.4em 0px 0.5em; COLOR: #000; FONT-FAMILY: Arial, Helvetica, sans-serif; max-width: 500px
+}
+.portal #content2 H1 A:link {
+	PADDING-LEFT: 0px; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/none.gif); COLOR: #ea272a
+}
+.portal #content2 H1 A:visited {
+	PADDING-LEFT: 0px; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/none.gif); COLOR: #ea272a
+}
+.portal #content2 H2 A:link {
+	PADDING-LEFT: 0px; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/none.gif); COLOR: #ea272a
+}
+.portal #content2 H2 A:visited {
+	PADDING-LEFT: 0px; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/none.gif); COLOR: #ea272a
+}
+#content2 #rightcol H1 A:link {
+	PADDING-LEFT: 0px; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/none.gif)
+}
+#content2 #rightcol H1 A:visited {
+	PADDING-LEFT: 0px; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/none.gif)
+}
+#content2 #rightcol H2 A:link {
+	PADDING-LEFT: 0px; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/none.gif)
+}
+#content2 #rightcol H2 A:visited {
+	PADDING-LEFT: 0px; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/none.gif)
+}
+#content2 #rightcol H3 A:link {
+	PADDING-LEFT: 0px; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/none.gif)
+}
+#content2 #rightcol H3 A:visited {
+	PADDING-LEFT: 0px; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/none.gif)
+}
+.portal #content2 H3 A:link {
+	PADDING-LEFT: 0px; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/none.gif); COLOR: #000
+}
+.portal #content2 H3 A:visited {
+	PADDING-LEFT: 0px; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/none.gif); COLOR: #000
+}
+.portal #content2 H4 A:link {
+	PADDING-LEFT: 0px; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/none.gif); COLOR: #000
+}
+.portal #content2 H4 A:visited {
+	PADDING-LEFT: 0px; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/none.gif); COLOR: #000
+}
+.portal #content2 H3 {
+	PADDING-LEFT: 0px; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/none.gif); COLOR: #000
+}
+.portal #content2 H4 {
+	PADDING-LEFT: 0px; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/none.gif); COLOR: #000
+}
+H1 A:hover {
+	COLOR: #ea272a; TEXT-DECORATION: underline
+}
+H2 A:hover {
+	COLOR: #ea272a; TEXT-DECORATION: underline
+}
+H3 {
+	FONT-WEIGHT: normal; FONT-SIZE: 1.2em; MARGIN: 1.4em 0px 0.5em; max-width: 500px
+}
+H4 {
+	FONT-WEIGHT: normal; FONT-SIZE: 1.2em; MARGIN: 1.4em 0px 0.5em; max-width: 500px
+}
+H5 {
+	FONT-WEIGHT: normal; FONT-SIZE: 1.2em; MARGIN: 1.4em 0px 0.5em; max-width: 500px
+}
+H6 {
+	FONT-WEIGHT: normal; FONT-SIZE: 1.2em; MARGIN: 1.4em 0px 0.5em; max-width: 500px
+}
+H6 {
+	FONT-WEIGHT: normal; MARGIN: 0.5em 0px
+}
+P {
+	MARGIN: 0px 0px 1.5em; LINE-HEIGHT: 1.3em; max-width: 500px
+}
+.caption {
+	MARGIN-TOP: 5px; FONT-SIZE: 0.9em; PADDING-TOP: 0px
+}
+UL.dash {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 1.3em; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+UL.dash LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 1.5em; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/ul-dash.gif) no-repeat 0.8em 0.9em; PADDING-BOTTOM: 0px; PADDING-TOP: 0.2em
+}
+#cmpntseealso H1 {
+	BORDER-BOTTOM-STYLE: none
+}
+#cmpntpromo H1 {
+	BORDER-BOTTOM-STYLE: none
+}
+.pageintro H1 {
+	BORDER-BOTTOM-STYLE: none
+}
+.pageintro2 H1 {
+	BORDER-BOTTOM-STYLE: none
+}
+.pageintro3 H1 {
+	BORDER-BOTTOM-STYLE: none
+}
+#cmpntcnthigh P {
+	MARGIN: 1em 0px 0px; LINE-HEIGHT: 1.3em; max-width: 500px
+}
+TABLE {
+	FONT-SIZE: 1em
+}
+TD {
+	
+}
+TH {
+	
+}
+CAPTION {
+	
+}
+.cntboxhead H2 A:link {
+	FONT-SIZE: 1em; COLOR: #585858; TEXT-DECORATION: none
+}
+.cntboxhead H2 A:visited {
+	FONT-SIZE: 1em; COLOR: #585858; TEXT-DECORATION: none
+}
+.cntboxhead H2 A:active {
+	FONT-SIZE: 1em; COLOR: #585858; TEXT-DECORATION: none
+}
+#tblfolderanchor A:link {
+	FONT-SIZE: 1em; COLOR: #ea272a; TEXT-DECORATION: none
+}
+#tblfolderanchor A:visited {
+	FONT-SIZE: 1em; COLOR: #ea272a; TEXT-DECORATION: none
+}
+A.anchorlink:link {
+	FONT-SIZE: 1em; COLOR: #ea272a; TEXT-DECORATION: none
+}
+A.anchorlink:visited {
+	FONT-SIZE: 1em; COLOR: #ea272a; TEXT-DECORATION: none
+}
+.anchorlinkul A:link {
+	FONT-SIZE: 1em; COLOR: #ea272a; TEXT-DECORATION: none
+}
+.anchorlinkul A:visited {
+	FONT-SIZE: 1em; COLOR: #ea272a; TEXT-DECORATION: none
+}
+.anchorlink A:link {
+	FONT-SIZE: 1em; COLOR: #ea272a; TEXT-DECORATION: none
+}
+.anchorlink A:visited {
+	FONT-SIZE: 1em; COLOR: #ea272a; TEXT-DECORATION: none
+}
+P.anchorlink A:link {
+	FONT-SIZE: 1em; COLOR: #ea272a; TEXT-DECORATION: none
+}
+P.anchorlink A:visited {
+	FONT-SIZE: 1em; COLOR: #ea272a; TEXT-DECORATION: none
+}
+.backtotop A:link {
+	FONT-SIZE: 1em; COLOR: #ea272a; TEXT-DECORATION: none
+}
+.backtotop A:visited {
+	FONT-SIZE: 1em; COLOR: #ea272a; TEXT-DECORATION: none
+}
+.cntboxhead H2 A:visited {
+	FONT-SIZE: 1em; COLOR: #ea272a; TEXT-DECORATION: none
+}
+#tblfolderanchor A:hover {
+	TEXT-DECORATION: underline
+}
+.anchorlinkul A:hover {
+	TEXT-DECORATION: underline
+}
+A.anchorlink:hover {
+	TEXT-DECORATION: underline
+}
+P.anchorlink A:hover {
+	TEXT-DECORATION: underline
+}
+.backtotop A:hover {
+	TEXT-DECORATION: underline
+}
+.anchorlink A:hover {
+	TEXT-DECORATION: underline
+}
+.cntboxhead H2 A:hover {
+	TEXT-DECORATION: underline
+}
+.anchorlinkul UL {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; MARGIN-LEFT: 10px
+}
+DL {
+	MARGIN: 5px 0px; max-width: 500px
+}
+DT {
+	FONT-WEIGHT: bold; MARGIN-LEFT: 0px
+}
+DD {
+	MARGIN: 0px 0px 15px 20px
+}
+DL {
+	FONT-SIZE: 1em
+}
+.cleardiv {
+	CLEAR: both; PADDING-TOP: 0.1em
+}
+UNKNOWN {
+	PADDING-TOP: 0px
+}
+.frmdefault {
+	PADDING-LEFT: 3px; FONT-SIZE: 1em; COLOR: #666; LINE-HEIGHT: 1em; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.frmtxtflddisable {
+	PADDING-LEFT: 3px; FONT-SIZE: 1em; COLOR: #666; LINE-HEIGHT: 1em; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.frmtxtflddisable {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; COLOR: #838383; BORDER-BOTTOM: #ccc 1px solid; BACKGROUND-COLOR: #fff
+}
+.frmtxtdisable {
+	COLOR: #838383
+}
+.required {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 5px; COLOR: #000; PADDING-TOP: 0px; TEXT-ALIGN: right
+}
+.requiredfont {
+	COLOR: #000
+}
+.alertfont {
+	FONT-WEIGHT: bold; COLOR: #ea272a
+}
+SPAN.alertfont {
+	BACKGROUND-COLOR: #ffff99
+}
+.newindicator {
+	FONT-WEIGHT: bold; COLOR: #ea272a
+}
+SPAN.tbln {
+	BACKGROUND: #ffff99; COLOR: #ea272a
+}
+.disclaim {
+	FONT-SIZE: 0.9em; MARGIN: 5px 0px; COLOR: #333
+}
+.tbldisclaim {
+	FONT-WEIGHT: normal; FONT-SIZE: 1em; BACKGROUND: #e5e5e5; VERTICAL-ALIGN: top; COLOR: #333
+}
+.backtotop {
+	MARGIN: 4px 0px 15px; COLOR: #333; TEXT-ALIGN: right
+}
+.backtotop2 {
+	MARGIN: 4px 0px 15px; COLOR: #333; TEXT-ALIGN: right
+}
+P.backtotop2 {
+	max-width: 10000
+}
+IMG.imgwrapleft {
+	MARGIN: 5px 10px 10px 0px
+}
+IMG.imgwrapright {
+	MARGIN: 5px 0px 10px 10px
+}
+.newindicator {
+	FONT-WEIGHT: bold; COLOR: #cb0c0f
+}
+.nobold {
+	FONT-WEIGHT: normal
+}
+SUP {
+	FONT-SIZE: 0.8em; POSITION: relative; TOP: 1px
+}
+UNKNOWN {
+	FONT-SIZE: 0.7em; TOP: 2px
+}
+.stories {
+	FONT-SIZE: 0.9em; MARGIN: 5px 10px 20px
+}
+.imgcaption {
+	FONT-SIZE: 0.8em; MARGIN: 0px 0px 5px; COLOR: #525252
+}
+#dhtmltooltip {
+	BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #999 1px solid; PADDING-LEFT: 5px; Z-INDEX: 100; FILTER: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135); VISIBILITY: hidden; PADDING-BOTTOM: 5px; BORDER-LEFT: #999 1px solid; WIDTH: 150px; PADDING-TOP: 5px; BORDER-BOTTOM: #999 1px solid; POSITION: absolute
+}
+.fontsize1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 1em
+}
+.fontsize2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.1em
+}
+.fontsize3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.27em
+}
+.fontsize4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.4em
+}
+#mostpoptags A {
+	LINE-HEIGHT: 2em
+}
+.txt-white {
+	COLOR: #ffffff
+}

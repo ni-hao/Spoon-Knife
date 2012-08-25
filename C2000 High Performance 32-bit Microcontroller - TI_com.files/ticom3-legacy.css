@@ -1,0 +1,171 @@
+.requiredfont {
+	COLOR: #cb0c0f
+}
+.advsearch {
+	COLOR: #cb0c0f
+}
+.divline {
+	BACKGROUND: #333
+}
+.divlinelite {
+	BACKGROUND: #ccc
+}
+.hilightTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; MARGIN: 0px; COLOR: #333; FONT-FAMILY: arial, sans-serif
+}
+.hilightBg {
+	BACKGROUND-COLOR: #f4f4f4
+}
+.frmdefaultwhite {
+	FONT: 1em verdana; COLOR: #666; BACKGROUND-COLOR: #fff
+}
+.frmtxtflddefault {
+	FONT: 1em verdana; COLOR: #666; BACKGROUND-COLOR: #fff
+}
+.frmtxtfld {
+	FONT: 1em verdana; COLOR: #666; BACKGROUND-COLOR: #fff
+}
+.frmtxtfldLg {
+	FONT: 1em verdana; COLOR: #666; BACKGROUND-COLOR: #fff
+}
+.frmtxtfldMed {
+	FONT: 1em verdana; COLOR: #666; BACKGROUND-COLOR: #fff
+}
+.frmtxtfldMedAlt {
+	FONT: 1em verdana; COLOR: #666; BACKGROUND-COLOR: #fff
+}
+.frmtxtfldSm {
+	FONT: 1em verdana; COLOR: #666; BACKGROUND-COLOR: #fff
+}
+.frmtxtfldXL {
+	FONT: 1em verdana; COLOR: #666; BACKGROUND-COLOR: #fff
+}
+.frmtxtfld {
+	WIDTH: 170px
+}
+.frmtxtfldLg {
+	WIDTH: 190px
+}
+.frmtxtfldMed {
+	WIDTH: 75px
+}
+.frmtxtfldMedAlt {
+	WIDTH: 50px
+}
+.frmtxtfldSm {
+	WIDTH: 20px
+}
+.frmtxtfldXL {
+	WIDTH: 100%
+}
+.container {
+	BORDER-RIGHT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-LEFT: #999 1px solid; BORDER-BOTTOM: #999 1px solid; BORDER-COLLAPSE: collapse
+}
+.containerborder {
+	BACKGROUND: #666
+}
+.titleIndent {
+	MARGIN: 0px 0px 0px 8px; FONT: bold 13px arial, sans-serif
+}
+.primtitle {
+	BACKGROUND: #9d9fa3; MARGIN: 0px 0px -8px 8px; FONT: bold 13px/20px arial, sans-serif; VERTICAL-ALIGN: text-bottom; COLOR: #fff
+}
+.secdtitle {
+	BACKGROUND: #9d9fa3; MARGIN: 0px 0px -8px 8px; FONT: bold 13px/20px arial, sans-serif; VERTICAL-ALIGN: text-bottom; COLOR: #fff
+}
+.secdtitle {
+	BACKGROUND: #e5e3e4
+}
+.pagetitle {
+	BACKGROUND: #e3f3fe; FONT: bold 25px/30px arial, sans-serif; COLOR: #000
+}
+.subtitle {
+	MARGIN-BOTTOM: 15px; FONT: bold 20px arial, sans-serif; COLOR: #000
+}
+.cntboxhilite {
+	BACKGROUND: #f5f5f5
+}
+.cntboxcnt {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.paraStatSm {
+	FONT-SIZE: 10px; COLOR: #999
+}
+.ptIndentList1 {
+	MARGIN: 0px 0px 2px 28px; TEXT-INDENT: -18px
+}
+.ptIndentList2 {
+	MARGIN: 0px 0px 2px 28px; TEXT-INDENT: -18px
+}
+.ptIndentList3 {
+	MARGIN: 0px 0px 2px 28px; TEXT-INDENT: -18px
+}
+.ptIndentList4 {
+	MARGIN: 0px 0px 2px 28px; TEXT-INDENT: -18px
+}
+.ptIndentList5 {
+	MARGIN: 0px 0px 2px 28px; TEXT-INDENT: -18px
+}
+.ptIndentList6 {
+	MARGIN: 0px 0px 2px 28px; TEXT-INDENT: -18px
+}
+.ptIndentList1 {
+	MARGIN: 10px 0px 2px 10px
+}
+.ptIndentList2 {
+	MARGIN-LEFT: 28px
+}
+.ptIndentList3 {
+	MARGIN-LEFT: 46px
+}
+.ptIndentList4 {
+	MARGIN-LEFT: 64px
+}
+.ptIndentList5 {
+	MARGIN-LEFT: 82px
+}
+.ptIndentList6 {
+	MARGIN-LEFT: 100px
+}
+.ifrmcontent {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BACKGROUND: #fff; MARGIN: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+.techdocdate {
+	FONT-SIZE: 10px; COLOR: #333
+}
+.techdoctitle {
+	FONT-WEIGHT: bold; COLOR: #333
+}
+.techdocfont {
+	COLOR: #333
+}
+.subtitlecolor2 {
+	FONT: bold 11px verdana,arial,sans-serif; COLOR: #000
+}
+.paratableheadernoborder {
+	BACKGROUND: #9d9fa3; FONT: bold 10px verdana,arial,sans-serif; COLOR: #fff
+}
+.paratableshadeon {
+	BACKGROUND: #f7f7f7; COLOR: #333
+}
+.paratableshadeoff {
+	BACKGROUND: #eee; COLOR: #333
+}
+.paratableheader {
+	FONT-WEIGHT: bold; BACKGROUND: #9d9fa3; COLOR: #fff
+}
+.paratableheader A {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.paratableheader A:link {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.paratableheader A:visited {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.paratableheader A:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.paratableheader A {
+	TEXT-DECORATION: none
+}

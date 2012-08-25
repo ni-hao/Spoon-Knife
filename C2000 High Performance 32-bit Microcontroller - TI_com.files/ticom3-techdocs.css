@@ -1,0 +1,306 @@
+#cmpntsrchtechdoc LI LI LI {
+	BACKGROUND: url(http://focus.ti.com/graphics/shared/css/ul-dash.gif) no-repeat 0.8em 0.9em; LINE-HEIGHT: 1em
+}
+UNKNOWN {
+	BACKGROUND-POSITION: 0.7em 0.9em
+}
+#cmpntsrchtechdoc UL LI A.active {
+	BORDER-RIGHT: #ccc 0px solid; PADDING-RIGHT: 0.7em; BORDER-TOP: #ccc 1px solid; DISPLAY: block; PADDING-LEFT: 0.7em; BACKGROUND: #fff; PADDING-BOTTOM: 2px; MARGIN: 0px -0.5em 0px -0.7em; BORDER-LEFT: #ccc 0px solid; COLOR: #000; PADDING-TOP: 2px; BORDER-BOTTOM: #ccc 1px solid; HEIGHT: 14px
+}
+#cmpntsrchtechdoc UL LI A.active:hover {
+	COLOR: #ea272a
+}
+UNKNOWN {
+	HEIGHT: auto
+}
+#cmpntsrchtechdoc UL LI LI A.active {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 1.6em; PADDING-BOTTOM: 2px; MARGIN: 0px -0.5em 0px -1.6em; PADDING-TOP: 2px
+}
+#cmpntsrchtechdoc UL LI LI LI A.active {
+	PADDING-RIGHT: 0.7em; PADDING-LEFT: 2.6em; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/ul-dash.gif) #fff no-repeat 1.9em 0.7em; PADDING-BOTTOM: 2px; MARGIN: 0px -0.5em 0px -2.5em; PADDING-TOP: 2px
+}
+UNKNOWN {
+	PADDING-LEFT: 2.55em; MARGIN-LEFT: -2.55em
+}
+#cmpntsrchtechdoc UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; MARGIN: 0px; COLOR: #666; LINE-HEIGHT: 1.1em; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#cmpntsrchtechdoc LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/none.gif); PADDING-BOTTOM: 0px; PADDING-TOP: 3px
+}
+#cmpntsrchtechdoc LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/none.gif); PADDING-BOTTOM: 0px; PADDING-TOP: 7px
+}
+#cmpntsrchtechdoc LI LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 16px; PADDING-BOTTOM: 0px; PADDING-TOP: 5px
+}
+#cmpntsrchtechdoc .cntboxbody {
+	PADDING-RIGHT: 0.6em; PADDING-LEFT: 10px; PADDING-BOTTOM: 1.1em; PADDING-TOP: 0.5em
+}
+#cmpntsrchtechdoc LI LI LI {
+	BACKGROUND: url(http://focus.ti.com/graphics/shared/css/ul-dash.gif) no-repeat 0.8em 0.9em; LINE-HEIGHT: 1em
+}
+UNKNOWN {
+	BACKGROUND-POSITION: 0.7em 0.9em
+}
+#cmpntsrchtechdoc UL LI A.active {
+	BORDER-RIGHT: #ccc 0px solid; PADDING-RIGHT: 0.7em; BORDER-TOP: #ccc 1px solid; DISPLAY: block; PADDING-LEFT: 0.7em; BACKGROUND: #fff; PADDING-BOTTOM: 2px; MARGIN: 0px -0.5em 0px -0.7em; BORDER-LEFT: #ccc 0px solid; COLOR: #000; PADDING-TOP: 2px; BORDER-BOTTOM: #ccc 1px solid; HEIGHT: 14px
+}
+#cmpntsrchtechdoc UL LI A.active:hover {
+	COLOR: #ea272a
+}
+UNKNOWN {
+	HEIGHT: auto
+}
+#cmpntsrchtechdoc UL LI LI A.active {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 1.6em; PADDING-BOTTOM: 2px; MARGIN: 0px -0.5em 0px -1.6em; PADDING-TOP: 2px
+}
+#cmpntsrchtechdoc UL LI LI LI A.active {
+	PADDING-RIGHT: 0.7em; PADDING-LEFT: 2.6em; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/ul-dash.gif) #fff no-repeat 1.9em 0.7em; PADDING-BOTTOM: 2px; MARGIN: 0px -0.5em 0px -2.5em; PADDING-TOP: 2px
+}
+UNKNOWN {
+	PADDING-LEFT: 2.55em; MARGIN-LEFT: -2.55em
+}
+#cmpntsrchtechdoc UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; MARGIN: 0px; COLOR: #666; LINE-HEIGHT: 1.1em; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#cmpntsrchtechdoc LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/none.gif); PADDING-BOTTOM: 0px; PADDING-TOP: 3px
+}
+#cmpntsrchtechdoc LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/none.gif); PADDING-BOTTOM: 0px; PADDING-TOP: 7px
+}
+#cmpntsrchtechdoc LI LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 16px; PADDING-BOTTOM: 0px; PADDING-TOP: 5px
+}
+#cmpntsrchtechdoc .cntboxbody {
+	PADDING-RIGHT: 0.6em; PADDING-LEFT: 10px; PADDING-BOTTOM: 1.1em; PADDING-TOP: 0.1em
+}
+#cmpntsrchtechdoc .cntboxbody UL LI {
+	MARGIN-TOP: 2px
+}
+#cmpntsrchtechdoc SELECT {
+	MARGIN-TOP: 2px; MARGIN-BOTTOM: 6px; WIDTH: 190px
+}
+#cmpntsrchtechdoc SELECT {
+	FONT-SIZE: 1em; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+#cmpntsrchtechdoc INPUT {
+	FONT-SIZE: 1em; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+#cmpntsrchtechdoc #filter {
+	PADDING-TOP: 5px! important
+}
+#cmpntsrchtechdoc #filter SELECT {
+	WIDTH: 165px
+}
+#cmpntsrchtechdoc #filter INPUT {
+	MARGIN: 3px 3px 5px 0px; VERTICAL-ALIGN: middle
+}
+#cmpntsrchtechdoc .outline {
+	MARGIN-TOP: 5px
+}
+#cmpntsrchtechdoc .disclaim {
+	FLOAT: right
+}
+#cmpntsrchtechdoc A.slctdeslct {
+	MARGIN-TOP: -11px; FONT-SIZE: 0.8em; FLOAT: right; COLOR: #ea272a; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.slctdeslct:link {
+	MARGIN-TOP: -11px; FONT-SIZE: 0.8em; FLOAT: right; COLOR: #ea272a; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.slctdeslct:visited {
+	MARGIN-TOP: -11px; FONT-SIZE: 0.8em; FLOAT: right; COLOR: #ea272a; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.slctdeslct:active {
+	MARGIN-TOP: -11px; FONT-SIZE: 0.8em; FLOAT: right; COLOR: #ea272a; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+#cmpntsrchtechdoc A.slctdeslct:hover {
+	TEXT-DECORATION: underline
+}
+.formGroupBox {
+	BORDER-RIGHT: #9e9d9d 1px solid; BORDER-TOP: #9e9d9d 1px solid; MARGIN-TOP: 5px; PADDING-BOTTOM: 10px; BORDER-LEFT: #9e9d9d 1px solid; BORDER-BOTTOM: #9e9d9d 1px solid
+}
+.formGroupBox #title {
+	MARGIN: -8px 10px 0px 3px; BACKGROUND-COLOR: #f3f1f1
+}
+.formGroupBox .cntbody {
+	MARGIN: -8px 0px -8px 3px
+}
+#cmpntsrchtechdoc .formBtn {
+	MARGIN-TOP: 3px; TEXT-ALIGN: right
+}
+#UIv3hor {
+	WIDTH: 440px
+}
+#UIv3hor .required {
+	MARGIN-TOP: 0px; FLOAT: right; MARGIN-RIGHT: 2px
+}
+#UIv3hor .formBtn {
+	MARGIN: 0px 7px 3px 0px; TEXT-ALIGN: right
+}
+#UIv3hor .leftcol {
+	BORDER-RIGHT: #bababa 1px dotted; PADDING-RIGHT: 20px; WIDTH: 190px; POSITION: relative
+}
+#UIv3hor .rtcol {
+	LEFT: 230px; FLOAT: right; WIDTH: 190px; POSITION: absolute; TOP: 0px
+}
+#UIv3hor .formGroupBox {
+	MARGIN-RIGHT: -20px
+}
+#UIv3hor .formGroupBox #title {
+	MARGIN: -8px 20px 0px 3px; BACKGROUND-COLOR: #f3f1f1
+}
+#UIv3hor A.slctdeslct {
+	FONT-SIZE: 0.8em; FLOAT: right; MARGIN: -11px -21px 0px 0px; COLOR: #ea272a; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.slctdeslct:link {
+	FONT-SIZE: 0.8em; FLOAT: right; MARGIN: -11px -21px 0px 0px; COLOR: #ea272a; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.slctdeslct:visited {
+	FONT-SIZE: 0.8em; FLOAT: right; MARGIN: -11px -21px 0px 0px; COLOR: #ea272a; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.slctdeslct:active {
+	FONT-SIZE: 0.8em; FLOAT: right; MARGIN: -11px -21px 0px 0px; COLOR: #ea272a; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+#UIvar2 .required {
+	MARGIN-TOP: 0px; FLOAT: right; MARGIN-RIGHT: 0px
+}
+#UIvar2 .formGroupBox {
+	MARGIN-RIGHT: 4px
+}
+#UIvar2 .formBtn {
+	MARGIN-TOP: 5px; MARGIN-RIGHT: 4px; TEXT-ALIGN: right
+}
+#UIvar2 A.slctdeslct {
+	FONT-SIZE: 0.8em; FLOAT: right; MARGIN: -11px 3px 0px 0px; COLOR: #ea272a; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.slctdeslct:link {
+	FONT-SIZE: 0.8em; FLOAT: right; MARGIN: -11px 3px 0px 0px; COLOR: #ea272a; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.slctdeslct:visited {
+	FONT-SIZE: 0.8em; FLOAT: right; MARGIN: -11px 3px 0px 0px; COLOR: #ea272a; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.slctdeslct:active {
+	FONT-SIZE: 0.8em; FLOAT: right; MARGIN: -11px 3px 0px 0px; COLOR: #ea272a; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+#UIvar1 .required {
+	MARGIN-TOP: 0px; FLOAT: right; MARGIN-RIGHT: 1px
+}
+#UIvar1 .formGroupBox {
+	MARGIN-RIGHT: 3px
+}
+#UIvar1 .formGroupBox #title {
+	MARGIN: -8px 10px 0px 3px; BACKGROUND-COLOR: #f3f1f1
+}
+#UIvar1 A.slctdeslct {
+	PADDING-RIGHT: 0px! important; FONT-SIZE: 0.8em; FLOAT: right; MARGIN: -11px 3px 0px 0px; COLOR: #ea272a; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.slctdeslct:link {
+	PADDING-RIGHT: 0px! important; FONT-SIZE: 0.8em; FLOAT: right; MARGIN: -11px 3px 0px 0px; COLOR: #ea272a; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.slctdeslct:visited {
+	PADDING-RIGHT: 0px! important; FONT-SIZE: 0.8em; FLOAT: right; MARGIN: -11px 3px 0px 0px; COLOR: #ea272a; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.slctdeslct:active {
+	PADDING-RIGHT: 0px! important; FONT-SIZE: 0.8em; FLOAT: right; MARGIN: -11px 3px 0px 0px; COLOR: #ea272a; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+#UIvar1 .formBtn {
+	MARGIN-TOP: 5px; MARGIN-RIGHT: 3px; TEXT-ALIGN: right; important: 
+}
+#UIvar4 {
+	WHITE-SPACE: nowrap
+}
+.dotline {
+	BORDER-TOP: #bababa 1px dotted
+}
+FORM SELECT {
+	COLOR: #666666
+}
+.formBtn {
+	TEXT-ALIGN: right
+}
+#content2 TABLE DIV.srchRsltsList UL {
+	max-width: 10000px
+}
+#content2 TABLE DIV.srchRsltsList UL {
+	
+}
+.srchRsltsList H2 {
+	MARGIN: 18px 0px 8px
+}
+.srchRsltsList UL.pdf {
+	MARGIN-TOP: -2px
+}
+.srchRsltsList UL.pdf A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.srchRsltsList UL.pdf A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+UL.pdf A:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.srchRsltsList UL.pdf A:visited {
+	COLOR: #996699; TEXT-DECORATION: none
+}
+.srchRsltsList UL.pdf A:hover {
+	COLOR: #ea272a; TEXT-DECORATION: underline
+}
+.srchRsltsList UL.pdf A.abstract:link {
+	COLOR: #ea272a
+}
+.srchRsltsList UL.pdf .abstract {
+	BACKGROUND: url(http://focus.ti.com/graphics/shared/css/none.gif)
+}
+.srchRsltsList P {
+	MARGIN: 0px 0px 1.5em; LINE-HEIGHT: 1.3em; max-width: 500px
+}
+.srchRsltsList P.viewAll {
+	MARGIN: 10px 0px 30px 3px
+}
+.srchRsltsList P.viewAll SPAN {
+	PADDING-RIGHT: 5px; FONT-WEIGHT: bold; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/arrow-right.gif) no-repeat left center; FLOAT: none; WIDTH: 13px; TEXT-ALIGN: left
+}
+.srchRsltsList UL LI UL {
+	MARGIN-TOP: -2px
+}
+.srchRsltsList UL A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.srchRsltsList UL A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+UL.pdf A:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.srchRsltsList UL A:visited {
+	COLOR: #996699; TEXT-DECORATION: none
+}
+.srchRsltsList UL A:hover {
+	COLOR: #ea272a; TEXT-DECORATION: underline
+}
+.srchRsltsList UL A.abstract:link {
+	COLOR: #ea272a
+}
+.srchRsltsList UL .abstract {
+	BACKGROUND: url(http://focus.ti.com/graphics/shared/css/none.gif)
+}
+.portal #UIv3hor .cntboxS4 {
+	BORDER-RIGHT: #fff 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: #fff 0px solid; PADDING-LEFT: 0px; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/none.gif) #f3f1f1; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 20px; BORDER-LEFT: #fff 0px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #fff 0px solid
+}
+.portal #UIv3hor .cntboxS4 .cntboxhead {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/none.gif) #fff; PADDING-BOTTOM: 3px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #ea272a 1px solid
+}
+.portal #UIv3hor .cntboxS4 .cntboxbody {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 10px; BORDER-TOP: 0px; PADDING-LEFT: 10px; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/none.gif); MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 5px; BORDER-LEFT: 0px; LINE-HEIGHT: 1.3em; PADDING-TOP: 0.5em; BORDER-BOTTOM: 0px
+}
+.portal #UIv3hor .cntboxS4 .cntboxhead H2 {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-SIZE: 1.2em; BACKGROUND: url(http://focus.ti.com/graphics/shared/css/none.gif) #fff; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #000; BOTTOM: 0px; PADDING-TOP: 0px
+}
+.portal #UIv3hor .cntboxS4 .cntboxbody LI {
+	COLOR: #666
+}
+.bnhelp {
+	FLOAT: right; MARGIN: 0px 8px 0px 0px
+}

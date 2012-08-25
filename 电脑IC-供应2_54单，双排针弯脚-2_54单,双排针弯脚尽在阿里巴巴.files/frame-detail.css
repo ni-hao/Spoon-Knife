@@ -1,0 +1,141 @@
+BODY {
+	FONT-SIZE: 12px
+}
+#doc {
+	MARGIN: 0px 4px; WIDTH: auto
+}
+#doc2 {
+	MARGIN: auto; WIDTH: 952px
+}
+#ft {
+	CLEAR: both
+}
+#doc2 #hd {
+	MARGIN: 0px 0px 8px; WIDTH: 100%
+}
+#doc2 #bd {
+	MARGIN: 0px 0px 8px; WIDTH: 100%
+}
+#doc2 #ft {
+	MARGIN: 0px 0px 8px; WIDTH: 100%
+}
+.white {
+	COLOR: #ffffff
+}
+A.white:link {
+	COLOR: #ffffff
+}
+A.white:visited {
+	COLOR: #ffffff
+}
+A.white:active {
+	COLOR: #ffffff
+}
+.white_h {
+	COLOR: #ffffff
+}
+A.white_h:link {
+	COLOR: #ffffff
+}
+A.white_h:visited {
+	COLOR: #ffffff
+}
+A.white_h:hover {
+	COLOR: #ffffff
+}
+A.white_h:active {
+	COLOR: #ffffff
+}
+.black {
+	COLOR: #435da8
+}
+A.black:link {
+	COLOR: #435da8
+}
+A.black:visited {
+	COLOR: #435da8
+}
+A.black:active {
+	COLOR: #435da8
+}
+.black_h {
+	COLOR: #435da8
+}
+A.black_h:link {
+	COLOR: #435da8
+}
+A.black_h:visited {
+	COLOR: #435da8
+}
+A.black_h:hover {
+	COLOR: #435da8
+}
+A.black_h:active {
+	COLOR: #435da8
+}
+.orange {
+	COLOR: #ff7300
+}
+A.orange:link {
+	COLOR: #ff7300
+}
+A.orange:visited {
+	COLOR: #ff7300
+}
+A.orange:active {
+	COLOR: #ff7300
+}
+.orange_h {
+	COLOR: #ff7300
+}
+A.orange_h:link {
+	COLOR: #ff7300
+}
+A.orange_h:visited {
+	COLOR: #ff7300
+}
+A.orange_h:hover {
+	COLOR: #ff7300
+}
+A.orange_h:active {
+	COLOR: #ff7300
+}
+A:link {
+	COLOR: #00349a; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #00349a; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff6600; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #00349a; TEXT-DECORATION: underline
+}
+A.line:link {
+	TEXT-DECORATION: underline
+}
+A.line:visited {
+	TEXT-DECORATION: underline
+}
+A.line:hover {
+	TEXT-DECORATION: underline
+}
+A.line:active {
+	TEXT-DECORATION: underline
+}
+A.noline:link {
+	TEXT-DECORATION: none
+}
+A.noline:visited {
+	TEXT-DECORATION: none
+}
+A.noline:hover {
+	TEXT-DECORATION: none
+}
+A.noline:active {
+	TEXT-DECORATION: none
+}
+H1 {
+	FONT-WEIGHT: bold
+}

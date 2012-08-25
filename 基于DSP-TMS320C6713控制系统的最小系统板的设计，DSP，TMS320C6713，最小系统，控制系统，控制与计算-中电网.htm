@@ -1,0 +1,491 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0040)http://www.eccn.com/xsj07/xsj084632w.asp -->
+<HTML><HEAD><TITLE>基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<META content=DSP，TMS320C6713，最小系统，硬件设计，接口电路，控制与计算 name=keywords>
+<META 
+content=基于DSP-TMS320C6713控制系统的最小系统板的设计，主要研究并介绍基于DSP-TMS320C6713控制系统的最小系统板的硬件设计，并就最小系统板设计过程中的注意事项做了详尽阐述。DSP，TMS320C6713，最小系统，硬件设计，接口电路，控制与计算 
+name=description><LINK 
+href="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/maincss.css" 
+type=text/css rel=stylesheet>
+<META content="MSHTML 6.00.2900.5726" name=GENERATOR></HEAD>
+<BODY text=#000000 bgColor=#ffffff topMargin=0>
+<TABLE cellSpacing=0 cellPadding=0 width=949 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD 
+    background=基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/top-bg.jpg 
+    height=67>
+      <TABLE cellSpacing=0 cellPadding=0 width=949 align=center border=0>
+        <TBODY>
+        <TR>
+          <TD width=220><A href="http://www.eccn.com/" target=_blank><IMG 
+            height=67 alt=中电网 
+            src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/eccn.jpg" 
+            width=218 border=0 longDesc=http://www.eccn.com></A> </TD>
+          <TD align=middle width=630><!--ASC Begin:-->
+            <DIV id=asc>
+            <SCRIPT language=JavaScript type=text/javascript>
+ord=Math.random();
+ord=ord*10000000000000000000;
+document.write('<a href="http://ad.cn.doubleclick.net/jump/N3175.ChinaECNet/B3169227;dcadv=1758104;sz=580x60;ord='+ord+'?">');
+document.write('<img src="http://ad.cn.doubleclick.net/ad/N3175.ChinaECNet/B3169227;dcadv=1758104;sz=580x60;ord='+ord+'?" width="580" height="60" border="0" alt="Click Here!" /></a>');
+</SCRIPT>
+            <NOSCRIPT><A 
+            href="http://ad.cn.doubleclick.net/jump/N3175.ChinaECNet/B3169227;dcadv=1758104;sz=580x60;ord=0123456789?"><IMG 
+            height=60 alt="Click Here!" 
+            src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/RAQ_V2_580x60_SC.gif" 
+            width=580 border=0></A> </NOSCRIPT></DIV><!--ASC End--><!--<table><img src="imageeet/download.gif"  border="0"/></table>-->
+            <DIV id=adi><!--<script type="text/javascript">
+	function pr_swfver(){
+	var osf,osfd,i,axo=1,v=0,nv=navigator;
+	if(nv.plugins&&nv.mimeTypes.length){osf=nv.plugins["Shockwave Flash"];if(osf&&osf.description){osfd=osf.description;v=parseInt(osfd.substring(osfd.indexOf(".")-2))}}
+	else{try{for(i=5;axo!=null;i++){axo=new ActiveXObject("ShockwaveFlash.ShockwaveFlash."+i);v=i}}catch(e){}}
+	return v;
+	}
+	var pr_redir="$CTURL$";
+	var pr_nua=navigator.userAgent.toLowerCase();
+	var pr_s="ads.pointroll.com/PortalServe/?pid=627762E54420080620185441&pos=h&flash="+pr_swfver()+"&redir="+pr_redir+"&r="+Math.random();
+	document.write("<ifr"+"ame src='http://"+pr_s+"' name='adi_iframe' id='adi_iframe' width='580' height='60' frameborder=0 marginwidth=0 marginheight=0 scrolling=NO></ifr"+"ame>");
+	</script> --></DIV>
+            <SCRIPT type=text/javascript>
+index = Math.floor(Math.random() * 2); 
+//alert(index);
+//if(index==0)
+//{document.getElementById("asc").style.display="none";
+//}else{document.getElementById("adi").style.display="none";}
+</SCRIPT>
+          </TD>
+          <TD><A 
+            href="javascript:window.external.addFavorite('http://www.eccn.com/','中电网');">加入收藏</A><BR><A 
+            style="CURSOR: url('hand onclick=this.style.behavior='url(#default#homepage)'')">设为首页</A><BR><A 
+            href="http://www.eccn.com/eng/" target=_blank>EN</A>&nbsp;|&nbsp;<A 
+            href="http://www.eccn.com/big5/" 
+      target=_blank>繁体</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width=12 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD height=4></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width=949 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top width=150><IFRAME border=0 name=topifr 
+      src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/login.htm" 
+      frameBorder=0 width=160 scrolling=no height=65></IFRAME></TD>
+    <TD vAlign=top align=right>
+      <TABLE 
+      style="BORDER-RIGHT: #cbd4db 1px solid; BORDER-TOP: #cbd4db 1px solid; BORDER-LEFT: #cbd4db 1px solid; BORDER-BOTTOM: #cbd4db 1px solid; BACKGROUND-COLOR: #f2f5fa" 
+      cellSpacing=0 cellPadding=0 width=787>
+        <TBODY>
+        <TR>
+          <TD align=middle>　</TD>
+          <TD align=middle height=36><A href="http://www.eccn.com/" 
+            target=_blank><IMG height=30 
+            src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/home.gif" 
+            width=30 border=0></A></TD>
+          <TD align=middle><A href="http://news.eccn.com/" target=_blank><IMG 
+            height=30 alt=新闻中心 
+            src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/xwzx.gif" 
+            width=30 border=0 longDesc=http://news.eccn.com/></A></TD>
+          <TD align=middle><A href="http://www.eccn.com/index_xpsl.asp" 
+            target=_blank><IMG height=30 alt=最新产品 
+            src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/xp.gif" 
+            width=30 border=0 longDesc=http://www.eccn.com></A></TD>
+          <TD align=middle><A 
+            href="http://www.eccn.com/index_sjyy.asp?cat=302" target=_blank><IMG 
+            height=30 alt=设计应用 
+            src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/sjyy.gif" 
+            width=30 border=0 longDesc=http://www.eccn.com></A></TD>
+          <TD align=middle><A href="http://seminar.chinaecnet.com/" 
+            target=_blank><IMG height=30 alt=在线座谈 
+            src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/zxzt.gif" 
+            width=40 border=0 longDesc=http://seminar.eccn.com></A></TD>
+          <TD align=middle><A href="http://training.eccn.com/" 
+            target=_blank><IMG height=30 alt=紧缺人才培训 
+            src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/jqrc.gif" 
+            width=30 border=0 longDesc=http://training.eccn.com></A></TD>
+          <TD align=middle><A href="http://www.eccn.com/SYM/index.asp" 
+            target=_blank><IMG height=30 alt=研讨会 
+            src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/yth.gif" 
+            width=30 border=0 longDesc=http://www.eccn.com></A></TD>
+          <TD align=middle><A href="http://shops.eccn.com/" target=_blank><IMG 
+            height=30 alt=在线商店 
+            src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/zxsd.gif" 
+            width=40 border=0 longDesc=http://shops.eccn.com></A></TD>
+          <TD align=middle><A href="http://solution.eccn.com/" 
+            target=_blank><IMG height=30 alt=解决方案 
+            src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/jjfa.gif" 
+            width=30 border=0 longDesc=http://www.eccn.com></A></TD>
+          <TD align=middle><A href="http://baike.eccn.com/" target=_blank><IMG 
+            height=30 alt=电子百科 
+            src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/dzbk.gif" 
+            width=30 border=0 longDesc=http://baike.eccn.com/></A></TD>
+          <TD align=middle><A href="http://blog.eccn.com/" target=_blank><IMG 
+            height=30 
+            src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/bk.gif" 
+            width=30 border=0></A></TD>
+          <TD align=middle><A href="http://bbs.eccn.com/" target=_blank><IMG 
+            height=30 alt=技术论坛 
+            src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/jslt.gif" 
+            width=30 border=0 longDesc=http://bbs.eccn.com></A></TD></TR>
+        <TR>
+          <TD align=middle>　</TD>
+          <TD align=middle height=26><A class=ban href="http://www.eccn.com/" 
+            target=_blank>首页</A></TD>
+          <TD align=middle><A class=ban href="http://news.eccn.com/" 
+            target=_blank>新闻中心</A></TD>
+          <TD align=middle><A class=ban href="http://products.eccn.com/" 
+            target=_blank>最新产品</A></TD>
+          <TD align=middle><A class=ban href="http://design.eccn.com/" 
+            target=_blank>设计应用</A></TD>
+          <TD align=middle><A class=ban href="http://seminar.eccn.com/" 
+            target=_blank>在线座谈</A></TD>
+          <TD align=middle><A class=ban href="http://training.eccn.com/" 
+            target=_blank>紧缺人才培训</A></TD>
+          <TD align=middle><A class=ban 
+            href="http://www.eccn.com/SYM/index.asp" target=_blank>研讨会</A></TD>
+          <TD align=middle><A class=ban href="http://shops.eccn.com/" 
+            target=_blank>电子商城</A></TD>
+          <TD align=middle><A class=ban href="http://solution.eccn.com/" 
+            target=_blank>解决方案</A></TD>
+          <TD align=middle><A class=ban href="http://baike.eccn.com/" 
+            target=_blank>电子百科</A></TD>
+          <TD align=middle><A class=ban href="http://blog.eccn.com/" 
+            target=_blank>博客</A></TD>
+          <TD align=middle><A class=ban href="http://bbs.eccn.com/" 
+            target=_blank>技术论坛</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width=949 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top align=left width=200 rowSpan=3>
+      <TABLE cellSpacing=0 cellPadding=0 width=220 border=0>
+        <TBODY>
+        <TR>
+          <TD><IMG height=5 alt=空白 src="" width=2></TD></TR>
+        <TR>
+          <TD height=72>
+            <TABLE 
+            style="BORDER-RIGHT: #91a7b4 1px solid; BORDER-TOP: #91a7b4 1px solid; BORDER-LEFT: #91a7b4 1px solid; BORDER-BOTTOM: #91a7b4 1px solid" 
+            cellSpacing=0 cellPadding=0 width=220 align=right bgColor=#f2f5fa>
+              <TBODY>
+              <TR>
+                <TD style="PADDING-TOP: 4px" height=72>
+                  <FORM name=form0 action=http://www.eccn.com/newsearch.asp 
+                  method=post target=_blank>
+                  <TABLE cellSpacing=0 cellPadding=0 width="90%" align=right 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD><INPUT class=input size=26 value=请输入检索关键字 
+                        name=keyword></TD></TR>
+                    <TR>
+                      <TD height=8></TD></TR>
+                    <TR>
+                      <TD><SELECT style="WIDTH: 130px" name=options> <OPTION 
+                          value=0 selected>全部</OPTION> <OPTION 
+                          value=1>-新品</OPTION> <OPTION value=2>-新闻</OPTION> 
+                          <OPTION value=3>-设计应用</OPTION> <OPTION 
+                          value=4>-市场聚焦</OPTION> <OPTION 
+                        value=5>-技术频道</OPTION></SELECT> <INPUT class=buttonface type=submit value=查询 name=Submit12></TD></TR></TBODY></TABLE></FORM></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD><IMG height=10 alt=空白 src="" width=2></TD></TR>
+        <TR>
+          <TD>
+            <TABLE 
+            style="BORDER-RIGHT: #91a7b4 1px solid; BORDER-TOP: #91a7b4 1px solid; BACKGROUND: url(http://www.eccn.com/icons/left-bg.jpg); BORDER-LEFT: #91a7b4 1px solid; BORDER-BOTTOM: #91a7b4 1px solid" 
+            cellSpacing=0 cellPadding=0 width=220 align=right>
+              <TBODY>
+              <TR>
+                <TD class=item align=middle 
+                background=基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/left-menu-bg.jpg 
+                colSpan=2 
+              height=20>技&nbsp;&nbsp;术&nbsp;&nbsp;频&nbsp;&nbsp;道</TD></TR>
+              <TR>
+                <TD height=22>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG 
+                  height=4 
+                  src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/POINT.jpg" 
+                  width=4>&nbsp;&nbsp;<A class=channel 
+                  href="http://embed.eccn.com/" target=_blank>嵌入式系统</A> </TD>
+                <TD>&nbsp;&nbsp;<IMG height=4 
+                  src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/POINT.jpg" 
+                  width=4>&nbsp;&nbsp;<A class=channel 
+                  href="http://power.eccn.com/" target=_blank>电源管理</A></TD></TR>
+              <TR>
+                <TD align=middle bgColor=#91a7b4 colSpan=2 height=1></TD></TR>
+              <TR>
+                <TD height=22>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG 
+                  height=4 
+                  src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/POINT.jpg" 
+                  width=4>&nbsp;&nbsp;<A class=channel 
+                  href="http://3g.eccn.com/" target=_blank>3G手机</A> </TD>
+                <TD height=22>&nbsp;&nbsp;<IMG height=4 
+                  src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/POINT.jpg" 
+                  width=4>&nbsp;&nbsp;<A class=channel 
+                  href="http://auto.eccn.com/" target=_blank>汽车电子</A></TD></TR>
+              <TR>
+                <TD align=middle bgColor=#91a7b4 colSpan=2 height=1></TD></TR>
+              <TR>
+                <TD height=21>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG 
+                  height=4 
+                  src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/POINT.jpg" 
+                  width=4>&nbsp;&nbsp;<A class=channel 
+                  href="http://dtv.eccn.com/" target=_blank>数字电视</A></TD>
+                <TD height=21>&nbsp;&nbsp;<IMG height=4 
+                  src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/POINT.jpg" 
+                  width=4>&nbsp;&nbsp;<A class=channel 
+                  href="http://ce.eccn.com/" target=_blank>消费电子</A></TD></TR>
+              <TR>
+                <TD align=middle bgColor=#91a7b4 colSpan=2 height=1></TD></TR>
+              <TR>
+                <TD height=22>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG 
+                  height=4 
+                  src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/POINT.jpg" 
+                  width=4>&nbsp;&nbsp;<A class=channel 
+                  href="http://sensor.eccn.com/" target=_blank>传感器</A></TD>
+                <TD height=22>&nbsp;&nbsp;<IMG height=4 
+                  src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/POINT.jpg" 
+                  width=4>&nbsp;&nbsp;<A class=channel 
+                  href="http://comm.eccn.com/" target=_blank>通信技术</A></TD></TR>
+              <TR>
+                <TD align=middle bgColor=#91a7b4 colSpan=2 height=1></TD></TR>
+              <TR>
+                <TD height=22>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG 
+                  height=4 
+                  src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/POINT.jpg" 
+                  width=4>&nbsp;&nbsp;<A class=channel 
+                  href="http://in.eccn.com/" target=_blank>工业控制</A></TD>
+                <TD height=22>&nbsp;&nbsp;<IMG height=4 
+                  src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/POINT.jpg" 
+                  width=4>&nbsp;&nbsp;<A class=channel 
+                  href="http://testing.eccn.com/" target=_blank>测试测量</A></TD></TR>
+              <TR>
+                <TD align=middle bgColor=#91a7b4 colSpan=2 height=1></TD></TR>
+              <TR>
+                <TD height=21>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG 
+                  height=4 
+                  src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/POINT.jpg" 
+                  width=4>&nbsp;&nbsp;<A class=channel 
+                  href="http://pld.eccn.com/" target=_blank>可编程逻辑</A></TD>
+                <TD height=21>&nbsp;&nbsp;<IMG height=4 
+                  src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/POINT.jpg" 
+                  width=4>&nbsp;&nbsp;<A class=channel 
+                  href="http://rohs.eccn.com/" target=_blank>中国RoHS</A></TD></TR>
+              <TR>
+                <TD align=middle bgColor=#91a7b4 colSpan=2 height=1></TD></TR>
+              <TR>
+                <TD height=21>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG 
+                  height=4 
+                  src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/POINT.jpg" 
+                  width=4>&nbsp;&nbsp;<A class=channel 
+                  href="http://dsp.eccn.com/" target=_blank>DSP与MCU</A></TD>
+                <TD height=21>&nbsp;&nbsp;<IMG height=4 
+                  src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/POINT.jpg" 
+                  width=4>&nbsp;&nbsp;<A class=channel 
+                  href="http://passive.eccn.com/" target=_blank>无源元件</A></TD></TR>
+              <TR>
+                <TD align=middle bgColor=#91a7b4 colSpan=2 height=1></TD></TR>
+              <TR>
+                <TD height=21>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG 
+                  height=4 
+                  src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/POINT.jpg" 
+                  width=4>&nbsp;&nbsp;<A class=channel 
+                  href="http://em.eccn.com/" target=_blank>电子制造</A></TD>
+                <TD height=21>&nbsp;&nbsp;<IMG height=4 
+                  src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/POINT.jpg" 
+                  width=4>&nbsp;&nbsp;<A class=channel 
+                  href="http://analog.eccn.com/" 
+              target=_blank>模拟电路</A></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD height=7></TD></TR>
+        <TR>
+          <TD height=70>
+            <TABLE 
+            style="BORDER-RIGHT: #91a7b4 1px solid; BORDER-TOP: #91a7b4 1px solid; BORDER-LEFT: #91a7b4 1px solid; BORDER-BOTTOM: #91a7b4 1px solid" 
+            cellSpacing=0 cellPadding=0 width=220 align=right bgColor=#f2f5fa>
+              <TBODY>
+              <TR>
+                <TD align=middle><A href="http://baike.eccn.com/" 
+                  target=_blank><IMG height=42 
+                  src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/left_ee.gif" 
+                  width=213 border=0></A></TD></TR>
+              <TR>
+                <TD height=7></TD></TR>
+              <TR>
+                <TD height=60>
+                  <TABLE cellSpacing=0 cellPadding=0 width="96%" align=center 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD><A 
+                        href="http://baike.eccn.com/eewiki/index.php/哈佛结构" 
+                        target=_blank>哈佛结构</A>&nbsp;&nbsp;<A 
+                        href="http://baike.eccn.com/eewiki/index.php/运算放大器" 
+                        target=_blank>运算放大器</A>&nbsp;&nbsp;<A 
+                        href="http://baike.eccn.com/eewiki/index.php/非结晶硅太阳电池" 
+                        target=_blank>非结晶硅太阳电池</A></TD></TR>
+                    <TR>
+                      <TD><A 
+                        href="http://baike.eccn.com/eewiki/index.php/DSP_MCU双核" 
+                        target=_blank>DSP MCU双核</A>&nbsp;&nbsp;<A 
+                        href="http://baike.eccn.com/eewiki/index.php/数据转换器" 
+                        target=_blank>数据转换器</A> &nbsp;<A 
+                        href="http://baike.eccn.com/eewiki/index.php/MODEM" 
+                        target=_blank>MODEM</A></TD></TR>
+                    <TR>
+                      <TD><A 
+                        href="http://baike.eccn.com/eewiki/index.php/专用型DSP" 
+                        target=_blank>专用型DSP</A> &nbsp;&nbsp;<A 
+                        href="http://baike.eccn.com/eewiki/index.php/检波器" 
+                        target=_blank>检波器</A> &nbsp;&nbsp;<A 
+                        href="http://baike.eccn.com/eewiki/index.php/通用型DSP" 
+                        target=_blank>通用型DSP</A></TD></TR>
+                    <TR>
+                      <TD height=20><A href="http://baike.eccn.com/" 
+                        target=_blank><FONT 
+                        color=#0080ff>请您来编写词条</FONT></A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A 
+                        href="http://baike.eccn.com/" 
+                        target=_blank>更多&gt;&gt;</A> 
+              </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD height=7></TD></TR>
+        <TR>
+          <TD height=70>
+            <TABLE 
+            style="BORDER-RIGHT: #91a7b4 1px solid; BORDER-TOP: #91a7b4 1px solid; BORDER-LEFT: #91a7b4 1px solid; BORDER-BOTTOM: #91a7b4 1px solid" 
+            cellSpacing=0 cellPadding=0 width=220 align=right bgColor=#f2f5fa>
+              <TBODY>
+              <TR>
+                <TD align=middle height=304>
+                  <OBJECT 
+                  codeBase=http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0 
+                  height=330 width=150 border=0 
+                  classid=clsid:D27CDB6E-AE6D-11CF-96B8-444553540000><PARAM NAME="movie" VALUE="http://www.eccn.com/icons/150.swf"><PARAM NAME="quality" VALUE="High">
+                                                            <embed 
+                  src="http://www.eccn.com/icons/150.swf"  
+                  pluginspage="http://www.macromedia.com/go/getflashplayer"  
+                  type="application/x-shockwave-flash" width="150" height="330"> 
+                             
+</OBJECT></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+    <TD vAlign=top align=right width=699>
+      <TABLE cellSpacing=0 cellPadding=0 width=675 border=0>
+        <TBODY>
+        <TR>
+          <TD class=l16 height=40>
+            <DIV align=center>基于DSP-TMS320C6713控制系统的最小系统板的设计</DIV></TD></TR>
+        <TR class=l12>
+          <TD height=40>
+            <DIV align=center>宋 玥，高伟强，阎秋生</DIV></TD></TR>
+        <TR class=l12>
+          <TD height=40>
+            <DIV align=center>(广东工业大学 机电工程学院 广东 广州 510006)</DIV></TD></TR>
+        <TR class=l12>
+          <TD>
+            <P><BR><STRONG>1 引言</STRONG><BR></P>
+            <P>TMS320C6713是TI公司推出的一款TMS320C6000系列的浮点DSP芯片。其片内有8个并行的处理单元，单字节字长为32位，从而每周期可以执行8条32位指令；他具有强大的外设支持能力，32位外部存储器接口(EMIF)可以很方便地和SRAM，EPROM，FLASH，SBSRAM和SDRAM等同步和异步存储器或者512 
+            MB的外部存储空间连接。</P>
+            <P>一个DSP硬件系统可以分为最小硬件系统板和外围接口电路2部分，DSP最小板作为开发DSP系统的基础，一般主要包括电源、复位电路、时钟电路、外部存储器总线接口电路、仿真器接口电路等部分，缺一不可。作为控制系统的最小板，需在其外围接入扩展板，以使系统能够实现相应功能，为此，最小板设计扩展板接口，实现DSP与扩展板及其他芯片通信的目的。</P>
+            <P><STRONG>2 系统硬件设计</STRONG></P>
+            <P>结合DSP-TMS320C6713设计最小硬件系统板对其他基于DSP6713搭建的控制系统以及其扩展电路的设计有实际应用价值。最小板结构框图如图1所示：</P>
+            <TABLE width=675>
+              <TBODY>
+              <TR>
+                <TD>
+                  <DIV align=center><IMG height=186 
+                  src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/xsj084632w-1.jpg" 
+                  width=270></DIV></TD></TR></TBODY></TABLE>
+            <P><STRONG>2.1 电源电路</STRONG></P>
+            <P>C6000系列DSP采用的是双电源供电方式，即内核与I／O都需要供电，TMS320C6713BGDP300型DSP，其主频最高可达到300 
+            MHz，他对供电电压的要求是：内核电压(DVDD，device voltage)为1.26 
+            V，I／O电压(CVDD，corevoltage)则与外部其他芯片相同为3.3 
+            V。在电源电路设计的芯片选用上，采用的是TI公司的开关电源DC／DC稳压芯TPS54310，其核电压供电电路如图2所示。3.3 
+            V电源电路可以通过改变分压电阻值来获得，结构与图2相似。</P>
+            <P><STRONG>2.2 复位电路</STRONG></P>
+            <P>DSP6713需要系统在上电时为其提供一个100～200 ms的复位脉冲，并且由于DSP6713的工作频率达到300 
+            MHz，在运行时很可能发生干扰和被干扰的现象，导致系统不稳定以致死机，所以需要自动复位电路具有监视功能(Watchdog)。系统采用的是Maxim公司生产的MAX706监控器，MAX706的外围电路简单，能有效提高系统的可靠性和抗干扰能力。电路如图3(a)所示。</P>
+            <TABLE width=675>
+              <TBODY>
+              <TR>
+                <TD>
+                  <DIV align=center><IMG height=307 
+                  src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/xsj084632w-2.jpg" 
+                  width=400></DIV></TD></TR></TBODY></TABLE>
+            <P><STRONG>2.3 时钟电路</STRONG></P>
+            <P>DSP6713的时钟引脚为CLKIN和ECLKIN。采用频率50 
+            MHz的有源晶振为其提供时钟信号，晶振的输出引脚直接与CLKIN和ECLKIN相连，并通过设置PLL电路的CLKMD0-CLKMD2引脚值来确定倍频系数，经过倍频，产生CPU的工作时钟以及同步接口所需的时钟信号。CLKMD0经1 
+            kΩ的上拉电阻与电源相连，设置为1。如图3(b)所示。</P>
+            <P><STRONG>2.4 JTAG接口电路</STRONG></P>
+            <P>仿真器的JTAG接口都满足IEEE1149.1标准，与仿真器上的接口一致。系统采用标准的14脚接口，在DSP与JTAG接口之间设置由TI公司生产的74CBTD3384场效应管总线开关芯片组成的电路，通过设置1／OE和2／OE输入电平，以起到控制A脚与B脚导通，从而对TMS，TDI，TDO和TCK_RET信号进行缓冲驱动，叫嚣传播中的延迟，并对电路进行过压保护。如图4所示。</P>
+            <P><STRONG>2.5 外部存储器总线接口电路</STRONG></P>
+            <P>根据系统设计的要求，采用外接SST公司生产的16位，8 
+            Mb的FLASH-SST39LF800A，以增大系统程序的存储空间，以提高系统工作效率。同时采用Micron公司的32位，64 
+            Mb的SDRAM MMT48LC2M32B-6，其主频最高可达166 MHz，电路如图5所示。</P>
+            <P>系统采用ROM加载方式，CE0作为SDRAM的寻址空间；CE1作为FLASH的寻址空间，FLASH的加载程序从CE1空间引导装载。当系统复位时，DSP6713通过锁存Bootmode[4…0]，设置好地址0处的存储器类型为MAP0，进入ROM 
+            Bootloader运行方式，DSP6713通过EDMA把CE1中1 
+            kB数据拷贝到地址0处的存储器中，开始从地址0处运行，读取FLASH的程序。FLASH加载流程图如图6(a)所示。为测试SDRAM连接的是否正确，可通过测试程序在SDRAM起始地址0x0000 
+            0000处写入1 k各数据，并将其复制到0x8000 
+            0000处，同时读入数据缓冲区，和写入数据进行比较。测试程序流程图如图6(b)所示。<BR><BR><STRONG>2.6 扩展接口电路 
+            </STRONG></P>
+            <P>作为控制系统的最小系统板，为了与外部扩展板的之间的通讯，使系统模块化，以及满足系统自身及升级的要求，最小系统板为此设计了扩展板接口电路。接口采用96针的针脚式接口，针脚分别分配给地址线、数据线、EMIF接口信号线、电源线、复位线、时钟等。作为扩展板的接口，需在电路输入端加驱动隔离，以保护DSP核心器件，同时增大DSP的驱动能力。为避免最小系统板与扩展板之间的干扰，在接口处需加光电耦合器进行隔离，在此光电耦合器对信号有反向作用，以调整信号的极性。</P>
+            <TABLE width=675>
+              <TBODY>
+              <TR>
+                <TD>
+                  <DIV align=center><IMG height=471 
+                  src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/xsj084632w-3.jpg" 
+                  width=320></DIV></TD></TR></TBODY></TABLE>
+            <P><STRONG>3 其他电路的设计</STRONG></P>
+            <P>(1)由于电路中芯片共用电源，需要在芯片之间接电容电阻去耦，可加33 
+            Ω的排阻以起到减小芯片之间干扰的作用。同时应注意在电源和地之间的去耦，合理分布去耦电容以滤除噪声，提高系统的稳定性。一般对于0402型号0.1μF电容设置在60个左右，其中30个设置在CVDD电路附近，30个设置在DVDD电路附近。并且这些电容放置的位置距DSP不要超过1.25 
+            cm。由于寄生电感会影响电容的工作效率，所以应尽量用体积小的电容。</P>
+            <TABLE width=675>
+              <TBODY>
+              <TR>
+                <TD>
+                  <DIV align=center><IMG height=528 
+                  src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/xsj084632w-4.jpg" 
+                  width=340></DIV></TD></TR></TBODY></TABLE>
+            <P>(2)由于SDRAM在处理、传输数据时会产生大小不一的工作电流，可在SDRAM与DSP之间加入排阻，起到稳压作用，使系统工作更稳定。</P>
+            <P>(3)为了在DSP芯片焊接之后可以直接通过焊盘检测到芯片引脚的状态，可以将这些引脚引出，为其设计测试孔，以确保在以后改动中可直接从这些测试孔跳线。DSP芯片的有些引脚必须接4.7 
+            kΩ或10 kΩ的上拉电阻拉高，例如READY，EMU0，EMU1，HOLD*，XBUS，RSV等。</P>
+            <TABLE width=675>
+              <TBODY>
+              <TR>
+                <TD>
+                  <DIV align=center><IMG height=302 
+                  src="基于DSP-TMS320C6713控制系统的最小系统板的设计，DSP，TMS320C6713，最小系统，控制系统，控制与计算-中电网.files/xsj084632w-5.jpg" 
+                  width=320></DIV></TD></TR></TBODY></TABLE>
+            <P><STRONG>4 结 语</STRONG></P>
+            <P>最小系统板是DSP系统的核心部件，对DSP系统的近一步开发起着重要作用，可根据不同DSP系统的设计要求进行扩展，具有良好的通用性。基于TMS320C6713设计的最小板方案，以电路板的方式运用于厂家生产中，对产品的开发提供了良好的平台，为进一步开发系统提供了基础。<BR></P></TD></TR>
+        <TR>
+          <TD>&nbsp;</TD></TR>
+        <TR>
+          <TD>
+            <DIV 
+  align=center>本文摘自《现代电子技术》</DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width=949 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD align=middle bgColor=#c30819 height=24><A class=white 
+      href="http://www.eccn.com/about/gywm.asp" target=_blank>关于我们 
+      </A>&nbsp;&nbsp;<FONT color=#ffffff>|</FONT>&nbsp;&nbsp; <A class=white 
+      href="http://www.eccn.com/about/nav.asp" target=_blank>网站导航 
+      </A>&nbsp;&nbsp;<FONT color=#ffffff>|</FONT>&nbsp;&nbsp;<A class=white 
+      href="http://www.eccn.com/about/ggzs.asp" target=_blank>广告招商 
+      </A>&nbsp;&nbsp;<FONT color=#ffffff>|</FONT>&nbsp;&nbsp; <A class=white 
+      href="http://www.eccn.com/about/lxff.asp" target=_blank>联系方法</A> 
+      &nbsp;&nbsp;<FONT color=#ffffff>|</FONT>&nbsp;&nbsp; <A class=white 
+      href="http://www.eccn.com/about/zjlt.asp" target=_blank>专家约稿</A><FONT 
+      color=#ffffff> &nbsp;&nbsp;|</FONT>&nbsp;&nbsp; <A class=white 
+      href="http://www.eccn.com/about/link.asp" target=_blank>友情链接</A></TD></TR>
+  <TR>
+    <TD align=middle height=22><A href="http://www.eccn.com/icp.asp" 
+      target=_blank>许可证号：粤<FONT class=eng>ICP</FONT>证<FONT 
+      class=eng>010067</FONT></A></TD></TR>
+  <TR>
+    <TD align=middle height=20><FONT class=eng>Copyright &copy; 2000-2009 
+      ChinaECNet All Rights Reserved</FONT></TD></TR>
+  <TR>
+    <TD align=middle height=20><B>Tel: 010-82888222, 0755-83243191</B></TD></TR>
+  <TR>
+    <TD align=middle height=18><B>Fax: 010-82888220, 
+  0755-83243291</B></TD></TR></TBODY></TABLE></BODY></HTML>

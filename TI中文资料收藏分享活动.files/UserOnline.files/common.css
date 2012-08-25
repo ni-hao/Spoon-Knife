@@ -1,0 +1,399 @@
+BODY {
+	BACKGROUND: #ffffff; FONT: 12px arial,simsun,sans-serif,ËÎÌו; TEXT-ALIGN: center
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H6 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+FIELDSET {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+LI {
+	LIST-STYLE-TYPE: none
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+FIELDSET {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+H1 {
+	FONT-SIZE: 14px
+}
+H2 {
+	FONT-SIZE: 14px
+}
+H3 {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px
+}
+H6 {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px
+}
+LEGEND {
+	DISPLAY: none
+}
+A:link {
+	COLOR: #216b8a; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #216b8a; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #cc6600; TEXT-DECORATION: underline
+}
+A.show:link {
+	COLOR: #cc0000; TEXT-DECORATION: underline
+}
+A.show:visited {
+	COLOR: #cc0000; TEXT-DECORATION: underline
+}
+A.selected:link {
+	COLOR: #cc0000; TEXT-DECORATION: underline
+}
+A.selected:visited {
+	COLOR: #cc0000; TEXT-DECORATION: underline
+}
+A.show:hover {
+	COLOR: #cc6600; TEXT-DECORATION: none
+}
+A.show:active {
+	COLOR: #cc6600; TEXT-DECORATION: none
+}
+A.selected:hover {
+	COLOR: #cc6600; TEXT-DECORATION: none
+}
+A.selected:active {
+	COLOR: #cc6600; TEXT-DECORATION: none
+}
+A.show2:link {
+	COLOR: #cc0000; TEXT-DECORATION: none
+}
+A.show2:visited {
+	COLOR: #cc0000; TEXT-DECORATION: none
+}
+A.show2:hover {
+	COLOR: #cc0000; TEXT-DECORATION: underline
+}
+A.show2:active {
+	COLOR: #cc0000; TEXT-DECORATION: underline
+}
+A.link_black:link {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+A.link_black:visited {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+A.link_black:hover {
+	COLOR: #cc6600; TEXT-DECORATION: none
+}
+A.link_black:active {
+	COLOR: #cc6600; TEXT-DECORATION: none
+}
+A.white:link {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+A.white:visited {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+A.white:hover {
+	COLOR: #cc6600; TEXT-DECORATION: underline
+}
+A.white:active {
+	COLOR: #cc6600; TEXT-DECORATION: underline
+}
+A.link_yellow:link {
+	COLOR: #cc6600; TEXT-DECORATION: underline
+}
+A.link_yellow:visited {
+	COLOR: #cc6600; TEXT-DECORATION: underline
+}
+A.link_yellow:hover {
+	COLOR: #cc6600; TEXT-DECORATION: none
+}
+A.link_yellow:active {
+	COLOR: #cc6600; TEXT-DECORATION: none
+}
+.technical_nav A:link {
+	COLOR: #1f3986; TEXT-DECORATION: none
+}
+.technical_nav A:visited {
+	COLOR: #1f3986; TEXT-DECORATION: none
+}
+.technical_nav A:hover {
+	COLOR: #cc6600; TEXT-DECORATION: none
+}
+A.link_gray:link {
+	COLOR: #9c9e9e; TEXT-DECORATION: none
+}
+A.link_gray:visited {
+	COLOR: #9c9e9e; TEXT-DECORATION: none
+}
+A.link_gray:hover {
+	COLOR: #c60
+}
+A.link_gray:active {
+	COLOR: #c60
+}
+A.sort_link {
+	COLOR: #686868; TEXT-DECORATION: none
+}
+A.sort_link:hover {
+	COLOR: #cc6600; TEXT-DECORATION: none
+}
+A.topblue:link {
+	COLOR: #00608a; TEXT-DECORATION: none
+}
+A.topblue:visited {
+	COLOR: #00608a; TEXT-DECORATION: none
+}
+A.topblue:hover {
+	COLOR: #b70000; TEXT-DECORATION: underline
+}
+A.topblue:active {
+	COLOR: #b70000; TEXT-DECORATION: underline
+}
+.image {
+	BORDER-RIGHT: #e2e2e2 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #e2e2e2 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #e2e2e2 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #e2e2e2 1px solid
+}
+.image_left {
+	FLOAT: left; MARGIN: 5px 15px 10px 0px
+}
+.userface {
+	WIDTH: 50px; HEIGHT: 50px
+}
+.groupimg {
+	WIDTH: 50px; HEIGHT: 50px
+}
+.bold {
+	FONT-WEIGHT: bold
+}
+.white {
+	COLOR: #fff
+}
+.gray {
+	COLOR: #666
+}
+.blue {
+	COLOR: #397599
+}
+.deepred {
+	COLOR: #cc0000
+}
+.author {
+	COLOR: #cc6600
+}
+.cite {
+	COLOR: #cc6600
+}
+.date {
+	FONT-SIZE: 10px; COLOR: #666
+}
+.outline {
+	COLOR: #666; LINE-HEIGHT: 18px; WHITE-SPACE: normal
+}
+.bice {
+	COLOR: #216b8a
+}
+.lightblue {
+	COLOR: #28acf1
+}
+.orange {
+	COLOR: #ff6600
+}
+.center {
+	TEXT-ALIGN: center
+}
+.align_right {
+	TEXT-ALIGN: right
+}
+.clear {
+	CLEAR: both
+}
+.float_left {
+	FLOAT: left
+}
+.float_right {
+	FLOAT: right
+}
+.lh26 {
+	LINE-HEIGHT: 26px
+}
+.lh24 {
+	LINE-HEIGHT: 24px
+}
+.lh22 {
+	LINE-HEIGHT: 22px
+}
+.lh20 {
+	LINE-HEIGHT: 20px
+}
+.lh18 {
+	LINE-HEIGHT: 18px
+}
+.ellipsis {
+	OVERFLOW: hidden; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis
+}
+.f12 {
+	FONT-SIZE: 12px
+}
+.f14 {
+	FONT-SIZE: 14px
+}
+.hidden {
+	DISPLAY: none
+}
+.red {
+	COLOR: red
+}
+.bgline {
+	BACKGROUND: url(http://www.ednchina.com/images/line.gif); MARGIN: 4px auto; HEIGHT: 1px
+}
+.dotted {
+	BORDER-BOTTOM: #999 1px dotted
+}
+.solidline {
+	BORDER-BOTTOM: #999 1px solid
+}
+INPUT.text {
+	BORDER-RIGHT: #bed6e0 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #bed6e0 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 4px; BORDER-LEFT: #bed6e0 1px solid; WIDTH: 150px; COLOR: #848484; PADDING-TOP: 4px; BORDER-BOTTOM: #bed6e0 1px solid; HEIGHT: 14px
+}
+INPUT.radio {
+	WIDTH: auto
+}
+INPUT.checkbox {
+	WIDTH: auto
+}
+INPUT.searchtext {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #999 2px solid; BORDER-LEFT: #999 2px solid; WIDTH: 380px; COLOR: #848484; BORDER-BOTTOM: #ccc 1px solid
+}
+INPUT.newsearchtext {
+	BORDER-RIGHT: #8fa5b2 1px solid; BORDER-TOP: #8fa5b2 1px solid; MARGIN: 0px 2px; BORDER-LEFT: #8fa5b2 1px solid; WIDTH: 260px; COLOR: #848484; BORDER-BOTTOM: #8fa5b2 1px solid
+}
+.mt10px {
+	MARGIN-TOP: 10px
+}
+.mt5px {
+	MARGIN-TOP: 5px
+}
+.ml10px {
+	MARGIN-LEFT: 10px
+}
+.mr10px {
+	MARGIN-RIGHT: 10px
+}
+.mb10px {
+	MARGIN-BOTTOM: 10px
+}
+.mgtb10px {
+	MARGIN-TOP: 10px; MARGIN-BOTTOM: 10px
+}
+.mglr5px {
+	MARGIN-LEFT: 5px; MARGIN-RIGHT: 5px
+}
+.pb10px {
+	PADDING-BOTTOM: 10px
+}
+.pb5px {
+	PADDING-BOTTOM: 5px
+}
+.pt10px {
+	PADDING-TOP: 10px
+}
+.pt5px {
+	PADDING-TOP: 5px
+}
+.pdlr10px {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px
+}
+.pdlr5px {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px
+}
+.mt8 {
+	MARGIN-TOP: 8px
+}
+.pd10px {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.pd3px6px {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.ad DIV {
+	MARGIN-TOP: 10px; BACKGROUND-COLOR: #ecf3f6; TEXT-ALIGN: center
+}
+.hrad DIV {
+	MARGIN-TOP: 10px; BACKGROUND-COLOR: #ecf3f6; TEXT-ALIGN: center
+}
+.ad SPAN {
+	MARGIN-TOP: 10px; BACKGROUND-COLOR: #ecf3f6; TEXT-ALIGN: center
+}
+.hrad SPAN {
+	MARGIN-TOP: 10px; BACKGROUND-COLOR: #ecf3f6; TEXT-ALIGN: center
+}
+.ad DIV {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.techchannelad DIV {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.ad SPAN {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.techchannelad SPAN {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.hrad DIV {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.hrad SPAN {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.ce_adv {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 4px; PADDING-TOP: 5px; BACKGROUND-COLOR: #c5d5e2
+}
+.ad SPAN {
+	DISPLAY: block
+}
+.hrad SPAN {
+	DISPLAY: block
+}
+.ce_adv {
+	DISPLAY: block
+}
+.ad DIV {
+	OVERFLOW: hidden; ZOOM: 1
+}

@@ -1,0 +1,84 @@
+BODY {
+	MARGIN: 0px 0px 2px; BACKGROUND-COLOR: #ffffff
+}
+P {
+	FONT-SIZE: 12px; COLOR: black; LINE-HEIGHT: 1.2em; FONT-FAMILY: "宋体"; LETTER-SPACING: 0.1em
+}
+TR {
+	FONT-SIZE: 12px; COLOR: black; LINE-HEIGHT: 1.2em; FONT-FAMILY: "宋体"; LETTER-SPACING: 0.1em
+}
+TD {
+	FONT-SIZE: 12px; COLOR: black; LINE-HEIGHT: 1.2em; FONT-FAMILY: "宋体"; LETTER-SPACING: 0.1em
+}
+DIV {
+	FONT-SIZE: 12px; COLOR: black; LINE-HEIGHT: 1.2em; FONT-FAMILY: "宋体"; LETTER-SPACING: 0.1em
+}
+FORM {
+	FONT-SIZE: 12px; COLOR: black; LINE-HEIGHT: 1.2em; FONT-FAMILY: "宋体"; LETTER-SPACING: 0.1em
+}
+SELECT {
+	FONT-SIZE: 12px; COLOR: black; LINE-HEIGHT: 1.2em; FONT-FAMILY: "宋体"; LETTER-SPACING: 0.1em
+}
+INPUT {
+	FONT-SIZE: 12px; COLOR: black; LINE-HEIGHT: 1.2em; FONT-FAMILY: "宋体"; LETTER-SPACING: 0.1em
+}
+A:link {
+	TEXT-DECORATION: none
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+A:active {
+	TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: none
+}
+A.aLink {
+	FONT-SIZE: 12px; COLOR: black; LINE-HEIGHT: 1.5em; FONT-FAMILY: "宋体"
+}
+A.aLink:hover {
+	FONT-SIZE: 12px; COLOR: black; LINE-HEIGHT: 1.5em; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+A.aLinkright {
+	FONT-SIZE: 12px; COLOR: black; LINE-HEIGHT: 1.8em; FONT-FAMILY: "宋体"
+}
+A.aLinkright:hover {
+	FONT-SIZE: 12px; COLOR: black; LINE-HEIGHT: 1.8em; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+A.aBeian {
+	FONT-SIZE: 12px; COLOR: #7f7f7f; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+.tList {
+	LINE-HEIGHT: 1.2em
+}
+.tCategoryTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 1.2em; FONT-FAMILY: "宋体"
+}
+.tContent {
+	FONT-SIZE: 12px; LINE-HEIGHT: 1.2em; FONT-FAMILY: "宋体"; LETTER-SPACING: 0.1em; TEXT-ALIGN: justify; TEXT-DECORATION: none
+}
+.tTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 1.2em; FONT-FAMILY: "宋体"
+}
+.tEnglish {
+	FONT-SIZE: 9px; COLOR: #000000; LINE-HEIGHT: 1.2em; FONT-FAMILY: "verdana"
+}
+.tPicSpec {
+	FONT-SIZE: 12px; COLOR: red; LINE-HEIGHT: 1.2em; FONT-FAMILY: "宋体"
+}
+.rLink {
+	FONT-SIZE: 12px; COLOR: #0000ff; LINE-HEIGHT: 1.5em; FONT-FAMILY: "宋体"
+}
+INPUT.iLogin {
+	WIDTH: 110px; BACKGROUND-COLOR: #ffffff
+}
+INPUT.iKeyWord {
+	WIDTH: 110px; BACKGROUND-COLOR: #ffffff
+}
+INPUT.iSelect {
+	BORDER-RIGHT: #989a99 1px solid; BORDER-TOP: #989a99 1px solid; BORDER-LEFT: #989a99 1px solid; WIDTH: 110px; BORDER-BOTTOM: #989a99 1px solid; BACKGROUND-COLOR: #d4b285
+}
+IMG.imgSmaillPic {
+	BORDER-RIGHT: #f3f3f3 1px solid; BORDER-TOP: #f3f3f3 1px solid; BORDER-LEFT: #f3f3f3 1px solid; BORDER-BOTTOM: #f3f3f3 1px solid; BACKGROUND-COLOR: #f3f3f3
+}

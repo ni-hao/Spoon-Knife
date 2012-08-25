@@ -1,0 +1,1591 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0048)http://blog.ednchina.com/xcw/113598/message.aspx -->
+<HTML xmlns="http://www.w3.org/1999/xhtml" xmlns:o = 
+"urn:schemas-microsoft-com:office:office" xmlns:st1 = 
+"urn:schemas-microsoft-com:office:smarttags"><HEAD><TITLE>PCB元件库和封装库的制作 -- xcw's Blog</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<SCRIPT src="PCB元件库和封装库的制作 -- xcw's Blog.files/edn.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT src="PCB元件库和封装库的制作 -- xcw's Blog.files/blog.js" 
+type=text/javascript></SCRIPT>
+<LINK title="" href="PCB元件库和封装库的制作 -- xcw's Blog.files/style.css" type=text/css 
+rel=stylesheet><LINK id=ctl00_ctl00_DiggCss 
+href="PCB元件库和封装库的制作 -- xcw's Blog.files/WebResource.css" type=text/css 
+rel=stylesheet>
+<META content="MSHTML 6.00.2900.5726" name=GENERATOR></HEAD>
+<BODY 
+style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px" 
+onload=resizeImages();>
+<FORM id=aspnetForm name=aspnetForm 
+onsubmit="javascript:return WebForm_OnSubmit();" action=message.aspx 
+method=post>
+<DIV><INPUT id=__EVENTTARGET type=hidden name=__EVENTTARGET> <INPUT 
+id=__EVENTARGUMENT type=hidden name=__EVENTARGUMENT> <INPUT id=__VIEWSTATE 
+type=hidden 
+value=/wEPDwUKMTEzNDA5OTQ5MQ9kFgJmD2QWAmYPZBYCAgMPZBYEAgEPDxYCHgRBcmVhBQVUb3AxOWRkAgMPZBYaAgEPZBYCZg9kFgJmDxUDHWh0dHA6Ly9ibG9nLmVkbmNoaW5hLmNvbS94Y3cvCnhjdydzIEJsb2cAZAICD2QWAmYPZBYEZg8VARA1QzU3MEJBNTRDRUMxQTcyZAIBDxUIZGZhY2UvdHJzLTAxNS5naWYgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAQNUM1NzBCQTU0Q0VDMUE3MgN4Y3cAEDVDNTcwQkE1NENFQzFBNzIDeGN3A3hjdwN4Y3dkAgQPZBYCZg9kFgICAQ8WAh4LXyFJdGVtQ291bnQCBBYIZg9kFgRmDxUEEjx1bCBjbGFzcz0naDkwcHgnPgM2MTkLU1RNMzLlm6LpmJ8LU1RNMzLlm6LpmJ9kAgEPFQUyMjAwOC80LzEyLzI1MjFjOWMyLTVkZjMtNDk0NS1hOGI0LTU0NTI1MDQyZjQ5Ny5qcGcLU1RNMzLlm6LpmJ8DNjE5C1NUTTMy5Zui6ZifAGQCAQ9kFgRmDxUEAAMzMDkV55S15a2Q5Yi25L2c5Lqk5rWB5Yy6FeeUteWtkOWItuS9nOS6pOa1geWMumQCAQ8VBTIyMDA3LzEwLzMvYjM5MjgyODYtMjNmNS00M2ZlLWEyM2ItYzhhY2NmNmY2ZTQyLmpwZxXnlLXlrZDliLbkvZzkuqTmtYHljLoDMzA5FeeUteWtkOWItuS9nOS6pOa1geWMuh48L3VsPjxkaXYgY2xhc3M9J2NsZWFyJz48L2Rpdj5kAgIPZBYEZg8VBBI8dWwgY2xhc3M9J2g5MHB4Jz4CNTYNRlBHQeiuqOiuuue7hA1GUEdB6K6o6K6657uEZAIBDxUFMjIwMDcvNi8yNC80ZWIxYjY4MS1kOTNhLTQ0MzUtOTZmMC04ZmFmOTA5OGNkNmUuZ2lmDUZQR0Horqjorrrnu4QCNTYNRlBHQeiuqOiuuue7hABkAgMPZBYEZg8VBAACMjcVUENC5oqA5pyv5Lqk5rWB5Lit5b+DFVBDQuaKgOacr+S6pOa1geS4reW/g2QCAQ8VBTEyMDA3LzYvOS9mODA5NThiYy02NTI5LTQwMjktODBjYy0xMjc0NGE4ODkyMWMuYm1wFVBDQuaKgOacr+S6pOa1geS4reW/gwIyNxVQQ0LmioDmnK/kuqTmtYHkuK3lv4MePC91bD48ZGl2IGNsYXNzPSdjbGVhcic+PC9kaXY+ZAIFD2QWAmYPZBYCZg8VAQBkAgcPZBYUZg9kFgJmDxUDBTIzMTExCVBDQuWItuS9nAE1ZAIBD2QWAmYPFQMFMjMxMTIJRFNQ5a2m5LmgATNkAgIPZBYCZg8VAwUyMzExMwnljZXniYfmnLoBMWQCAw9kFgJmDxUDBTIzMTE0BEZQR0EBNmQCBA9kFgJmDxUDBTIzMTE1A0FSTQEwZAIFD2QWAmYPFQMFMjMxODgS5qih5ouf55S16Lev6K6+6K6hATBkAgYPZBYCZg8VAwUyMzE4ORLmlbDlrZfnlLXot6/orr7orqEBMGQCBw9kFgJmDxUDBTIzMjE0D+S7quWZqOOAgeS7quihqAExZAIID2QWAmYPFQMFMjM1NTMDR1BTATJkAgkPZBYCZg8VAwUyNDc2NgbmjqXlj6MBNWQCCg9kFgJmD2QWAmYPFQEZPHA+5aSn5a625aW977yB77yB77yBPC9wPmQCCw9kFgRmD2QWAmYPFQMEMjAwOQQyMDA5ATFkAgEPZBYCZg8VAwQyMDA4BDIwMDgCMjJkAgwPZBYKZg9kFgJmDxUEA3hjdwYyMjgyODIQdmVyaWxvZ+eUteWtkOmSnxB2ZXJpbG9n55S15a2Q6ZKfZAIBD2QWAmYPFQQDeGN3BjEyODEwNxLkuLLlj6PnlLXlubPovazmjaIS5Liy5Y+j55S15bmz6L2s5o2iZAICD2QWAmYPFQQDeGN3BjEyODEwNQ80eDTnn6npmLXplK7nm5gPNHg055+p6Zi16ZSu55uYZAIDD2QWAmYPFQQDeGN3BjEyODEwMRblrZfnrKblnovmtrLmmbZMQ0QxNjAyFuWtl+espuWei+a2suaZtkxDRDE2MDJkAgQPZBYCZg8VBAN4Y3cGMTI4MDk0HE1TUDQzMCDmoIflh4YxNOmSiEpUQUfmjqXlj6McTVNQNDMwIOagh+WHhjE06ZKISlRBR+aOpeWPo2QCDQ9kFgpmD2QWAmYPFQUDeGN3BjIyODI4MgU3MTE1OQzlpb3kuJzopb/llYoM5aW95Lic6KW/5ZWKZAIBD2QWAmYPFQUDeGN3BjIyODI4MgU3MDg1MhXlvojlpb3vvIzosKLosKLliIbkuqsV5b6I5aW977yM6LCi6LCi5YiG5LqrZAICD2QWAmYPFQUDeGN3BjExNDM4NwU3MDY5NhXmgI7kuYjop6PkuI3kuobljovlkYAV5oCO5LmI6Kej5LiN5LqG5Y6L5ZGAZAIDD2QWAmYPFQUDeGN3BjExMTIwMAU3MDY2Nz/lkbXlkbXvvIzosKLosKLkuobvvIzlj6/ku6Xnu5nmiJHlj5HkuIDku73kuYhseGxvbmdfMDA2QDEyNi5jb21B5ZG15ZG177yM6LCi6LCi5LqG77yM5Y+v5Lul57uZ5oiR5Y+R5LiA5Lu95LmIbHhsb25nXzAwNkAxMjYuY2/igKZkAgQPZBYCZg8VBQN4Y3cGMTEzNjAwBTcwNTc3KOW+iOWlve+8jOW+iOW8uuWkp++8jOaUtuS4i+S6hu+8jOiwouiwon4o5b6I5aW977yM5b6I5by65aSn77yM5pS25LiL5LqG77yM6LCi6LCifmQCEQ9kFgJmD2QWAmYPFQMCMjMCNDQFMjY1OTVkAhIPZBYCZg9kFgICAQ8WAh8BAgYWDGYPZBYIZg8VARI8dWwgY2xhc3M9J2g5MHB4Jz5kAgEPFQIQMURFQjk3OTgzNUY0MTRCMwVwb3Jjb2QCAg8VAmRmYWNlLzM4ZTkyYzA2LTk5NmYtNGRmZC05ZmJiLWNhMmZiMzFhNDFjZC5qcGcgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgBXBvcmNvZAIDDxUDEDFERUI5Nzk4MzVGNDE0QjMFcG9yY28AZAIBD2QWCGYPFQEAZAIBDxUCEEMzQUQwNDJDNDc2OTc1N0UHaGpoNzkxMmQCAg8VAmRmYWNlL3Rycy0wMDEuZ2lmICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgB2hqaDc5MTJkAgMPFQMQQzNBRDA0MkM0NzY5NzU3RQdoamg3OTEyHjwvdWw+PGRpdiBjbGFzcz0nY2xlYXInPjwvZGl2PmQCAg9kFghmDxUBEjx1bCBjbGFzcz0naDkwcHgnPmQCAQ8VAhBDRDIxQzJBMEU2MzFFMThCEndpbmRtaWxsODBlcmljMTIyNWQCAg8VAmRmYWNlL3Rycy0wMDEuZ2lmICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgEndpbmRtaWxsODBlcmljMTIyNWQCAw8VAxBDRDIxQzJBMEU2MzFFMThCEndpbmRtaWxsODBlcmljMTIyNQBkAgMPZBYIZg8VAQBkAgEPFQIQQzREQTc5N0IyOTdFQjZEMQljb25jaHNvbmdkAgIPFQJkZmFjZS90cnMtMDAxLmdpZiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAljb25jaHNvbmdkAgMPFQMQQzREQTc5N0IyOTdFQjZEMQljb25jaHNvbmcePC91bD48ZGl2IGNsYXNzPSdjbGVhcic+PC9kaXY+ZAIED2QWCGYPFQESPHVsIGNsYXNzPSdoOTBweCc+ZAIBDxUCEENEQUNBQ0YzRTJFOTk4RUEHYWxlY3Nvb2QCAg8VAmRmYWNlLzhkMTMxZmY5LWMwYTktNDc1Yy1iMzNmLWE2YzgwNzQzNjdjNS5qcGcgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgB2FsZWNzb29kAgMPFQMQQ0RBQ0FDRjNFMkU5OThFQQdhbGVjc29vAGQCBQ9kFghmDxUBAGQCAQ8VAhBCOTVEODZENTQ3QjI4RENCCTMxMzc1OTQ5MGQCAg8VAmRmYWNlL3Rycy0wMDEuZ2lmICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCTMxMzc1OTQ5MGQCAw8VAxBCOTVEODZENTQ3QjI4RENCCTMxMzc1OTQ5MB48L3VsPjxkaXYgY2xhc3M9J2NsZWFyJz48L2Rpdj5kAhMPZBYCZg9kFgICAQ8WAh8BAgEWAmYPZBYCZg8VAwN4Y3cFMjMxMTgM6LCD6K+V5Zu+54mHZAIUD2QWBgIBDxYCHwECAhYEAgEPZBYIZg8VBQYxMTM1OTgFNTk0NjgACGxpc3VuMTY4AGQCAQ8PFgQeD0NvbW1hbmRBcmd1bWVudAUFNTk0NjgeB1Zpc2libGVoZGQCAg8VAhMyMDA4LzExLzEzIDE0OjEzOjEyA+WlvWQCAw8PFgQfAgUFNTk0NjgfA2hkZAICD2QWCGYPFQUGMTEzNTk4BTU5NDY5AAhsaXN1bjE2OABkAgEPDxYEHwIFBTU5NDY5HwNoZGQCAg8VAhMyMDA4LzExLzEzIDE0OjEzOjIzA+WlvWQCAw8PFgQfAgUFNTk0NjkfA2hkZAICD2QWBAINDw8WAh4ISW1hZ2VVcmwFKC9WYWxpZGF0ZUNvZGUuYXNweD9jb2RlPTU3RTlEQjFFMkVFRkM4NjlkZAIPDw8WAh4MSW5pdGlhbFZhbHVlBQQ2NzYyZGQCAw8PZA8QFgFmFgEWBB4MRGVmYXVsdFZhbHVlBQYxMTM1OTgeDlBhcmFtZXRlclZhbHVlZBYBAgNkZGQ= 
+name=__VIEWSTATE> </DIV>
+<SCRIPT type=text/javascript>
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</SCRIPT>
+
+<SCRIPT src="PCB元件库和封装库的制作 -- xcw's Blog.files/WebResource.axd" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT type=text/javascript>
+//<![CDATA[
+ad_list +=':1077:';//]]>
+</SCRIPT>
+
+<SCRIPT src="G:\PCB元件库和封装库的制作 -- xcw's Blog.files\WebResource(1).axd" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT type=text/javascript>
+//<![CDATA[
+ var digg_gray="/WebResource.axd?d=zPbGsC2GahdFXzTKhcEAmL7kxNkaM5WPbLpHnwh2cS6Mgfgkr5HvHprWTVfYmxGiOvlNgTObHMoEocoS4T8PQqC_rssA6eBH_fqVL_16AuFhYbt6s5XRubMI6d2-aw8O0&t=633773998325080405";
+ var digg_red="/WebResource.axd?d=zPbGsC2GahdFXzTKhcEAmL7kxNkaM5WPbLpHnwh2cS6Mgfgkr5HvHprWTVfYmxGiOvlNgTObHMoEocoS4T8PQqC_rssA6eBH_fqVL_16AuF5J0xOcp9HJR-vt7rFBhbe0&t=633773998325080405";
+ var digg_blue="/WebResource.axd?d=zPbGsC2GahdFXzTKhcEAmL7kxNkaM5WPbLpHnwh2cS6Mgfgkr5HvHprWTVfYmxGiOvlNgTObHMoEocoS4T8PQqC_rssA6eBH_fqVL_16AuFRAtlXZmdoZX-MOFxygmcP0&t=633773998325080405";
+//]]>
+</SCRIPT>
+
+<SCRIPT src="G:\PCB元件库和封装库的制作 -- xcw's Blog.files\WebResource(2).axd" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT type=text/javascript>
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</SCRIPT>
+
+<DIV><INPUT id=__SCROLLPOSITIONX type=hidden value=0 name=__SCROLLPOSITIONX> 
+<INPUT id=__SCROLLPOSITIONY type=hidden value=0 name=__SCROLLPOSITIONY> </DIV>
+<DIV id=ctl00_ctl00_TopAdvertisemantBar><SPAN><A 
+href="http://blog.ednchina.com/adlink.aspx?did=1077&amp;page=http%3a%2f%2fwww.ednchina.com%2fcustomize%2ftimicrosite%2fcollection.aspx" 
+target=_blank alt="EDN China"><IMG style="WIDTH: 1000px; HEIGHT: 60px" 
+src="PCB元件库和封装库的制作 -- xcw's Blog.files/commmon_1000x60_ad1.gif"></A></SPAN> 
+</DIV>
+<DIV 
+style="MARGIN: 0px auto; WIDTH: 1000px; PADDING-TOP: 5px; HEIGHT: 30px; BACKGROUND-COLOR: white; TEXT-ALIGN: left"><IMG 
+src="PCB元件库和封装库的制作 -- xcw's Blog.files/ednblog-logo.gif">&nbsp;&nbsp; <A 
+title=EDN首页 href="http://www.ednchina.com/">EDN首页</A>&nbsp;&nbsp; <A title=EDN首页 
+href="http://blog.ednchina.com/">博客首页</A> </DIV>
+<DIV id=Blog><!--顶部-->
+<DIV id=Header><!--网站导航-->
+<DIV id=Menu 
+style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px"><A 
+href="http://space.ednchina.com/?returnurl=http%3a%2f%2fblog.ednchina.com%2fxcw%2f113598%2fmessage.aspx">用户登陆</A>&nbsp;&nbsp;|&nbsp;&nbsp;<A 
+href="http://space.ednchina.com/Member/Apply.aspx">注册</A> <!--顶部图片和标题-->
+<DIV id=Banner>
+<DIV id=BlogName><SPAN id=ctl00_ctl00_SkinBody_BlogTitle1><A 
+href="http://blog.ednchina.com/xcw/">
+<H2>xcw's Blog</H2></A>
+<H3></H3></SPAN></DIV></DIV><!--博客导航-->
+<DIV id=BlogMenu><A 
+href="http://www.ednchina.com/">网站首页</A>&nbsp;&nbsp;|&nbsp;&nbsp;<A 
+href="http://blog.ednchina.com/">博客首页</A>&nbsp;&nbsp;|&nbsp;&nbsp;<A 
+href="http://bbs.ednchina.com/">论坛</A>&nbsp;&nbsp;| &nbsp;&nbsp;<A 
+href="http://group.ednchina.com/">小组</A>&nbsp;&nbsp;|&nbsp;&nbsp;<A 
+href="http://blog.ednchina.com/xcw">个人主页</A>&nbsp;&nbsp;|&nbsp;&nbsp; <A 
+href="http://blog.ednchina.com/xcw/0/gallery.aspx">相册</A>&nbsp;&nbsp;|&nbsp;&nbsp; 
+<A href="http://space.ednchina.com/Blog/manage.aspx">管理</A> </DIV></DIV></DIV><!--内容-->
+<DIV id=Container><!--模板工具条-->
+<DIV id=Sidebar><!--用户信息-->
+<DIV class="Square MarginBottom" id=UserInfo>
+<DIV class=Title>
+<H2>个人信息</H2></DIV>
+<DIV class=Content><SPAN id=ctl00_ctl00_SkinBody_PersonInfo1>
+<UL>
+  <LI style="FLOAT: left">
+  <P class=center><A 
+  href="http://space.ednchina.com/userinfo.aspx?ID=5C570BA54CEC1A72" 
+  target=_blank><IMG height=50 alt=个人空间 
+  src="PCB元件库和封装库的制作 -- xcw's Blog.files/trs-015.gif" width=50> </A></P>
+  <P class=center>博主：<A 
+  href="http://space.ednchina.com/userinfo.aspx?ID=5C570BA54CEC1A72" 
+  target=_blank>xcw</A></P>
+  <P></P></LI>
+  <LI style="FLOAT: right">
+  <P><A 
+  href="http://space.ednchina.com/AddFriend.aspx?ID=5C570BA54CEC1A72">+加为好友</A></P>
+  <P><A 
+  href="http://space.ednchina.com/PersonInfo/MessageReply.aspx?ToUser=xcw">+发送站内短信</A></P>
+  <P><A title=我的博客精华 
+  href="http://blog.ednchina.com/xcw/mycool.aspx">+我的博客精华</A></P>
+  <P><A title=我的推荐文章 
+  href="http://blog.ednchina.com/xcw/mysuggest.aspx">+我的推荐文章</A></P></LI></UL>
+<DIV style="CLEAR: both"></DIV></SPAN></DIV>
+<P class=Edit><SPAN id=ctl00_ctl00_SkinBody_BlogLogin1></SPAN></P></DIV>
+<DIV class=clear></DIV>
+<DIV class="Square MarginBottom" id=Newgroup>
+<DIV class=Title>
+<H2>最近加入的小组</H2></DIV>
+<DIV class=Content><SPAN id=ctl00_ctl00_SkinBody_PersonInfo2>
+<UL class=h90px>
+  <LI class=center><SPAN><A title=STM32团队 
+  href="http://group.ednchina.com/619"><IMG height=50 alt=STM32团队 
+  src="PCB元件库和封装库的制作 -- xcw's Blog.files/2521c9c2-5df3-4945-a8b4-54525042f497.jpg" 
+  width=50> </A></SPAN><SPAN class="lh20 pic "><A title=STM32团队 
+  href="http://group.ednchina.com/619">STM32团队</A></SPAN> </LI>
+  <LI class=center><SPAN><A title=电子制作交流区 
+  href="http://group.ednchina.com/309"><IMG height=50 alt=电子制作交流区 
+  src="PCB元件库和封装库的制作 -- xcw's Blog.files/b3928286-23f5-43fe-a23b-c8accf6f6e42.jpg" 
+  width=50> </A></SPAN><SPAN class="lh20 pic "><A title=电子制作交流区 
+  href="http://group.ednchina.com/309">电子制作交流区</A></SPAN> </LI></UL>
+<DIV class=clear></DIV>
+<UL class=h90px>
+  <LI class=center><SPAN><A title=FPGA讨论组 
+  href="http://group.ednchina.com/56"><IMG height=50 alt=FPGA讨论组 
+  src="PCB元件库和封装库的制作 -- xcw's Blog.files/4eb1b681-d93a-4435-96f0-8faf9098cd6e.gif" 
+  width=50> </A></SPAN><SPAN class="lh20 pic "><A title=FPGA讨论组 
+  href="http://group.ednchina.com/56">FPGA讨论组</A></SPAN> </LI>
+  <LI class=center><SPAN><A title=PCB技术交流中心 
+  href="http://group.ednchina.com/27"><IMG height=50 alt=PCB技术交流中心 
+  src="PCB元件库和封装库的制作 -- xcw's Blog.files/f80958bc-6529-4029-80cc-12744a88921c.png" 
+  width=50> </A></SPAN><SPAN class="lh20 pic "><A title=PCB技术交流中心 
+  href="http://group.ednchina.com/27">PCB技术交流中心</A></SPAN> </LI></UL>
+<DIV class=clear></DIV></SPAN></DIV></DIV>
+<DIV class="Square MarginBottom" id=BlogBoard>
+<DIV class=Title>
+<H2>博客公告</H2></DIV>
+<DIV class=Content><SPAN></SPAN></DIV><SPAN></SPAN></DIV><!--用户分类-->
+<DIV class="Square MarginBottom" id=BlogUserCat>
+<DIV class=Title>
+<H2>我的分类</H2></DIV>
+<DIV class=Content><SPAN id=ctl00_ctl00_SkinBody_BlogUserCat1>
+<P><A 
+href="http://blog.ednchina.com/xcw/23111/category.aspx">PCB制作</A>&nbsp;&nbsp;（5） 
+</P>
+<P><A 
+href="http://blog.ednchina.com/xcw/23112/category.aspx">DSP学习</A>&nbsp;&nbsp;（3） 
+</P>
+<P><A 
+href="http://blog.ednchina.com/xcw/23113/category.aspx">单片机</A>&nbsp;&nbsp;（1） 
+</P>
+<P><A 
+href="http://blog.ednchina.com/xcw/23114/category.aspx">FPGA</A>&nbsp;&nbsp;（6） 
+</P>
+<P><A 
+href="http://blog.ednchina.com/xcw/23115/category.aspx">ARM</A>&nbsp;&nbsp;（0） 
+</P>
+<P><A 
+href="http://blog.ednchina.com/xcw/23188/category.aspx">模拟电路设计</A>&nbsp;&nbsp;（0） 
+</P>
+<P><A 
+href="http://blog.ednchina.com/xcw/23189/category.aspx">数字电路设计</A>&nbsp;&nbsp;（0） 
+</P>
+<P><A 
+href="http://blog.ednchina.com/xcw/23214/category.aspx">仪器、仪表</A>&nbsp;&nbsp;（1） 
+</P>
+<P><A 
+href="http://blog.ednchina.com/xcw/23553/category.aspx">GPS</A>&nbsp;&nbsp;（2） 
+</P>
+<P><A 
+href="http://blog.ednchina.com/xcw/24766/category.aspx">接口</A>&nbsp;&nbsp;（5） 
+</P></SPAN></DIV>
+<P class=Edit><SPAN id=ctl00_ctl00_SkinBody_BlogLogin2></SPAN></P></DIV><!--博客日历-->
+<DIV class="Square MarginBottom" id=Kalendar>
+<DIV class=Title>
+<H2>博客日历</H2></DIV>
+<DIV class=Content>
+<TABLE id=ctl00_ctl00_SkinBody_CalendarControl title=Calendar 
+style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 100%; BORDER-COLLAPSE: collapse; BORDER-RIGHT-WIDTH: 0px" 
+cellSpacing=0 cellPadding=2 border=0 h="">
+  <TBODY>
+  <TR>
+    <TD style="HEIGHT: 20px; BACKGROUND-COLOR: white" colSpan=7>
+      <TABLE 
+      style="FONT-WEIGHT: bold; FONT-SIZE: 12px; WIDTH: 100%; COLOR: black; BORDER-COLLAPSE: collapse" 
+      cellSpacing=0 border=0>
+        <TBODY>
+        <TR>
+          <TD style="WIDTH: 15%"><A title="Go to the previous month" 
+            style="COLOR: black" 
+            href="javascript:__doPostBack('ctl00$ctl00$SkinBody$CalendarControl','V3378')">&lt;</A></TD>
+          <TD style="WIDTH: 70%" align=middle>2009年5月</TD>
+          <TD style="WIDTH: 15%" align=right><A title="Go to the next month" 
+            style="COLOR: black" 
+            href="javascript:__doPostBack('ctl00$ctl00$SkinBody$CalendarControl','V3439')">&gt;</A></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TH scope=col align=middle abbr=星期日>日</TH>
+    <TH scope=col align=middle abbr=星期一>一</TH>
+    <TH scope=col align=middle abbr=星期二>二</TH>
+    <TH scope=col align=middle abbr=星期三>三</TH>
+    <TH scope=col align=middle abbr=星期四>四</TH>
+    <TH scope=col align=middle abbr=星期五>五</TH>
+    <TH scope=col align=middle abbr=星期六>六</TH></TR>
+  <TR>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>26</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>27</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>28</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>29</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>30</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>1</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>2</TD></TR>
+  <TR>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>3</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>4</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>5</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>6</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>7</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>8</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>9</TD></TR>
+  <TR>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>10</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>11</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>12</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>13</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>14</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>15</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>16</TD></TR>
+  <TR>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>17</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>18</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>19</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>20</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>21</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>22</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>23</TD></TR>
+  <TR>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>24</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>25</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>26</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>27</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>28</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>29</TD>
+    <TD 
+    style="FONT-WEIGHT: bold; WIDTH: 14%; COLOR: red; HEIGHT: 20px; BACKGROUND-COLOR: white" 
+    align=middle>30</TD></TR>
+  <TR>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>31</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>1</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>2</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>3</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>4</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" align=middle>5</TD>
+    <TD style="WIDTH: 14%; HEIGHT: 20px" 
+align=middle>6</TD></TR></TBODY></TABLE></DIV>
+<P class=Edit></P></DIV><!--博客广告-->
+<DIV class="Square MarginBottom" id=Div1>
+<DIV class=Title>
+<H2>博客广告</H2></DIV>
+<DIV class=Content style="max-width: 247px"><SPAN>
+<P>大家好！！！</P></SPAN>
+<P class=Edit></P></DIV></DIV><!--日志档案-->
+<DIV class="Square MarginBottom" id=BlogArchives>
+<DIV class=Title>
+<H2>日志档案</H2></DIV>
+<DIV class=Content><SPAN id=ctl00_ctl00_SkinBody_BlogComment1>
+<P><A 
+href="http://blog.ednchina.com/xcw/2009/year.aspx">2009年份</A>&nbsp;&nbsp;（1）</P>
+<P><A 
+href="http://blog.ednchina.com/xcw/2008/year.aspx">2008年份</A>&nbsp;&nbsp;（22）</P></SPAN></DIV>
+<P class=Edit></P></DIV><!--最新日志-->
+<DIV class="Square MarginBottom" id=BlogNew>
+<DIV class=Title>
+<H2>最新日志</H2></DIV>
+<DIV class=Content><SPAN id=ctl00_ctl00_SkinBody_BlogNew1>
+<P>·<A title=verilog电子钟 href="http://blog.ednchina.com/xcw/228282/message.aspx"> 
+verilog电子钟 </A></P>
+<P>·<A title=串口电平转换 href="http://blog.ednchina.com/xcw/128107/message.aspx"> 
+串口电平转换 </A></P>
+<P>·<A title=4x4矩阵键盘 href="http://blog.ednchina.com/xcw/128105/message.aspx"> 
+4x4矩阵键盘 </A></P>
+<P>·<A title=字符型液晶LCD1602 
+href="http://blog.ednchina.com/xcw/128101/message.aspx"> 字符型液晶LCD1602 </A></P>
+<P>·<A title="MSP430 标准14针JTAG接口" 
+href="http://blog.ednchina.com/xcw/128094/message.aspx"> MSP430 标准14针JTAG接口 
+</A></P></SPAN></DIV>
+<P class=BlogNewMore><A style="DISPLAY: none" 
+href="http://blog.ednchina.com/lastest.aspx?u=xcw">更多&gt;&gt;</A></P>
+<P class=Edit></P></DIV><!--最新评论-->
+<DIV class="Square MarginBottom" id=BlogComment>
+<DIV class=Title>
+<H2>最新评论</H2></DIV>
+<DIV class=Content><SPAN>
+<P>·<A title=好东西啊 href="http://blog.ednchina.com/xcw/228282/message.aspx#71159"> 
+好东西啊</A></P>
+<P>·<A title=很好，谢谢分享 
+href="http://blog.ednchina.com/xcw/228282/message.aspx#70852"> 很好，谢谢分享</A></P>
+<P>·<A title=怎么解不了压呀 
+href="http://blog.ednchina.com/xcw/114387/message.aspx#70696"> 怎么解不了压呀</A></P>
+<P>·<A title=呵呵，谢谢了，可以给我发一份么lxlong_006@126.com 
+href="http://blog.ednchina.com/xcw/111200/message.aspx#70667">http://blog.ednchina.com/xcw/111200/message.aspx#70667</A></P>
+<P>·<A title=很好，很强大，收下了，谢谢~ 
+href="http://blog.ednchina.com/xcw/113600/message.aspx#70577"> 
+很好，很强大，收下了，谢谢~</A></P></SPAN></DIV><SPAN></SPAN></DIV><!--友情链接-->
+<DIV class="Square MarginBottom" id=FriendLink>
+<DIV class=Title>
+<H2>友情链接</H2></DIV>
+<DIV class=Content><SPAN id=ctl00_ctl00_SkinBody_BlogFriendLink1></SPAN></DIV>
+<P class=Edit><SPAN id=ctl00_ctl00_SkinBody_BlogLogin3></SPAN></P></DIV><!--博客信息-->
+<DIV class="Square MarginBottom" id=BlogInfo>
+<DIV class=Title>
+<H2>博客信息</H2></DIV>
+<DIV class=Content><SPAN id=ctl00_ctl00_SkinBody_BlogInfo1>
+<P>日志总数：23 篇</P>
+<P>评论数量：44</P>
+<P>访问次数：26595</P></SPAN></DIV>
+<P class=Edit></P></DIV><!--访客记录-->
+<DIV class="Square MarginBottom" id=Visitor>
+<DIV class=Title>
+<H2>访客记录</H2></DIV>
+<DIV class=Content><SPAN id=ctl00_ctl00_SkinBody_BlogMessageID1>
+<UL class=h90px>
+  <LI class=center><SPAN><A title=porco 
+  href="http://space.ednchina.com/UserInfo.aspx?id=1DEB979835F414B3"><IMG 
+  height=50 alt="" 
+  src="PCB元件库和封装库的制作 -- xcw's Blog.files/38e92c06-996f-4dfd-9fbb-ca2fb31a41cd.jpg" 
+  width=50> </A></SPAN><SPAN class="lh20 pic "><A title=porco 
+  href="http://space.ednchina.com/UserInfo.aspx?id=1DEB979835F414B3">porco</A></SPAN> 
+  </LI>
+  <LI class=center><SPAN><A title=hjh7912 
+  href="http://space.ednchina.com/UserInfo.aspx?id=C3AD042C4769757E"><IMG 
+  height=50 alt="" src="PCB元件库和封装库的制作 -- xcw's Blog.files/trs-001.gif" width=50> 
+  </A></SPAN><SPAN class="lh20 pic "><A title=hjh7912 
+  href="http://space.ednchina.com/UserInfo.aspx?id=C3AD042C4769757E">hjh7912</A></SPAN> 
+  </LI></UL>
+<DIV class=clear></DIV>
+<UL class=h90px>
+  <LI class=center><SPAN><A title=windmill80eric1225 
+  href="http://space.ednchina.com/UserInfo.aspx?id=CD21C2A0E631E18B"><IMG 
+  height=50 alt="" src="PCB元件库和封装库的制作 -- xcw's Blog.files/trs-001.gif" width=50> 
+  </A></SPAN><SPAN class="lh20 pic "><A title=windmill80eric1225 
+  href="http://space.ednchina.com/UserInfo.aspx?id=CD21C2A0E631E18B">windmill80eric1225</A></SPAN> 
+  </LI>
+  <LI class=center><SPAN><A title=conchsong 
+  href="http://space.ednchina.com/UserInfo.aspx?id=C4DA797B297EB6D1"><IMG 
+  height=50 alt="" src="PCB元件库和封装库的制作 -- xcw's Blog.files/trs-001.gif" width=50> 
+  </A></SPAN><SPAN class="lh20 pic "><A title=conchsong 
+  href="http://space.ednchina.com/UserInfo.aspx?id=C4DA797B297EB6D1">conchsong</A></SPAN> 
+  </LI></UL>
+<DIV class=clear></DIV>
+<UL class=h90px>
+  <LI class=center><SPAN><A title=alecsoo 
+  href="http://space.ednchina.com/UserInfo.aspx?id=CDACACF3E2E998EA"><IMG 
+  height=50 alt="" 
+  src="PCB元件库和封装库的制作 -- xcw's Blog.files/8d131ff9-c0a9-475c-b33f-a6c8074367c5.jpg" 
+  width=50> </A></SPAN><SPAN class="lh20 pic "><A title=alecsoo 
+  href="http://space.ednchina.com/UserInfo.aspx?id=CDACACF3E2E998EA">alecsoo</A></SPAN> 
+  </LI>
+  <LI class=center><SPAN><A title=313759490 
+  href="http://space.ednchina.com/UserInfo.aspx?id=B95D86D547B28DCB"><IMG 
+  height=50 alt="" src="PCB元件库和封装库的制作 -- xcw's Blog.files/trs-001.gif" width=50> 
+  </A></SPAN><SPAN class="lh20 pic "><A title=313759490 
+  href="http://space.ednchina.com/UserInfo.aspx?id=B95D86D547B28DCB">313759490</A></SPAN> 
+  </LI></UL>
+<DIV class=clear></DIV></SPAN></DIV></DIV><!--博客相册-->
+<DIV class="Square MarginBottom" id=album>
+<DIV class=Title>
+<H2>博客相册</H2></DIV>
+<DIV class=Content><SPAN id=ctl00_ctl00_SkinBody_PersonInfo3>
+<P><A href="http://blog.ednchina.com/xcw/23118/gallery.aspx">调试图片</A> 
+</P></SPAN></DIV></DIV></DIV>
+<STYLE type=text/css>A.red:link {
+	COLOR: red; TEXT-DECORATION: underline
+}
+A.red:visited {
+	COLOR: red; TEXT-DECORATION: underline
+}
+A.red:hover {
+	COLOR: #ee9700; TEXT-DECORATION: none
+}
+.simpleblank {
+	DISPLAY: none
+}
+.simpleimg {
+	DISPLAY: block
+}
+</STYLE>
+
+<SCRIPT type=text/javascript>
+    function notifyreply() {
+        alert("请先登录然后下载");
+    }
+</SCRIPT>
+
+<DIV class=DiaryArticle id=ListDiary>
+<DIV id=Article>
+<DIV class=Main>
+<DIV class=Title>
+<H2>日志档案</H2></DIV>
+<DIV class="DiaryMain MarginBottom10">
+<DIV class=PublishTime>发表于 2008/5/7 20:02:20</DIV>
+<DIV class=Content>
+<DIV class=Ballot>
+<DIV class=digg id=ctl00_ctl00_SkinBody_Content_ContentControl_ctl00_Digg2>
+<H4 id=ctl00_ctl00_SkinBody_Content_ContentControl_ctl00_Digg2_display 
+style="opacity: 1">2 </H4><SPAN class=unclicked onmouseover=Digg_Mouseover(this) 
+onclick="if(this.className != 'clicked'){WebForm_DoCallback('ctl00$ctl00$SkinBody$Content$ContentControl$ctl00$Digg2',null,DiggClientCallBack,null,null,true)}" 
+onmouseout=Digg_Mouseout(this)></SPAN></DIV>
+<DIV class=simpleblank><A title=察看所有博客精华文章 
+href="http://blog.ednchina.com/cool.aspx"><IMG 
+id=ctl00_ctl00_SkinBody_Content_ContentControl_ctl00_imgEssent 
+style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px" 
+src=""> </A></DIV></DIV>
+<DIV class=Text>
+<P class=Label>标签： <A title=PCB制作 
+href="http://blog.ednchina.com/Label/PCBå¶ä½.aspx">PCB制作</A>&nbsp;&nbsp;<A 
+title=Protel99 
+href="http://blog.ednchina.com/Label/Protel99.aspx">Protel99</A>&nbsp;&nbsp;<A 
+title=元件库 
+href="http://blog.ednchina.com/Label/åä»¶åº.aspx">元件库</A>&nbsp;&nbsp;<A 
+title=封装库 
+href="http://blog.ednchina.com/Label/å°è£åº.aspx">封装库</A>&nbsp;&nbsp;</P>
+<H1><A 
+href="http://blog.ednchina.com/xcw/113598/message.aspx#">PCB元件库和封装库的制作</A></H1>
+<P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt; TEXT-INDENT: 132.5pt; mso-char-indent-count: 6.0"><SPAN 
+lang=EN-US style="FONT-SIZE: 22pt; FONT-FAMILY: 黑体"><SPAN 
+style="mso-spacerun: yes">&nbsp;&nbsp; </SPAN><o:p></o:p></SPAN></P><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt; TEXT-INDENT: 63.25pt; mso-char-indent-count: 6.0"><B 
+style="mso-bidi-font-weight: normal"><SPAN lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Protel99se</SPAN></B><B style="mso-bidi-font-weight: normal"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">建库规则</SPAN></B></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt; TEXT-INDENT: 63.25pt; mso-char-indent-count: 6.0"><B 
+style="mso-bidi-font-weight: normal"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt"><SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></B>&nbsp;</P></SPAN></SPAN>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 21.25pt; TEXT-INDENT: -21.25pt; mso-list: l1 level1 lfo1; tab-stops: list 21.25pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">框架结构：分为原理图元件库和<SPAN 
+lang=EN-US>PCB</SPAN>元件库两个库<SPAN lang=EN-US>,</SPAN>每个库做为一个单独的设计项目<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 49.6pt; TEXT-INDENT: -1cm; mso-list: l1 level2 lfo1; tab-stops: list 49.6pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.1<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">依据元器件种类，原理图元件库包括以下<SPAN 
+lang=EN-US>16</SPAN>个库：<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.1.1<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">单片机<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.1.2<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">集成电路<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.1.3<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">TTL74</SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">系列<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.1.4<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">COMS</SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">系列<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.1.5<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">二极管、整流器件<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.1.6<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">晶体管：包括三极管、场效应管等<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.1.7<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">晶振<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.1.8<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">电感、变压器件<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.1.9<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">光电器件：包括发光二极管、数码管等<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.1.10<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">接插件：包括排针、条型连接器、防水插头插座等<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.1.11<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">电解电容<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.1.12<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">钽电容<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.1.13<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">无极性电容<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.1.14<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">SMD</SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">电阻<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.1.15<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">其他电阻：包括碳膜电阻、水泥电阻、光敏电阻、压敏电阻等<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.1.16<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">其他元器件：包括蜂鸣器、电源模块、继电器、电池等<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 49.6pt; TEXT-INDENT: -1cm; mso-list: l1 level2 lfo1; tab-stops: list 49.6pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.2<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">依据元器件种类及封装，<SPAN 
+lang=EN-US>PCB</SPAN>元件封装库包括以下<SPAN lang=EN-US>11</SPAN>个库：<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.2.1<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">集成电路（直插）<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.2.2<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">集成电路（贴片）<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.2.3<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">电感<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.2.4<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">电容<SPAN lang=EN-US> 
+<o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.2.5<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">电阻<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.2.6<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">二极管整流器件<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.2.7<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">光电器件<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.2.8<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">接插件<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.2.9<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">晶体管<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.2.10<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">晶振<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">1.2.11<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">其他元器件<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0cm 0cm 0pt"><SPAN lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt"><o:p>&nbsp;</o:p></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 21.25pt; TEXT-INDENT: -21.25pt; mso-list: l1 level1 lfo1; tab-stops: list 21.25pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">2<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">PCB</SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">元件库命名规则<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 49.6pt; TEXT-INDENT: -1cm; mso-list: l1 level2 lfo1; tab-stops: list 49.6pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">2.1<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">集成电路（直插）<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 42.5pt; TEXT-INDENT: 5.25pt; mso-char-indent-count: .5; mso-para-margin-left: 4.05gd"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">用<SPAN 
+lang=EN-US>DIP-</SPAN>引脚数量<SPAN lang=EN-US>+</SPAN>尾缀来表示双列直插封装<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt; TEXT-INDENT: 47.25pt; mso-char-indent-count: 4.5"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">尾缀有<SPAN 
+lang=EN-US>N</SPAN>和<SPAN lang=EN-US>W</SPAN>两种<SPAN 
+lang=EN-US>,</SPAN>用来表示器件的体宽<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt; TEXT-INDENT: 47.25pt; mso-char-indent-count: 4.5"><SPAN 
+lang=EN-US style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">N</SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">为体窄的封装，体宽<SPAN 
+lang=EN-US>300mil,</SPAN>引脚间距<st1:chmetcnv w:st="on" TCSC="0" NumberType="1" 
+Negative="False" HasSpace="False" SourceValue="2.54" UnitName="mm"><SPAN 
+lang=EN-US>2.54mm</SPAN></st1:chmetcnv><SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt; TEXT-INDENT: 47.25pt; mso-char-indent-count: 4.5"><SPAN 
+lang=EN-US style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">W</SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">为体宽的封装<SPAN lang=EN-US>, 
+</SPAN>体宽<SPAN lang=EN-US>600mil,</SPAN>引脚间距<st1:chmetcnv w:st="on" TCSC="0" 
+NumberType="1" Negative="False" HasSpace="False" SourceValue="2.54" 
+UnitName="mm"><SPAN lang=EN-US>2.54mm</SPAN></st1:chmetcnv><SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt; TEXT-INDENT: 47.25pt; mso-char-indent-count: 4.5"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">如：<SPAN 
+lang=EN-US>DIP-16N</SPAN>表示的是体宽<SPAN lang=EN-US>300mil,</SPAN>引脚间距<st1:chmetcnv 
+w:st="on" TCSC="0" NumberType="1" Negative="False" HasSpace="False" 
+SourceValue="2.54" UnitName="mm"><SPAN 
+lang=EN-US>2.54mm</SPAN></st1:chmetcnv>的<SPAN 
+lang=EN-US>16</SPAN>引脚窄体双列直插封装<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 49.6pt; TEXT-INDENT: -1cm; mso-list: l1 level2 lfo1; tab-stops: list 49.6pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">2.2<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">集成电路（贴片）<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 42.5pt; TEXT-INDENT: 5.25pt; mso-char-indent-count: .5; mso-para-margin-left: 4.05gd"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">用<SPAN 
+lang=EN-US>SO-</SPAN>引脚数量<SPAN lang=EN-US>+</SPAN>尾缀表示小外形贴片封装<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 42.5pt; TEXT-INDENT: 5.25pt; mso-char-indent-count: .5; mso-para-margin-left: 4.05gd"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">尾缀有<SPAN 
+lang=EN-US>N</SPAN>、<SPAN lang=EN-US>M</SPAN>和<SPAN lang=EN-US>W</SPAN>三种<SPAN 
+lang=EN-US>,</SPAN>用来表示器件的体宽<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt; TEXT-INDENT: 47.25pt; mso-char-indent-count: 4.5"><SPAN 
+lang=EN-US style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">N</SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">为体窄的封装，体宽<SPAN 
+lang=EN-US>150mil,</SPAN>引脚间距<st1:chmetcnv w:st="on" TCSC="0" NumberType="1" 
+Negative="False" HasSpace="False" SourceValue="1.27" UnitName="mm"><SPAN 
+lang=EN-US>1.27mm</SPAN></st1:chmetcnv><SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt; TEXT-INDENT: 47.25pt; mso-char-indent-count: 4.5"><SPAN 
+lang=EN-US style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">M</SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">为介于<SPAN 
+lang=EN-US>N</SPAN>和<SPAN lang=EN-US>W</SPAN>之间的封装，体宽<SPAN 
+lang=EN-US>208mil,</SPAN>引脚间距<st1:chmetcnv w:st="on" TCSC="0" NumberType="1" 
+Negative="False" HasSpace="False" SourceValue="1.27" UnitName="mm"><SPAN 
+lang=EN-US>1.27mm</SPAN></st1:chmetcnv><SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt; TEXT-INDENT: 47.25pt; mso-char-indent-count: 4.5"><SPAN 
+lang=EN-US style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">W</SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">为体宽的封装<SPAN lang=EN-US>, 
+</SPAN>体宽<SPAN lang=EN-US>300mil,</SPAN>引脚间距<st1:chmetcnv w:st="on" TCSC="0" 
+NumberType="1" Negative="False" HasSpace="False" SourceValue="1.27" 
+UnitName="mm"><SPAN lang=EN-US>1.27mm</SPAN></st1:chmetcnv><SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt; TEXT-INDENT: 47.25pt; mso-char-indent-count: 4.5"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">如：<SPAN 
+lang=EN-US>SO-16N</SPAN>表示的是体宽<SPAN lang=EN-US>150mil</SPAN>，引脚间距<st1:chmetcnv 
+w:st="on" TCSC="0" NumberType="1" Negative="False" HasSpace="False" 
+SourceValue="1.27" UnitName="mm"><SPAN 
+lang=EN-US>1.27mm</SPAN></st1:chmetcnv>的<SPAN 
+lang=EN-US>16</SPAN>引脚的小外形贴片封装<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 42.5pt; TEXT-INDENT: 5.25pt; mso-char-indent-count: .5; mso-para-margin-left: 4.05gd"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">若<SPAN 
+lang=EN-US>SO</SPAN>前面跟<SPAN lang=EN-US>M</SPAN>则表示为微形封装，体宽<SPAN 
+lang=EN-US>118mil,</SPAN>引脚间距<st1:chmetcnv w:st="on" TCSC="0" NumberType="1" 
+Negative="False" HasSpace="False" SourceValue=".65" UnitName="mm"><SPAN 
+lang=EN-US>0.65mm</SPAN></st1:chmetcnv><SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 49.6pt; TEXT-INDENT: -1cm; mso-list: l1 level2 lfo1; tab-stops: list 49.6pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">2.3<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">电阻<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">2.3.1<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">SMD</SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">贴片电阻命名方法为：封装<SPAN 
+lang=EN-US>+R<o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 42.5pt; TEXT-INDENT: 31.5pt; mso-char-indent-count: 3.0; mso-para-margin-left: 4.05gd"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">如：<SPAN 
+lang=EN-US>1812R</SPAN>表示封装大小为<SPAN lang=EN-US>1812</SPAN>的电阻封装<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">2.3.2<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">碳膜电阻命名方法为：<SPAN 
+lang=EN-US>R-</SPAN>封装<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt; TEXT-INDENT: 73.5pt; mso-char-indent-count: 7.0"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">如：<SPAN 
+lang=EN-US>R-AXIAL0.6</SPAN>表示焊盘间距为<st1:chmetcnv w:st="on" TCSC="0" 
+NumberType="1" Negative="False" HasSpace="False" SourceValue=".6" 
+UnitName="英寸"><SPAN lang=EN-US>0.6</SPAN>英寸</st1:chmetcnv>的电阻封装<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">2.3.3<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">水泥电阻命名方法为：<SPAN 
+lang=EN-US>R-</SPAN>型号<SPAN lang=EN-US> <o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 42.5pt; TEXT-INDENT: 31.5pt; mso-char-indent-count: 3.0; mso-para-margin-left: 4.05gd"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">如：<SPAN 
+lang=EN-US>R-SQP5W</SPAN>表示功率为<SPAN lang=EN-US>5W</SPAN>的水泥电阻封装<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 49.6pt; TEXT-INDENT: -1cm; mso-list: l1 level2 lfo1; tab-stops: list 49.6pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">2.4<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">电容<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">2.4.1<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">无极性电容和钽电容命名方法为：封装<SPAN 
+lang=EN-US>+C<o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 42.5pt; TEXT-INDENT: 26.25pt; mso-char-indent-count: 2.5; mso-para-margin-left: 4.05gd"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">如：<st1:chmetcnv w:st="on" 
+TCSC="0" NumberType="1" Negative="False" HasSpace="False" SourceValue="6032" 
+UnitName="C"><SPAN lang=EN-US>6032C</SPAN></st1:chmetcnv>表示封装为<SPAN 
+lang=EN-US>6032</SPAN>的电容封装<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">2.4.2<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">SMT</SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">独石电容命名方法为：<SPAN 
+lang=EN-US>RAD+</SPAN>引脚间距<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0cm 0cm 0pt 70.9pt"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">如：<SPAN 
+lang=EN-US>RAD0.2</SPAN>表示的是引脚间距为<SPAN lang=EN-US>200mil</SPAN>的<SPAN 
+lang=EN-US>SMT</SPAN>独石电容封装<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">2.4.3<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">电解电容命名方法为：<SPAN 
+lang=EN-US>RB+</SPAN>引脚间距<SPAN lang=EN-US>/</SPAN>外径<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 42.5pt; TEXT-INDENT: 26.25pt; mso-char-indent-count: 2.5; mso-para-margin-left: 4.05gd"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">如：</SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">RB.2/.4</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">表示引脚间距为<SPAN 
+lang=EN-US>200mil,</SPAN></SPAN><SPAN lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt"> </SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">外径为<SPAN 
+lang=EN-US>400</SPAN></SPAN><SPAN lang=EN-US 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">mil</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-bidi-font-family: 宋体; mso-font-kerning: 0pt">的电解电容封装</SPAN><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt"><o:p></o:p></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 49.6pt; TEXT-INDENT: -1cm; mso-list: l1 level2 lfo1; tab-stops: list 49.6pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">2.5<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">二极管整流器件<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0cm 0cm 0pt 42.55pt"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">命名方法按照元件实际封装，其中<SPAN 
+lang=EN-US>BAT54</SPAN>和<SPAN lang=EN-US>1N4148</SPAN>封装为<SPAN 
+lang=EN-US>1N4148<o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 49.6pt; TEXT-INDENT: -1cm; mso-list: l1 level2 lfo1; tab-stops: list 49.6pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">2.6<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">晶体管<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 47.45pt; mso-para-margin-left: 4.52gd"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">命名方法按照元件实际封装，其中<SPAN 
+lang=EN-US>SOT-23Q</SPAN>封装的加了<SPAN lang=EN-US>Q</SPAN>以区别集成电路的<SPAN 
+lang=EN-US>SOT-23</SPAN>封装，另外几个场效应管为了调用元件不致出错用元件名作为封装名<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 49.6pt; TEXT-INDENT: -1cm; mso-list: l1 level2 lfo1; tab-stops: list 49.6pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">2.7<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">晶振<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 42.5pt; TEXT-INDENT: 5.25pt; mso-char-indent-count: .5; mso-para-margin-left: 4.05gd"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">HC-49S,HC-49U</SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">为表贴封装，<SPAN 
+lang=EN-US>AT26,AT38</SPAN>为圆柱封装，数字表规格尺寸<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 42.5pt; TEXT-INDENT: 5.25pt; mso-char-indent-count: .5; mso-para-margin-left: 4.05gd"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">如：<SPAN 
+lang=EN-US>AT26</SPAN>表示外径为<st1:chmetcnv w:st="on" TCSC="0" NumberType="1" 
+Negative="False" HasSpace="False" SourceValue="2" UnitName="mm"><SPAN 
+lang=EN-US>2mm</SPAN></st1:chmetcnv>，长度为<st1:chmetcnv w:st="on" TCSC="0" 
+NumberType="1" Negative="False" HasSpace="False" SourceValue="8" 
+UnitName="mm"><SPAN lang=EN-US>8mm</SPAN></st1:chmetcnv>的圆柱封装<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 49.6pt; TEXT-INDENT: -1cm; mso-list: l1 level2 lfo1; tab-stops: list 49.6pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">2.8<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">电感、变压器件<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 42.5pt; TEXT-INDENT: 5.25pt; mso-char-indent-count: .5; mso-para-margin-left: 4.05gd"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">电感封封装采用<SPAN 
+lang=EN-US>TDK</SPAN>公司封装<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 49.6pt; TEXT-INDENT: -1cm; mso-list: l1 level2 lfo1; tab-stops: list 49.6pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">2.9<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">光电器件<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">2.9.1<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">贴片发光二极管命名方法为封装<SPAN 
+lang=EN-US>+D</SPAN>来表示<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 42.5pt; TEXT-INDENT: 26.25pt; mso-char-indent-count: 2.5; mso-para-margin-left: 4.05gd"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">如：<SPAN 
+lang=EN-US>0805D</SPAN>表示封装为<SPAN lang=EN-US>0805</SPAN>的发光二极管<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">2.9.2<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">直插发光二极管表示为<SPAN 
+lang=EN-US>LED-</SPAN>外径<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 42.5pt; TEXT-INDENT: 26.25pt; mso-char-indent-count: 2.5; mso-para-margin-left: 4.05gd"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">如<SPAN 
+lang=EN-US>LED-5</SPAN>表示外径为<st1:chmetcnv w:st="on" TCSC="0" NumberType="1" 
+Negative="False" HasSpace="False" SourceValue="5" UnitName="mm"><SPAN 
+lang=EN-US>5mm</SPAN></st1:chmetcnv>的直插发光二极管<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">2.9.3<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">数码管使用器件自有名称命名<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 49.6pt; TEXT-INDENT: -1cm; mso-list: l1 level2 lfo1; tab-stops: list 49.6pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">2.10<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">接插件<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">2.10.1<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">SIP+</SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">针脚数目<SPAN 
+lang=EN-US>+</SPAN>针脚间距来表示单排插针，引脚间距为两种：<st1:chmetcnv w:st="on" TCSC="0" 
+NumberType="1" Negative="False" HasSpace="False" SourceValue="2" 
+UnitName="mm"><SPAN lang=EN-US>2mm</SPAN></st1:chmetcnv>，<st1:chmetcnv w:st="on" 
+TCSC="0" NumberType="1" Negative="False" HasSpace="False" SourceValue="2.54" 
+UnitName="mm"><SPAN lang=EN-US>2.54mm</SPAN></st1:chmetcnv><SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 42.5pt; TEXT-INDENT: 36.75pt; mso-char-indent-count: 3.5; mso-para-margin-left: 4.05gd"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">如：<SPAN 
+lang=EN-US>SIP7-2.54</SPAN>表示针脚间距为<st1:chmetcnv w:st="on" TCSC="0" 
+NumberType="1" Negative="False" HasSpace="False" SourceValue="2.54" 
+UnitName="mm"><SPAN lang=EN-US>2.54mm</SPAN></st1:chmetcnv>的<SPAN 
+lang=EN-US>7</SPAN>针脚单排插针<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">2.10.2<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">DIP+</SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">针脚数目<SPAN 
+lang=EN-US>+</SPAN>针脚间距来表示双排插针，引脚间距为两种：<st1:chmetcnv w:st="on" TCSC="0" 
+NumberType="1" Negative="False" HasSpace="False" SourceValue="2" 
+UnitName="mm"><SPAN lang=EN-US>2mm</SPAN></st1:chmetcnv>，<st1:chmetcnv w:st="on" 
+TCSC="0" NumberType="1" Negative="False" HasSpace="False" SourceValue="2.54" 
+UnitName="mm"><SPAN lang=EN-US>2.54mm</SPAN></st1:chmetcnv><SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 42.5pt; TEXT-INDENT: 36.75pt; mso-char-indent-count: 3.5; mso-para-margin-left: 4.05gd"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">如：<SPAN 
+lang=EN-US>DIP10-2.54</SPAN>表示针脚间距为<st1:chmetcnv w:st="on" TCSC="0" 
+NumberType="1" Negative="False" HasSpace="False" SourceValue="2.54" 
+UnitName="mm"><SPAN lang=EN-US>2.54mm</SPAN></st1:chmetcnv>的<SPAN 
+lang=EN-US>10</SPAN>针脚双排插针<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l1 level3 lfo1; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">2.10.3<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">其他接插件均按<SPAN 
+lang=EN-US>E3</SPAN>命名<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 49.6pt; TEXT-INDENT: -1cm; mso-list: l1 level2 lfo1; tab-stops: list 49.6pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">2.11<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">其他元器件<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0cm 0cm 0pt 49.6pt"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">详见《<SPAN 
+lang=EN-US>Protel99se</SPAN>元件库清单》<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0cm 0cm 0pt 49.6pt"><SPAN lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt"><o:p>&nbsp;</o:p></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 21.25pt; TEXT-INDENT: -21.25pt; mso-list: l0 level1 lfo2; tab-stops: list 21.25pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">3<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">SCH</SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">元件库命名规则<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 49.6pt; TEXT-INDENT: -1cm; mso-list: l0 level2 lfo2; tab-stops: list 49.6pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">3.1<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">单片机、集成电路、二极管、晶体管、光电器件按照器件自有名称命名<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 49.6pt; TEXT-INDENT: -1cm; mso-list: l0 level2 lfo2; tab-stops: list 49.6pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">3.2<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">TTL74</SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">系列和<SPAN 
+lang=EN-US>COMS</SPAN>系列是从网上找的元件库，封装和编码需要在画原理图时重新设定<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 49.6pt; TEXT-INDENT: -1cm; mso-list: l0 level2 lfo2; tab-stops: list 49.6pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">3.3<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">电阻<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l0 level3 lfo2; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">3.3.1<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">SMD</SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">电阻用阻值命名，后缀加<SPAN 
+lang=EN-US>-F</SPAN>表示<SPAN lang=EN-US>1%</SPAN>精度，如果一种阻值有不同的封装，则在名称后面加上封装<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 42.5pt; TEXT-INDENT: 31.5pt; mso-char-indent-count: 3.0; mso-para-margin-left: 4.05gd"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">如：<SPAN 
+lang=EN-US>3.3-F-1812</SPAN>表示的是精度为<SPAN lang=EN-US>1%</SPAN>，封装为<SPAN 
+lang=EN-US>1812</SPAN>，阻值为<SPAN lang=EN-US>3.3</SPAN>欧的电阻<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l0 level3 lfo2; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">3.3.2<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">碳膜电阻命名方法为：<SPAN 
+lang=EN-US>CR+</SPAN>功率<SPAN lang=EN-US>-</SPAN>阻值<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 42.5pt; TEXT-INDENT: 31.5pt; mso-char-indent-count: 3.0; mso-para-margin-left: 4.05gd"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">如：<SPAN 
+lang=EN-US>CR2W-150</SPAN>表示的是功率为<SPAN lang=EN-US>2W</SPAN>，阻值为<SPAN 
+lang=EN-US>150</SPAN>欧的碳膜电阻<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l0 level3 lfo2; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">3.3.3<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">水泥电阻命名方法为：<SPAN 
+lang=EN-US>R+</SPAN>型号<SPAN lang=EN-US>-</SPAN>阻值<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 42.5pt; TEXT-INDENT: 31.5pt; mso-char-indent-count: 3.0; mso-para-margin-left: 4.05gd"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">如</SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'">：</SPAN><SPAN 
+lang=EN-US>R-SQP5W-100</SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'">表示的是功率为</SPAN><SPAN 
+lang=EN-US>5W</SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'">，阻值为</SPAN><SPAN 
+lang=EN-US>100</SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-ascii-font-family: 'Times New Roman'; mso-hansi-font-family: 'Times New Roman'">欧的水泥电阻</SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l0 level3 lfo2; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">3.3.4<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">保险丝命名方法为：<SPAN 
+lang=EN-US>FUSE-</SPAN>规格型号，规格型号后面加<SPAN lang=EN-US>G</SPAN>则表示保险管<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 42.5pt; TEXT-INDENT: 31.5pt; mso-char-indent-count: 3.0; mso-para-margin-left: 4.05gd"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">如：<SPAN 
+lang=EN-US>FUSE-60V/<st1:chmetcnv w:st="on" TCSC="0" NumberType="1" 
+Negative="False" HasSpace="False" SourceValue=".5" 
+UnitName="a">0.5A</st1:chmetcnv></SPAN>表示的是<SPAN lang=EN-US>60V,<st1:chmetcnv 
+w:st="on" TCSC="0" NumberType="1" Negative="False" HasSpace="False" 
+SourceValue=".5" UnitName="a">0.5A</st1:chmetcnv></SPAN>的保险丝<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 49.6pt; TEXT-INDENT: -1cm; mso-list: l0 level2 lfo2; tab-stops: list 49.6pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">3.4<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">电容<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l0 level3 lfo2; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">3.4.1<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">无极性电容用容值来命名，如果一种容值有不同的封装，则在容值后面加上封装。<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 42.5pt; TEXT-INDENT: 31.5pt; mso-char-indent-count: 3.0; mso-para-margin-left: 4.05gd"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">如：<SPAN 
+lang=EN-US>0.47UF<st1:chmetcnv w:st="on" TCSC="0" NumberType="1" Negative="True" 
+HasSpace="False" SourceValue="805" 
+UnitName="C">-0805C</st1:chmetcnv></SPAN>表示的是容值为<SPAN 
+lang=EN-US>0.47UF</SPAN>，封装为<st1:chmetcnv w:st="on" TCSC="0" NumberType="1" 
+Negative="False" HasSpace="False" SourceValue="805" UnitName="C"><SPAN 
+lang=EN-US>0805C</SPAN></st1:chmetcnv>的电容<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l0 level3 lfo2; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">3.4.2<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">SMT</SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">独石电容命名方法为：容值<SPAN 
+lang=EN-US>-PCB</SPAN>封装<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: 5.25pt; mso-char-indent-count: .5; mso-para-margin-left: 6.75gd"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">如：<SPAN 
+lang=EN-US>39PF-RAD0.2</SPAN>表示的是容值为<SPAN lang=EN-US>39PF</SPAN>，引脚间距为<SPAN 
+lang=EN-US>200mil</SPAN>的<SPAN lang=EN-US>SMT</SPAN>独石电容<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l0 level3 lfo2; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">3.4.3<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">钽电容命名方法为：容值<SPAN 
+lang=EN-US>/</SPAN>耐压值，如果参数相同，只有封装不同，则在耐压值后面加“<SPAN lang=EN-US>_</SPAN>封装”<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 42.5pt; TEXT-INDENT: 31.5pt; mso-char-indent-count: 3.0; mso-para-margin-left: 4.05gd"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">如：<SPAN 
+lang=EN-US>220UF/10V</SPAN>表示的是容值为<SPAN lang=EN-US>220UF</SPAN>，耐压值为<SPAN 
+lang=EN-US>10V</SPAN>的钽电容<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l0 level3 lfo2; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">3.4.4<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">电解电容命名方法为：容值<SPAN 
+lang=EN-US>/</SPAN>耐压值<SPAN lang=EN-US>_E<o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 42.5pt; TEXT-INDENT: 31.5pt; mso-char-indent-count: 3.0; mso-para-margin-left: 4.05gd"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">如：<SPAN 
+lang=EN-US>47UF/35V_E</SPAN>表示的是容值为<SPAN lang=EN-US>47UF</SPAN>，耐压值为<SPAN 
+lang=EN-US>35V</SPAN>的电解电容<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 49.6pt; TEXT-INDENT: -1cm; mso-list: l0 level2 lfo2; tab-stops: list 49.6pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">3.5<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">晶振<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l0 level3 lfo2; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">3.5.1<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">用振荡频率作为<SPAN 
+lang=EN-US>SCH</SPAN>名称<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 49.6pt; TEXT-INDENT: -1cm; mso-list: l0 level2 lfo2; tab-stops: list 49.6pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">3.6<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">电感<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l0 level3 lfo2; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">3.6.1<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">用电感量作为<SPAN 
+lang=EN-US>SCH</SPAN>名称，如果电感量相同，封装不同，则在电感量后面加封装来区分<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 42.5pt; TEXT-INDENT: 31.5pt; mso-char-indent-count: 3.0; mso-para-margin-left: 4.05gd"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">如：<SPAN 
+lang=EN-US>22UH-NLFC3225</SPAN>表示电感量为<SPAN lang=EN-US>22UH</SPAN>，封装为<SPAN 
+lang=EN-US>NLFC3225</SPAN>的电感<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 49.6pt; TEXT-INDENT: -1cm; mso-list: l0 level2 lfo2; tab-stops: list 49.6pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">3.7<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">接插件<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l0 level3 lfo2; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">3.7.1<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">SCH</SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">命名和<SPAN 
+lang=EN-US>PCB</SPAN>命名一致<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 49.6pt; TEXT-INDENT: -1cm; mso-list: l0 level2 lfo2; tab-stops: list 49.6pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">3.8<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">其他元器件<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 70.9pt; TEXT-INDENT: -1cm; mso-list: l0 level3 lfo2; tab-stops: list 70.9pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">3.8.1<SPAN style="FONT: 7pt 'Times New Roman'">&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">命名详见《<SPAN 
+lang=EN-US>Protel99se</SPAN>元件库清单》<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0cm 0cm 0pt"><SPAN lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt"><o:p>&nbsp;</o:p></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 21.25pt; TEXT-INDENT: -21.25pt; mso-list: l2 level1 lfo3; tab-stops: list 21.25pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">4<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体">其他需要说明的<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 49.6pt; TEXT-INDENT: -1cm; mso-list: l2 level2 lfo3; tab-stops: list 49.6pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">4.1<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">SCH</SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">元件库中每一个元件都对应一个元件编码，均和<SPAN 
+lang=EN-US>E3</SPAN>编码一致，这样在生成<SPAN lang=EN-US>PCB</SPAN>元件清单时，直接生成<SPAN 
+lang=EN-US>E3</SPAN>编码<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 49.6pt; TEXT-INDENT: -1cm; mso-list: l2 level2 lfo3; tab-stops: list 49.6pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">4.2<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">《<SPAN 
+lang=EN-US>Protel99se</SPAN>元件库清单》中如果<SPAN lang=EN-US>PCB</SPAN>或<SPAN 
+lang=EN-US>SCH</SPAN>其中有一个空缺，则表示元件库中无此<SPAN lang=EN-US>PCB</SPAN>封装或<SPAN 
+lang=EN-US>SCH</SPAN>原理图<SPAN lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 49.6pt; TEXT-INDENT: -1cm; mso-list: l2 level2 lfo3; tab-stops: list 49.6pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">4.3<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">某些<SPAN 
+lang=EN-US>SCH</SPAN>命名可能画原理图时不太方便，调用时可以稍作修改<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 49.6pt; TEXT-INDENT: -1cm; mso-list: l2 level2 lfo3; tab-stops: list 49.6pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">4.4<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">并非<SPAN 
+lang=EN-US>E3</SPAN>所有电子元器件都列入库内，需要在使用过程中扩充元件库<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 49.6pt; TEXT-INDENT: -1cm; mso-list: l2 level2 lfo3; tab-stops: list 49.6pt"><SPAN 
+lang=EN-US 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt; mso-bidi-font-family: 宋体"><SPAN 
+style="mso-list: Ignore">4.5<SPAN 
+style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</SPAN></SPAN></SPAN><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">有于没有作图经验，建库过程中难免有错误或不合常规之处，还请同仁在使用过程中小心留意，多多指点。</SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0cm 0cm 0pt 49.6pt; TEXT-INDENT: -1cm; mso-list: l2 level2 lfo3; tab-stops: list 49.6pt"><SPAN 
+style="FONT-FAMILY: 宋体; mso-bidi-font-size: 10.5pt">.........<SPAN 
+lang=EN-US><o:p></o:p></SPAN></SPAN></P>
+<P>&nbsp;</P>
+<P></P>
+<P class=TextInfo>系统分类: <A 
+href="http://blog.ednchina.com/10047/Category.aspx">PCB</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;用户分类: 
+<A 
+href="http://blog.ednchina.com/xcw/23111/category.aspx">PCB制作</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;来源: 
+整理&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<A id=aRecommend 
+href="http://article.ednchina.com/tools/mail.aspx?type=blog&amp;id=113598">【推荐给朋友】</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<A 
+id=ctl00_ctl00_SkinBody_Content_ContentControl_ctl00_lbAddFavourite 
+href="javascript:__doPostBack('ctl00$ctl00$SkinBody$Content$ContentControl$ctl00$lbAddFavourite','')">【添加到收藏夹】</A> 
+</P></DIV>
+<DIV class=clear></DIV></DIV>
+<DIV 
+class=DiaryInfo>&nbsp;&nbsp;&nbsp;&nbsp;阅读(4101)&nbsp;&nbsp;&nbsp;&nbsp;回复(2)&nbsp;&nbsp; 
+</DIV></DIV><!--投票-->
+<DIV style="DISPLAY: none; PADDING-BOTTOM: 10px">
+<P><A href="http://blog.ednchina.com/xcw/113598/"><IMG 
+src="PCB元件库和封装库的制作 -- xcw's Blog.files/vote.gif" align=absMiddle></A><SPAN 
+style="PADDING-LEFT: 15px">投一票您将和博主都有获奖机会！</SPAN></P></DIV>
+<DIV id=Comment>
+<DIV id=CommentTitle>
+<H2 style="FLOAT: left">最新评论 </H2></DIV>
+<DIV class=Content>
+<UL>
+  <LI>
+  <P class=Name><A 
+  href="http://blog.ednchina.com/xcw/113598/message.aspx#59468"><IMG 
+  src="PCB元件库和封装库的制作 -- xcw's Blog.files/ico.gif" align=left></A> lisun168 </P>
+  <P class=Time>2008/11/13 14:13:12</P>
+  <P class=Txt>好</P>
+  <LI>
+  <P class=Name><A 
+  href="http://blog.ednchina.com/xcw/113598/message.aspx#59469"><IMG 
+  src="PCB元件库和封装库的制作 -- xcw's Blog.files/ico.gif" align=left></A> lisun168 </P>
+  <P class=Time>2008/11/13 14:13:23</P>
+  <P class=Txt>好</P></LI></UL></DIV>
+<DIV class=FillIn><A name=feedback>
+<TABLE id=simplyreply style="MARGIN-LEFT: 30px">
+  <TBODY>
+  <TR>
+    <TD><SPAN style="MARGIN-RIGHT: 30px">标题</SPAN> <SPAN><INPUT 
+      id=ctl00_ctl00_SkinBody_Content_SimplyReplyControl_SubjectControl 
+      style="WIDTH: 350px" value=re:PCB元件库和封装库的制作 
+      name=ctl00$ctl00$SkinBody$Content$SimplyReplyControl$SubjectControl></SPAN> 
+    </TD></TR>
+  <TR>
+    <TD><SPAN style="MARGIN-RIGHT: 30px">姓名</SPAN> <SPAN><INPUT 
+      id=ctl00_ctl00_SkinBody_Content_SimplyReplyControl_UserNameControl 
+      style="WIDTH: 350px" 
+      name=ctl00$ctl00$SkinBody$Content$SimplyReplyControl$UserNameControl></SPAN> 
+      <SPAN 
+      id=ctl00_ctl00_SkinBody_Content_SimplyReplyControl_RequiredFieldValidator2 
+      style="VISIBILITY: hidden; COLOR: red">必填</SPAN> </TD></TR>
+  <TR>
+    <TD><SPAN style="MARGIN-RIGHT: 30px">主页</SPAN> <SPAN><INPUT 
+      id=ctl00_ctl00_SkinBody_Content_SimplyReplyControl_HomePageControl 
+      style="WIDTH: 350px" 
+      name=ctl00$ctl00$SkinBody$Content$SimplyReplyControl$HomePageControl></SPAN> 
+    </TD></TR>
+  <TR>
+    <TD style="PADDING-LEFT: 64px"><TEXTAREA id=ctl00_ctl00_SkinBody_Content_SimplyReplyControl_ContentControl style="WIDTH: 350px; HEIGHT: 200px" name=ctl00$ctl00$SkinBody$Content$SimplyReplyControl$ContentControl></TEXTAREA> 
+    </TD></TR>
+  <TR>
+    <TD><SPAN style="MARGIN-LEFT: 11px">验证码：</SPAN><INPUT 
+      id=ctl00_ctl00_SkinBody_Content_SimplyReplyControl_EnterCodeControl 
+      style="WIDTH: 50px" maxLength=4 
+      name=ctl00$ctl00$SkinBody$Content$SimplyReplyControl$EnterCodeControl> 
+      <IMG id=ctl00_ctl00_SkinBody_Content_SimplyReplyControl_DisplayCodeControl 
+      style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px" 
+      src="PCB元件库和封装库的制作 -- xcw's Blog.files/ValidateCode.gif"> <SPAN 
+      id=ctl00_ctl00_SkinBody_Content_SimplyReplyControl_ValidateCodeControl 
+      style="VISIBILITY: hidden; COLOR: red">验证码不正确</SPAN> </TD></TR>
+  <TR>
+    <TD><INPUT id=ctl00_ctl00_SkinBody_Content_SimplyReplyControl_Button1 onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$ctl00$SkinBody$Content$SimplyReplyControl$Button1", "", true, "Post", "", false, false))' type=submit value=" 提 交 " name=ctl00$ctl00$SkinBody$Content$SimplyReplyControl$Button1> 
+    </TD></TR></TBODY></TABLE></A></DIV></DIV></DIV></DIV></DIV>
+<SCRIPT src="PCB元件库和封装库的制作 -- xcw's Blog.files/Relation.htm" 
+type=text/javascript></SCRIPT>
+
+<DIV style="CLEAR: both"></DIV></DIV><!--结束--></DIV>
+<SCRIPT type=text/javascript>
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("ctl00_ctl00_SkinBody_Content_SimplyReplyControl_RequiredFieldValidator2"), document.getElementById("ctl00_ctl00_SkinBody_Content_SimplyReplyControl_ValidateCodeControl"));
+//]]>
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+//<![CDATA[
+var ctl00_ctl00_SkinBody_Content_SimplyReplyControl_RequiredFieldValidator2 = document.all ? document.all["ctl00_ctl00_SkinBody_Content_SimplyReplyControl_RequiredFieldValidator2"] : document.getElementById("ctl00_ctl00_SkinBody_Content_SimplyReplyControl_RequiredFieldValidator2");
+ctl00_ctl00_SkinBody_Content_SimplyReplyControl_RequiredFieldValidator2.controltovalidate = "ctl00_ctl00_SkinBody_Content_SimplyReplyControl_UserNameControl";
+ctl00_ctl00_SkinBody_Content_SimplyReplyControl_RequiredFieldValidator2.errormessage = "必填";
+ctl00_ctl00_SkinBody_Content_SimplyReplyControl_RequiredFieldValidator2.validationGroup = "Post";
+ctl00_ctl00_SkinBody_Content_SimplyReplyControl_RequiredFieldValidator2.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ctl00_ctl00_SkinBody_Content_SimplyReplyControl_RequiredFieldValidator2.initialvalue = "";
+var ctl00_ctl00_SkinBody_Content_SimplyReplyControl_ValidateCodeControl = document.all ? document.all["ctl00_ctl00_SkinBody_Content_SimplyReplyControl_ValidateCodeControl"] : document.getElementById("ctl00_ctl00_SkinBody_Content_SimplyReplyControl_ValidateCodeControl");
+ctl00_ctl00_SkinBody_Content_SimplyReplyControl_ValidateCodeControl.controltovalidate = "ctl00_ctl00_SkinBody_Content_SimplyReplyControl_EnterCodeControl";
+ctl00_ctl00_SkinBody_Content_SimplyReplyControl_ValidateCodeControl.validationGroup = "Post";
+//]]>
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+
+WebForm_InitCallback();//]]>
+</SCRIPT>
+</FORM><!-- 统计必备 -->
+<SCRIPT type=text/javascript>
+var referrer = document.referrer;  
+var url = "<scr"+"ipt type=\"text/javascript\" src=\"http://www.ednchina.com/Statistics.aspx?list="+escape(ad_list)+"&referer="+referrer+"\"></script\>";
+document.write(url);
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+try {
+    var pageTracker = _gat._getTracker("UA-115730-2");
+    pageTracker._trackPageview();
+} catch (err) { }
+
+</SCRIPT>
+<!-- 统计必备 --></BODY></HTML>

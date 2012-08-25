@@ -1,0 +1,78 @@
+.footerBox IMG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.footerBox {
+	CLEAR: both; BORDER-TOP: #ff7300 3px solid; FONT-SIZE: 12px; PADDING-BOTTOM: 10px; MARGIN: 10px auto; WIDTH: 99%; PADDING-TOP: 7px; TEXT-ALIGN: center
+}
+.mt_0 {
+	MARGIN-TOP: 0px
+}
+.footerBox A:link {
+	COLOR: #003278; TEXT-DECORATION: none
+}
+.footerBox A:visited {
+	COLOR: #003278; TEXT-DECORATION: none
+}
+.footerBox A:hover {
+	COLOR: #ff6600; TEXT-DECORATION: underline
+}
+.footer {
+	MARGIN: 0px auto; WIDTH: 952px
+}
+.footer UL {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 3px auto; WIDTH: 100%; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; TEXT-ALIGN: center
+}
+.footer LI {
+	BORDER-RIGHT: #666 1px solid; PADDING-RIGHT: 4px; DISPLAY: inline; PADDING-LEFT: 9px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.footer LI.sli {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.footer LI.sli2 {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 1px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.footer .no_border {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.footBox {
+	MARGIN: 0px auto; WIDTH: 952px; TEXT-ALIGN: center
+}
+.foot_corp {
+	CLEAR: both; FONT-SIZE: 12px; MARGIN: 10px auto; WIDTH: 515px
+}
+.foot_corp IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.foot_corp SPAN {
+	FLOAT: left; MARGIN: 0px 5px
+}
+.foot_corp SPAN.img_pd {
+	PADDING-TOP: 15px
+}
+#copyright2 {
+	BACKGROUND-IMAGE: url(http://img.china.alibaba.com/news/upload/00apple/bottom-bg_1242799870583.png); MARGIN: 0px auto; WIDTH: 952px; POSITION: relative; HEIGHT: 66px
+}
+#copyright2 A {
+	DISPLAY: block; POSITION: absolute
+}
+#copyright2 .ft-b1 {
+	LEFT: 105px; WIDTH: 40px; TEXT-INDENT: -9999px; LINE-HEIGHT: 0; TOP: 10px; HEIGHT: 50px
+}
+#copyright2 .ft-b2 {
+	LEFT: 170px; WIDTH: 50px; TEXT-INDENT: -9999px; LINE-HEIGHT: 0; TOP: 10px; HEIGHT: 60px
+}
+#copyright2 .ft-b3 {
+	LEFT: 236px; OVERFLOW: hidden; WIDTH: 132px; WORD-BREAK: break-all; LINE-HEIGHT: 16px; TOP: 20px; HEIGHT: 32px; TEXT-ALIGN: center
+}
+#copyright2 .ft-b4 {
+	LEFT: 383px; OVERFLOW: hidden; WIDTH: 156px; WORD-BREAK: break-all; LINE-HEIGHT: 16px; TOP: 20px; HEIGHT: 32px; TEXT-ALIGN: center
+}
+#copyright2 .ft-b5 {
+	DISPLAY: block; LEFT: 554px; OVERFLOW: hidden; WIDTH: 156px; COLOR: #0048a2; WORD-BREAK: break-all; LINE-HEIGHT: 16px; POSITION: absolute; TOP: 20px; HEIGHT: 32px; TEXT-ALIGN: center
+}
+#copyright2 .ft-b6 {
+	LEFT: 725px; WIDTH: 114px; TEXT-INDENT: -9999px; LINE-HEIGHT: 0; TOP: 10px; HEIGHT: 50px
+}
+#copyright2 .ft-b7 {
+	LEFT: 848px; WIDTH: 50px; TEXT-INDENT: -9999px; LINE-HEIGHT: 0; TOP: 10px; HEIGHT: 50px
+}
