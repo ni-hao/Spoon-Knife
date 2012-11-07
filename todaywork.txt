@@ -1,0 +1,15 @@
+1.review.
+2¡£change the unstaller info.
+
+
+question:
+1.after install, the application start immidately, even when we stall it first time.
+2.if the program without connection, it will not check update.
+
+
+11/07/2012
+1.Buy a domain like www.weihaijian.com
+2.Create a second level domain like boke.weihaijian.com
+4.create a Ubuntu OS of my computer.
+5.Buy a cloud server of alliby.
+6.apply and install my website.
