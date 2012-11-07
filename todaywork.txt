@@ -1,5 +1,5 @@
 1.review.
-2¡£change the unstaller info.
+2ï¿½ï¿½change the unstaller info.
 
 
 question:
@@ -8,6 +8,7 @@ question:
 
 
 11/07/2012
+1.Buy a electricity von and quilt
 1.Buy a domain like www.weihaijian.com
 2.Create a second level domain like boke.weihaijian.com
 4.create a Ubuntu OS of my computer.
