@@ -1,0 +1,111 @@
+﻿body {
+}
+
+.container {
+	clear:both; 
+	margin:0 auto;
+	width:1100px;
+	height:100%;
+	background-color: #6985C7;
+	position:relative;
+	display:block;
+}
+
+.container:after {
+    content: "."; 
+    display: block;
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.question{ margin:10px 10px; height:auto; float:left;
+width:90%;
+	background-color: #D7DBDE;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding: 5px;
+}
+
+.choices{margin:0 10px; height:auto; float:left;
+width:90%;
+	background-color: #6985C7;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding: 5px;
+}
+
+.oneChoice{float:left; background:#ffffff;
+	display:block;
+	background-color: #6985C7;
+}
+
+.radio{ margin:5px 20px 0px 20px;
+ float:none;
+	background-color: #6985C7;
+}
+
+.image{ margin:5px 20px;
+ float:left;
+	background-color: #6985C7;
+}
+
+
+img {
+	background: #fff;
+	border: solid 1px #ccc;
+	padding:4px;
+}
+
+
+
+
+/*------drag and drop------*/
+
+
+.dropArea {
+	margin-top: 20px;
+	float: left;
+	width:90%;
+	padding:10px;
+}
+
+.dragArea {
+	margin-top: 20px;
+	float: left;
+	width:90%;
+	padding:10px;
+}
+.choiceText {
+	margin-top: 10px;
+	float: left;
+	margin-left: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+.drop {
+	background-image: url(../img/mydrop.png);
+	height: 151px;
+	width: 130px;
+	float: left;
+	margin:10px;
+}
+
+.dragimgdiv {
+	float: left;
+}
+
+.imageSpace {
+	width: 20px;
+	height:2px;
+	float:left;
+}
+
+.dropindiv {
+float:left;
+width:100px;
+height:100px;
+margin-left:15px;
+margin-top:10px;
+}
