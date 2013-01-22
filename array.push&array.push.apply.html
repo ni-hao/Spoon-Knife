@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>The push method</title>
+</head>
+<body>
+<header>
+ <h1><var>array</var>.push, <var>array</var>.push.apply和<var>array</var>.push.call<</h1>
+</header>
+<div>
+<p>运行下面的代码，提示框会显示字符串“red|blue|green”</p>
+<code>
+
+//create the array
+var values = new Array();
+//add the values
+values.push.apply(values, ["red", "blue", "green"]);
+
+alert(values.join("|")); //"red|blue|green"
+</code>
+<p>将push.apply方法换成push方法后，我们发现提示框将显示“”<p>
+<code>
+
+//create the array
+var values = new Array();
+//add the values
+values.push(["red", "blue", "green"]);
+
+alert(values.join("|")); //"red|blue|green"
+</code>
+
+
+
+</div>
+</body>
+</html>
